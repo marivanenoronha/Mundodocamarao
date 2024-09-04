@@ -77,7 +77,7 @@ function About() {
                     <span className="text-light bg-success p-2 rounded">Faça sua reserva</span>
                 )}
                 <a
-                    href="https://api.whatsapp.com/send?phone=SEU_NUMERO&text=Olá!%20Gostaria%20de%20saber%20mais%20informações."
+                    href="https://wa.me/5548991606536"
                     className="whatsapp-icon ms-2"
                     target="_blank"
                     rel="noopener noreferrer"

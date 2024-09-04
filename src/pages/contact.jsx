@@ -34,7 +34,7 @@ function Contact() {
                         <ContactInfo />
                     </div>
                     <div className="col-lg-6 d-flex justify-content-center">
-                            <img src={contactImage} className="img-fluid w-52" alt="" />
+                            <img src={contactImage}  className="img-fluid w-75" alt="" />
                         </div>
 
                     <div className="container my-5">
@@ -63,7 +63,7 @@ function Contact() {
                         <span className="text-light bg-success p-2 rounded">Faça sua reserva</span>
                     )}
                     <a
-                        href="https://api.whatsapp.com/send?phone=SEU_NUMERO&text=Olá!%20Gostaria%20de%20saber%20mais%20informações."
+                        href="https://wa.me/5548991606536"
                         className="whatsapp-icon ms-2"
                         target="_blank"
                         rel="noopener noreferrer"

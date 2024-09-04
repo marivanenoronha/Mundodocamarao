@@ -6,16 +6,16 @@ export function ContactInfo() {
             <h2 className=" mb-3 text-uppercase fw-bold text-dark">Onde nos encontrar</h2>
             <p className="mb-5 text-dark">Rua Amaro José Pereira, Ararangua-sc<br></br> E-mail: noronhamarivane4@gmail.com<br></br> Contato: 48 991047501
                 <div className="contact-icons mt-4 d-flex justify-content-around w-70">
-                    <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/mundodocamarao/?locale=pt_BR" target="_blank" rel="noreferrer">
                         <i className="fab fa-facebook-f text-dark fa-2x"></i>
                     </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/mundodocamarao/" target="_blank" rel="noreferrer">
                         <i className="fab fa-instagram text-dark fa-2x"></i>
                     </a>
-                    <a href="https://wa.me/5548991740401" target="_blank" rel="noreferrer">
+                    <a href="https://wa.me/5548991606536" target="_blank" rel="noreferrer">
                         <i className="fab fa-whatsapp text-dark fa-2x"></i>
                     </a>
-                    <a href="mailto:notonhamarivane4@gmail.com">
+                    <a href="mailto:mundodocamarao1@gmail.com">
                         <i className="fas fa-envelope text-dark fa-2x"></i>
                     </a>
                 </div>
