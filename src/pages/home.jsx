@@ -113,7 +113,6 @@ function Home() {
                         <div className="col-lg-6 d-flex flex-column align-items-center justify-content-center mb-5 mb-lg-o">
                             <ContactInfo />
                         </div>
-
                         <div className="col-lg-6 d-flex justify-content-center">
                             <img src={contactImage} className="img-fluid w-75" alt="" />
                         </div>
