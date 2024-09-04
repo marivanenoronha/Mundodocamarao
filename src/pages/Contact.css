@@ -1,0 +1,76 @@
+.contact-page header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../fotos/img/contact-menu.jpg);
+    height: 50vh;
+}
+
+.contact-page .whatsapp-container {
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+
+.contact-page .whatsapp-icon {
+    font-size: 24px;
+    margin-left: 10px;
+    z-index: 100;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.welcome-message {
+    animation: fadeOut 1s ease-in-out 5s forwards;
+}
+
+@media(max-width: 375px) {
+
+    .contact-page h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .contact-page .col-lg-6 {
+        width: 100%;
+        padding: 0 15px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .contact-page .ratio {
+        height: 390px; 
+    }
+    
+    .contact-page .btn {
+        width: 100%;
+        padding: 10px;
+       font-size: 1rem;
+    }
+
+    
+
+    .contact-page .whatsapp-container {
+        bottom: 210px;
+         right: 10px; 
+     }
+ 
+     .contact-page .welcome-message {
+         font-size: 8px; 
+     }
+ 
+     .contact-page .whatsapp-icon {
+         font-size: 18px;
+     }
+ 
+
+    
+}
