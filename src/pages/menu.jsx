@@ -207,7 +207,7 @@ function Menu() {
                 <div className="container">
                     <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold " style={{ color: "orange" }}>Bebidas</h2>
                     <div className="row ">
-                        <div className="col-lg-6 d-flex flex-column justify-content-around">
+                        <div className="col-lg-6 d-flex flex-column justify-content-around" >
                             {drink.map((item) => (
                                 <div key={item.id}>
                                     <Card className="border-0">
