@@ -6,7 +6,7 @@ import { MenuBtn } from "../components/menu.Btn";
 import AboutImg from "../fotos/img/about-chef2.jpg";
 import { ImageGallery } from "../components/imageGalery";
 import { ContactInfo } from "../components/ContactInfo";
-import contactImage from "../fotos/img/contact-img.jpg";
+import contactImage from "../fotos/img/gallery5.jpg";
 
 
 function Home() {
@@ -23,12 +23,12 @@ function Home() {
 
     return (
         <div className="home-page">
-            <header className="h-100 min-vh-100 d-flex align-items-center text-light">
-                <div className="container">
+            <header className="h-100 min-vh-100 d-flex align-items-center text-light ">
+                <div className="container ">
                     <div className="row">
-                        <div className="col-sm-6 d-flex d-sm-block flex-column align-items-left">
-                            <h2 className="mb-0 text-dark fw-bold slide-in-left" >Restaurante e Petiscaria</h2>
-                            <h1 className="mb-5 text-primary fw-bold text-center text-sm-start slide-in-left">Mundo do<br></br><span style={{ color: "orange" }}>Camarão</span></h1>
+                        <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center text-left ">
+                            <h2 className="mb-0 text-light fw-bold slide-in-left" >Restaurante e Petiscaria</h2>
+                            <h1 className="mb-5 text-primary fw-bold text-left text-sm-start slide-in-left">Mundo do<br></br><span style={{ color: "darkorange" }}>Camarão</span></h1>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ function Home() {
             <div className="container my-3">
                 <div className="row">
                     <div className="col-lg-6 d-flex justify-content-center d-none d-lg-flex">
-                        <img src={AboutImg} className="img-fluid w-52" alt="about img" />
+                        <img src={AboutImg} className="img-fluid m-5 w-52  rounded" alt="about img" />
                     </div>
                     <div className="col-lg d-flex flex-column align-items-center justify-content-center">
                         <h2 className="fs-1 mb-5 text-uppercase fw-bold ">Sobre nós</h2>
@@ -64,39 +64,39 @@ function Home() {
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
                                     <li className="d-flex justify-content-between">
-                                        <p className="fs-3 mx-2">Salmão grelhado</p>
-                                        <p className="fs-3 mx-2 text-success fw-bold"></p>
-                                    </li>
-
-                                    <li className="d-flex justify-content-between">
                                         <p className="fs-3 mx-2">Camarão a milanesa</p>
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
 
                                     <li className="d-flex justify-content-between">
-                                        <p className="fs-3 mx-2">Camarão a parmegiana</p>
+                                        <p className="fs-3 mx-2">Moda da casa</p>
+                                        <p className="fs-3 mx-2 text-success fw-bold"></p>
+                                    </li>
+
+                                    <li className="d-flex justify-content-between">
+                                        <p className="fs-3 mx-2">Belle meuniere</p>
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
                                 </ul>
                             </div>
 
                             <div className="col-lg d-flex flex-column align-items-center mb-5 mb-lg-0">
-                                <h3 className="fs-2 mb-5">Bebidas</h3>
+                                <h3 className="fs-2 mb-5">Drinks</h3>
                                 <ul className="px-0">
                                     <li className="d-flex justify-content-between">
-                                        <p className="fs-3 mx-2">Caipiras</p>
+                                        <p className="fs-3 mx-2">Negroni</p>
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
                                     <li className="d-flex justify-content-between">
-                                        <p className="fs-3 mx-2">Sucos naturais</p>
+                                        <p className="fs-3 mx-2">Aperol spritz</p>
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
                                     <li className="d-flex justify-content-between">
-                                        <p className="fs-3 mx-2">Gin tropical</p>
+                                        <p className="fs-3 mx-2">Sensação tropical</p>
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
                                     <li className="d-flex justify-content-between">
-                                        <p className="fs-3 mx-2">Coquetel de frutas</p>
+                                        <p className="fs-3 mx-2">Pinã colada</p>
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
                                 </ul>
@@ -114,7 +114,7 @@ function Home() {
                             <ContactInfo />
                         </div>
                         <div className="col-lg-6 d-flex justify-content-center">
-                            <img src={contactImage} className="img-fluid w-75" alt="" />
+                            <img src={contactImage} className="img-fluid m-3 w-75 rounded" alt="" />
                         </div>
                     </div>
                 </div>

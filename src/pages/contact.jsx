@@ -2,9 +2,8 @@ import React from "react";
 import "./Contact.css";
 import { useState, useEffect } from 'react';
 import { ContactInfo } from "../components/ContactInfo";
-
 import { Reviews } from "../components/Reviews";
-import contactImage from "../fotos/img/contact-img.jpg";
+import contactImage from "../fotos/img/gallery5.jpg";
 
 
 function Contact() {

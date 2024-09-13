@@ -14,7 +14,7 @@
 
 .about-page .whatsapp-container {
     position: fixed;
-    bottom: 130px;
+    bottom: 20px;
     right: 10px;
     z-index: 100;
     display: flex;
@@ -43,7 +43,7 @@
 
 
 
-@media(max-width: 375px) {
+@media(max-width: 475px) {
 
     .about-page .container {
         padding: 0 15px;
@@ -84,7 +84,7 @@
     }
 
     .about-page .whatsapp-container {
-        bottom: 215px;
+        bottom: 235px;
          right: 10px; 
      }
  

@@ -1,12 +1,12 @@
 .menu-page header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../fotos//img/menu.img.png);
+        url(../fotos//img/gallery4.jpg);
     height: 50vh;
 }
 
 .menu-page .whatsapp-container {
     position: fixed;
-    bottom: 130px;
+    bottom: 20px;
     right: 20px;
     z-index: 100;
     display: flex;
@@ -20,13 +20,23 @@
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
 
 .welcome-message {
@@ -40,6 +50,7 @@
         transform: translateY(-100%);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
@@ -47,7 +58,8 @@
 }
 
 
-@media (max-width: 375px) {
+
+@media (max-width: 475px) {
     .menu-page .container {
         padding: 0 15px;
     }
@@ -57,7 +69,7 @@
         text-align: center;
     }
 
-    .menu-page  h2 {
+    .menu-page h2 {
         position: relative;
         font-size: 1.8rem;
         text-align: center;
@@ -101,17 +113,50 @@
     }
 
     .menu-page .whatsapp-container {
-        bottom: 215px;
-         right: 10px; 
-     }
- 
-     .menu-page .welcome-message {
-         font-size: 8px; 
-     }
- 
-     .menu-page .whatsapp-icon {
-         font-size: 18px;
-     }
+        bottom: 10px;
+        right: 10px;
+    }
 
-   
+    .menu-page .welcome-message {
+        font-size: 8px;
+    }
+
+    .menu-page .whatsapp-icon {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 1.5rem !important;
+        padding: 1.rem 2.rem !important;
+        flex-direction: column !important;
+    }
+
+    .btn .fab {
+        margin-left: 0 !important;
+        margin-top: 0.5rem !important;
+    }
+
+    .menu-page .text-center {
+        flex-direction: column;
+    }
+
+    .menu-page img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .category-button {
+        font-size: 1.3rem !important;
+        padding: 1.rem 1.5rem !important;
+    }
+
+    .menu-page .card-title,
+    .card-text {
+        text-align: center;
+        font-size: 10px;
+    }
+
+
+
 }
