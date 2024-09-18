@@ -2,38 +2,42 @@ import React from "react";
 import { useState } from "react";
 import "./menu.css";
 import { Card, CardBody, CardText, CardTitle } from "react-bootstrap";
-import Image1 from "../fotos/img/gallery23.jpg";
-import Image2 from "../fotos/img/gallery22.png";
-import Image3 from "../fotos/img/gallery2.jpg";
-import Image4 from "../fotos/img/gallery24.jpg";
-import Image5 from "../fotos/img/gallery25.png";
-import Image6 from "../fotos/img/gallery26.jpg";
-import Image7 from "../fotos/img/gallery27.jpg";
-import Image8 from "../fotos/img/gallery.jpg";
-import Image9 from "../fotos/img/gallery28.jpg";
-import Image10 from "../fotos/img/gallery29.jpg";
-import Image11 from "../fotos/img/gallery11.jpg";
-import Image12 from "../fotos/img/gallery31.png";
-import Image13 from "../fotos/img/gallery32.jpg";
-import Image14 from "../fotos/img/gallery34.png";
-import Image15 from "../fotos/img/gallery13.jpg";
-import Image16 from "../fotos/img/gallery4.jpg";
-import Image17 from "../fotos/img/gallery33.jpg";
-import Image18 from "../fotos/img/gallery44.jpg";
-import Image19 from "../fotos/img/gallery6.jpg";
-import Image20 from "../fotos/img/gallery35.png";
-import Image21 from "../fotos/img/gallery35.jpg";
-import Image22 from "../fotos/img/gallery16.jpg";
-import Image23 from "../fotos/img/gallery17.jpg";
-import Image24 from "../fotos/img/gallery18.jpg";
-import Image25 from "../fotos/img/gallery19.jpg";
-import Image26 from "../fotos/img/gallery20.jpg";
-import Image27 from "../fotos/img/gallery21.jpg";
-import Image28 from "../fotos/img/gallery39.jpg";
-import Image29 from "../fotos/img/gallery40.jpg";
-import Image30 from "../fotos/img/gallery41.jpg";
+import Image1 from "../fotos/img/gallery12.jpg";
+import Image2 from "../fotos/img/gallery8.jpg";
+import Image3 from "../fotos/img/gallery5.jpg";
+import Image4 from "../fotos/img/gallery28.jpg";
+import Image5 from "../fotos/img/gallery.jpg";
+import Image6 from "../fotos/img/gallery27.jpg";
+import Image7 from "../fotos/img/gallery24.jpg";
+import Image8 from "../fotos/img/gallery31.png";
+import Image9 from "../fotos/img/gallery34.png";
+import Image10 from "../fotos/img/gallery38.jpg";
+import Image11 from "../fotos/img/gallery39.png";
+import Image12 from "../fotos/img/gallery9.jpg";
+import Image13 from "../fotos/img/gallery29.jpg";
+import Image14 from "../fotos/img/gallery4.jpg";
+import Image15 from "../fotos/img/gallery33.jpg";
+import Image16 from "../fotos/img/gallery32.jpg";
+import Image17 from "../fotos/img/gallery36.png";
+import Image18 from "../fotos/img/gallery35.png";
+import Image19 from "../fotos/img/gallery45.jpg";
+import Image20 from "../fotos/img/gallery46.jpg";
+import Image21 from "../fotos/img/gallery16.jpg";
+import Image22 from "../fotos/img/gallery17.jpg";
+import Image23 from "../fotos/img/gallery18.jpg";
+import Image24 from "../fotos/img/gallery19.jpg";
+import Image25 from "../fotos/img/gallery20.jpg";
+import Image26 from "../fotos/img/gallery21.jpg";
+import Image27 from "../fotos/img/gallery47.jpg";
+import Image28 from "../fotos/img/gallery48.jpg";
+import Image29 from "../fotos/img/gallery39.jpg";
+import Image30 from "../fotos/img/gallery40.jpg";
+import Image31 from "../fotos/img/gallery41.jpg";
+import Image32 from "../fotos/img/gallery49.jpg";
+import Image33 from "../fotos/img/gallery38.png";
+import Image34 from "../fotos/img/gallery50.jpg";
 import gallery1 from '../fotos/img/gallery12.jpg';
-import gallery2 from '../fotos/img/gallery2.jpg';
+import gallery2 from '../fotos/img/gallery9.jpg';
 import gallery3 from '../fotos/img/gallery16.jpg';
 import gallery4 from '../fotos/img/gallery36.jpg';
 import AperitivoImg from "../fotos/img/gallery11.jpg";
@@ -45,9 +49,9 @@ import DessertImg from "../fotos/img/dessert-img.jpg";
 const alacarte = [
     {
         id: 1,
-        name: "Rodizio de frutos do mar",
+        name: "Rodízio de frutos do mar",
         category: "Frutos do mar",
-        description: "Camarao a milanesa, bolinho de peixe, casquinha de siri, linguado grelhado, camarão alho e oleo, lula",
+        description: "Camarão a milanesa, camarão alho e oléo, linguado grelhado, camarão ensopado, camarão ao molho branco, bolinho de peixe e casquinha de siri,",
         price: (
             <ul className="list-unstyled text-center">
                 <li>Criança: <strong>R$69,90</strong></li>
@@ -58,19 +62,149 @@ const alacarte = [
     },
     {
         id: 2,
-        name: "Combinados",
+        name: "Camarão a milanesa",
         category: "Frutos do mar",
-        description: "Camarão a milanesa e anchova grelhada, camarão a milanesa e tainha grelhada, camarão a milanesa e papa-terra",
         price: (
             <ul className="list-unstyled text-center">
-                <li>2 pessoas: <strong>R$129,90</strong></li>
+                <li>1 pessoa: <strong>R$85,90</strong></li>
+                <li>2 pessoas: <strong>R$155,90</strong></li>
+                <li>4 pessoas: <strong>R$265.90</strong></li>
+                <li>6 pessoas: <strong>R$329,90</strong></li>
             </ul>
         ),
         image: Image2
     },
     {
         id: 3,
-        category: "Peixes",
+        name: "Strogonoff de camarão",
+        category: "Frutos do mar",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$89,90</strong></li>
+                <li>2 pessoas: <strong>R$159,90</strong></li>
+                <li>4 pessoas: <strong>R$279,90</strong></li>
+                <li>6 pessoas: <strong>R$329,90</strong></li>
+            </ul>
+        ),
+        image: Image3
+    },
+    {
+        id: 4,
+        category: "Frutos do mar",
+        name: "Camarão ao catupiry",
+        category: "Frutos do mar",
+        description: "camarões suculentos, envovidos no molho de queijo catupiry",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$89,90</strong></li>
+                <li>2 pessoas: <strong>R$159,90</strong></li>
+                <li>4 pessoas: <strong>R$259,90</strong></li>
+                <li>6 pessoas: <strong>R$329,90</strong></li>
+            </ul>
+        ),
+        image: Image4
+    },
+    {
+        id: 5,
+        name: "Camarão alho e oléo",
+        category: "Frutos do mar",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$75,90</strong></li>
+                <li>2 pessoas: <strong>R$145,90</strong></li>
+                <li>4 pessoas: <strong>R$259,90</strong></li>
+                <li>6 pessoas: <strong>R$315,90</strong></li>
+            </ul>
+        ),
+        image: Image5
+    },
+    {
+        id: 6,
+        name: "Camarão ao bafo",
+        category: "Frutos do mar",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$69,90</strong></li>
+                <li>2 pessoas: <strong>R$134,90</strong></li>
+                <li>4 pessoas: <strong>R$234,90</strong></li>
+                <li>6 pessoas: <strong>R$284,90</strong></li>
+            </ul>
+        ),
+        image: Image6
+    },
+    {
+        id: 7,
+        name: "Mista da casa",
+        category: "Frutos do mar",
+        description: "camarão, bolinho de peixe, isca de tilápia, batata frita",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>2 pessoas: <strong>R$159,90</strong></li>
+
+
+            </ul>
+        ),
+        image: Image7
+    },
+    {
+        id: 8,
+        name: "Moda da casa",
+        category: "Frutos do mar",
+        description: "Camarões servidos sobre arroz cremoso com ervilhas e presunto, envolvidos com molho branco. Finalizando com queijo muçarela e coberto com batata palha",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>2 pessoas: <strong>R$159,90</strong></li>
+                <li>4 pessoas: <strong>R$272,90</strong></li>
+            </ul>
+        ),
+        image: Image8
+    },
+    {
+        id: 9,
+        name: "Ensopado de camarão",
+        category: "Frutos do mar",
+        description: "camarões suculentos, envovidos no molho de queijo catupiry",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$89,90</strong></li>
+                <li>2 pessoas: <strong>R$159,90</strong></li>
+                <li>4 pessoas: <strong>R$279,90</strong></li>
+                <li>6 pessoas: <strong>R$329,90</strong></li>
+            </ul>
+        ),
+        image: Image9
+    },
+    {
+        id: 10,
+        name: "Camarão a parmegiana",
+        category: "Frutos do mar",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$89,90</strong></li>
+                <li>2 pessoas: <strong>R$159,90</strong></li>
+                <li>4 pessoas: <strong>R$279,90</strong></li>
+                <li>6 pessoas: <strong>R$329,90</strong></li>
+            </ul>
+        ),
+        image: Image10
+    },
+    {
+        id: 11,
+        name: "Lasanha de camarão",
+        description: "Camadas de massas intercaladas com recheio cremoso de camarões refogados ao  molho especial, finalizado com queijo muçarela gratinado",
+        category: "Frutos do mar",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$89,90</strong></li>
+                <li>2 pessoas: <strong>R$159,90</strong></li>
+                <li>4 pessoas: <strong>R$259,90</strong></li>
+                <li>6 pessoas: <strong>R$309,90</strong></li>
+            </ul>
+        ),
+        image: Image11
+    },
+    {
+        id: 12,
         name: "Salmão grelhado",
         category: "Peixes",
         price: (
@@ -81,229 +215,94 @@ const alacarte = [
                 <li>6 pessoas: <strong>R$200,00</strong></li>
             </ul>
         ),
-        image: Image3
-    },
-    {
-        id: 4,
-        category: "Peixes",
-        name: "Salmão grelhado ao molho de maracujá",
-        category: "Peixes",
-        price: (
-            <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$50,00</strong></li>
-                <li>2 pessoas: <strong>R$95,00</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
-            </ul>
-        ),
-        image: Image4
-    },
-    {
-        id: 5,
-        name: "Camarão a milanesa",
-        category: "Frutos do mar",
-        price: (
-            <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$50,00</strong></li>
-                <li>2 pessoas: <strong>R$95,00</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
-            </ul>
-        ),
-        image: Image5
-    },
-    {
-        id: 6,
-        name: "Strogonoff de camarão",
-        category: "Frutos do mar",
-        price: (
-            <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$50,00</strong></li>
-                <li>2 pessoas: <strong>R$95,00</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
-            </ul>
-        ),
-        image: Image6
-    },
-    {
-        id: 7,
-        category: "Frutos do mar",
-        name: "Lasanha de camarão",
-        category: "Frutos do mar",
-        price: (
-            <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$50,00</strong></li>
-                <li>2 pessoas: <strong>R$95,00</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
-            </ul>
-        ),
-        image: Image7
-    },
-    {
-        id: 8,
-        name: "Camarão ao bafo",
-        category: "Frutos do mar",
-        price: (
-            <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$50,00</strong></li>
-                <li>2 pessoas: <strong>R$95,00</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
-            </ul>
-        ),
-        image: Image8
-    },
-    {
-        id: 9,
-        name: "Camarao alho e oléo",
-        category: "Frutos do mar",
-        price: (
-            <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$50,00</strong></li>
-                <li>2 pessoas: <strong>R$95,00</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
-            </ul>
-        ),
-        image: Image9
-    },
-    {
-        id: 10,
-        name: "Belle meuniere",
-        category: "Frutos do mar",
-        description: " Linguado, camarões, molho de alcaparras e champignons. ",
-        price: (
-            <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$50,00</strong></li>
-                <li>2 pessoas: <strong>R$95,00</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
-            </ul>
-        ),
-        image: Image10
-    },
-    {
-        id: 11,
-        name: "Mista da casa",
-        category: "Frutos do mar",
-        description: "camarao a milanesa, bolinho de peixe, casquinha de siri, batata frita, iscas de peixe",
-        price: (
-            <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-
-
-            </ul>
-        ),
-        image: Image11
-    },
-    {
-        id: 12,
-        name: "Moda da casa",
-        category: "Frutos do mar",
-        description: "camarao, arroz cremeso, ervilha, milho verde, batata palha, queijo",
-        price: (
-            <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
-
-
-            </ul>
-        ),
         image: Image12
     },
     {
         id: 13,
-        name: "Camarão ao catupiry",
-        category: "Frutos do mar",
-        description: "camarões suculentos, envovidos no molho de queijo catupiry",
+        name: "Belle meuniere",
+        category: "Peixes",
+        description: " Linguado, camarões, molho de alcaparras e champignons. ",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>1 pessoa: <strong>R$89,90</strong></li>
+                <li>2 pessoas: <strong>R$165,90</strong></li>
+                <li>4 pessoas: <strong>R$292,90</strong></li>
+                <li>6 pessoas: <strong>R$342,90</strong></li>
             </ul>
         ),
         image: Image13
     },
     {
         id: 14,
-        name: "Linguado ao molho de camarão",
-        category: "Frutos do mar",
+        name: "Tainha grelhada",
+        category: "Peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>1 pessoa: <strong>R$59,90</strong></li>
+                <li>2 pessoas: <strong>R$98,90</strong></li>
+                <li>4 pessoas: <strong>R$172,90</strong></li>
+                <li>6 pessoas: <strong>R$225,90</strong></li>
             </ul>
         ),
         image: Image14
     },
     {
         id: 15,
-        name: "Camarão ensopado",
-        category: "Frutos do mar",
+        name: "Tainha ou papa terra frita",
+        category: "Peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>1 pessoa: <strong>R$48,90</strong></li>
+                <li>2 pessoas: <strong>R$98,90</strong></li>
+                <li>4 pessoas: <strong>R$172,90</strong></li>
+                <li>6 pessoas: <strong>R$225,90</strong></li>
             </ul>
         ),
         image: Image15
     },
     {
         id: 16,
-        name: "Tainha grelhada",
+        name: "Anchova grelhada",
         category: "Peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>1 pessoa: <strong>R$52,90</strong></li>
+                <li>2 pessoas: <strong>R$98,90</strong></li>
+                <li>4 pessoas: <strong>R$172,90</strong></li>
+                <li>6 pessoas: <strong>R$225,90</strong></li>
             </ul>
         ),
         image: Image16
     },
     {
         id: 17,
-        name: "Tainha a milanesa",
+        name: "Linguado grelhado",
         category: "Peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>1 pessoa: <strong>R$79,90</strong></li>
+                <li>2 pessoas: <strong>R$148,90</strong></li>
+                <li>4 pessoas: <strong>R$258,90</strong></li>
+                <li>6 pessoas: <strong>R$299,90</strong></li>
             </ul>
         ),
         image: Image17
     },
     {
         id: 18,
-        name: "Anchova ao molho de alcaparras",
+        name: "Linguado a milanesa",
         category: "Peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>1 pessoas: <strong>R$79,90</strong></li>
+                <li>2 pessoas: <strong>R$148,90</strong></li>
             </ul>
         ),
         image: Image18
     },
     {
         id: 19,
-        name: "Linguado grelhado",
+        name: "Tilápia grelhada",
         category: "Peixes",
         price: (
             <ul className="list-unstyled text-center">
@@ -317,22 +316,25 @@ const alacarte = [
     },
     {
         id: 20,
-        name: "Papa terra em postas",
+        name: "Adicionais",
         category: "Peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>molho à belle meuniere: <strong>R$25,00</strong></li>
+                <li>Molho de alcaparras: <strong>R$10,00</strong></li>
+                <li>molho de camarão: <strong>R$20,00</strong></li>
+                <li>Molho de maracjá: <strong>R$15,00</strong></li>
+                <li>buffet adulto: <strong>R$20,00</strong></li>
+                <li>buffet Criança: <strong>R$10,00</strong></li>
             </ul>
         ),
         image: Image20
     },
+
     {
         id: 21,
-        name: "Tilápia grelhada",
-        category: "Peixes",
+        name: "Picanha grelhada",
+        category: "Carnes",
         price: (
             <ul className="list-unstyled text-center">
                 <li>1 pessoa: <strong>R$69,90</strong></li>
@@ -343,10 +345,9 @@ const alacarte = [
         ),
         image: Image21
     },
-
     {
         id: 22,
-        name: "Picanha grelhada",
+        name: "Picanha a parmegiana",
         category: "Carnes",
         price: (
             <ul className="list-unstyled text-center">
@@ -360,7 +361,7 @@ const alacarte = [
     },
     {
         id: 23,
-        name: "Picanha a parmegiana",
+        name: "Filé mingon grelhado",
         category: "Carnes",
         price: (
             <ul className="list-unstyled text-center">
@@ -374,7 +375,7 @@ const alacarte = [
     },
     {
         id: 24,
-        name: "Filé mingon grelhado",
+        name: "Filé mingon a parmegiana",
         category: "Carnes",
         price: (
             <ul className="list-unstyled text-center">
@@ -388,7 +389,7 @@ const alacarte = [
     },
     {
         id: 25,
-        name: "Filé mingon a parmegiana",
+        name: "Frando grelhado",
         category: "Carnes",
         price: (
             <ul className="list-unstyled text-center">
@@ -402,7 +403,7 @@ const alacarte = [
     },
     {
         id: 26,
-        name: "Frando grelhado",
+        name: "Frango a milanesa",
         category: "Carnes",
         price: (
             <ul className="list-unstyled text-center">
@@ -416,59 +417,105 @@ const alacarte = [
     },
     {
         id: 27,
-        name: "Frango a milanesa",
+        name: "Lasanha de frango",
+        description: "Camadas de massas intercaladas com recheio cremoso de frango desfiado, acompanhado de milho, ervilha e um molho especial.",
         category: "Carnes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>1 pessoa: <strong>R$84,90</strong></li>
+                <li>2 pessoas: <strong>R$154,90</strong></li>
+                <li>4 pessoas: <strong>R$254,90</strong></li>
+                <li>6 pessoas: <strong>R$304,90</strong></li>
             </ul>
         ),
         image: Image27
     },
     {
         id: 28,
-        name: "Abobrinha a milanesa",
-        category: "Veganos",
+        name: "Misto de picanha e frango ",
+        description: "Acompanha batata frita.",
+        category: "Carnes",
         price: (
             <ul className="list-unstyled text-center">
                 <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>2 pessoas: <strong>R$139,90</strong></li>
             </ul>
         ),
         image: Image28
     },
     {
         id: 29,
-        name: "Abobrinha a parmegiana",
-        category: "Veganos",
+        name: "Abobrinha a milanesa",
+        category: "Vegetariano/Vegano",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>1 pessoa: <strong>R$22,90</strong></li>
+                <li>2 pessoas: <strong>R$45,90</strong></li>
             </ul>
         ),
         image: Image29
     },
     {
         id: 30,
-        name: "Lasanha abobrinha",
-        category: "Veganos",
+        name: "Abobrinha à parmegiana",
+        category: "Vegetariano/Vegano",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>1 pessoa: <strong>R$22,90</strong></li>
+                <li>2 pessoas: <strong>R$69,90</strong></li>
             </ul>
         ),
         image: Image30
+    },
+    {
+        id: 31,
+        name: "Lasanha de proteina de soja",
+        category: "Vegetariano/Vegano",
+        description: "Opção de escolha entre molhos de tomate caseiro ou molho branco. Contém queijo. ",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$42,90</strong></li>
+                <li>2 pessoas: <strong>R$49,90</strong></li>
+            </ul>
+        ),
+        image: Image31
+    },
+    {
+        id: 32,
+        name: "Proteina de soja ao molho sugo",
+        category: "Vegetariano/Vegano",
+        description: "Proteina refogada com pimentão, cebola, tomate, molho sugo e pimenta do reino. ",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$45,90</strong></li>
+                <li>2 pessoas: <strong>R$69,90</strong></li>
+            </ul>
+        ),
+        image: Image32
+    },
+    {
+        id: 33,
+        name: "Beringela à parmegiana",
+        category: "Vegetariano/Vegano",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$22,90</strong></li>
+                <li>2 pessoas: <strong>R$45,90</strong></li>
+            </ul>
+        ),
+        image: Image33
+    },
+    {
+        id: 34,
+        name: "Beringela à milanesa",
+        category: "Vegetariano/Vegano",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$22,90</strong></li>
+                <li>2 pessoas: <strong>R$45,90</strong></li>
+            </ul>
+        ),
+        image: Image34
     }
 ]
 
@@ -544,12 +591,12 @@ const Menu = () => {
         "Frutos do mar": gallery1,
         "Peixes": gallery2,
         "Carnes": gallery3,
-        "Veganos": gallery4
+        "Vegetariano/Vegano": gallery4
     };
 
     console.log("Categoria selecionada:", selectedCategory);
 
-    const categories = ["Frutos do mar", "Peixes", "Carnes", "Veganos"];
+    const categories = ["Frutos do mar", "Peixes", "Carnes", "Vegetariano/Vegano"];
 
     return (
         <div className="menu-page">
@@ -592,7 +639,7 @@ const Menu = () => {
                                 <button
                                     className={`category-button btn btn-outline-dark w-100 ${selectedCategory === category ? "active" : ""}`}
                                     onClick={() => setSelectedCategory(category)}
-                                    style={{ marginBottom: "20px" }} 
+                                    style={{ marginBottom: "20px" }}
                                 >
                                     {category} - Clica aqui
                                 </button>
@@ -616,9 +663,9 @@ const Menu = () => {
                                                     />
                                                 </div>
                                                 <Card.Body>
-                                                    <Card.Title className="text-center fs-3 text-dark">{item.name}</Card.Title>
-                                                    <Card.Text className="text-center fs-5 text-dark">{item.description}</Card.Text>
-                                                    <Card.Text className="text-center fs-5 text-dark">{item.price}</Card.Text>
+                                                    <Card.Title className="text-center fs-4 text-dark">{item.name}</Card.Title>
+                                                    <Card.Text className="text-center fs-6 text-dark">{item.description}</Card.Text>
+                                                    <Card.Text className="text-center fs-6 text-dark">{item.price}</Card.Text>
                                                 </Card.Body>
                                             </Card>
                                         </div>

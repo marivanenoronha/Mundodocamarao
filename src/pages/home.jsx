@@ -55,8 +55,8 @@ function Home() {
                 <div className="menu-section py-5 text-light shadow">
                     <div className="container d-flex flex-column align-items-center">
                         <h2 className="fs-1 mb-5 text-uppercase fw-bold">Nossos favoritos</h2>
-                        <div className="row mb-5 w-100">
-                            <div className="col-lg d-flex flex-column align-items-center mb-5 mb-lg-0">
+                        <div className="row mb-5 w-100 ">
+                            <div className="col-lg d-flex flex-column align-items-center mb-5 mb-lg-0 ">
                                 <h3 className="fs-2 mb-5">Pratos</h3>
                                 <ul className="px-0">
                                     <li className="d-flex justify-content-between">
