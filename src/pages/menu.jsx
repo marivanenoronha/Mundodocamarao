@@ -40,7 +40,10 @@ import gallery1 from '../fotos/img/gallery12.jpg';
 import gallery2 from '../fotos/img/gallery9.jpg';
 import gallery3 from '../fotos/img/gallery16.jpg';
 import gallery4 from '../fotos/img/gallery36.jpg';
-import AperitivoImg from "../fotos/img/gallery11.jpg";
+import AppetizersImg1 from "../fotos/img/gallery11.jpg";
+import AppetizersImg2 from "../fotos/img/appetizers8.jpg";
+import AppetizersImg3 from "../fotos/img/appetizers11.jpg";
+import AppetizersImg4 from "../fotos/img/appetizers1.jpg";
 import DrinkImg from "../fotos/img/drinks7.jpg";
 import DessertImg from "../fotos/img/dessert-img.jpg";
 
@@ -519,26 +522,7 @@ const alacarte = [
     }
 ]
 
-const aperitivo = [
-    {
-        id: 1,
-        name: "Camarão",
-        description: "Aperitivo camarão a milanesa",
-        price: "R$69,90"
-    },
-    {
-        id: 2,
-        name: "Batata frita",
-        description: "aperitivo bata frita",
-        price: "R$25,00"
-    },
-    {
-        id: 3,
-        name: "Casquinha de siri",
-        description: "aperitivo casquinha de siri",
-        price: "R$15,00 unid"
-    },
-]
+
 
 const dessert = [
     {
@@ -598,6 +582,145 @@ const Menu = () => {
 
     const categories = ["Frutos do mar", "Peixes", "Carnes", "Vegetariano/Vegano"];
 
+    const listItems1 = [
+        {
+            name: "Misto de frutos do mar",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>2 pessoas: <strong>R$139,90</strong></li>
+                    <li>4 pessoas: <strong>R$249,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Pestisco da casa",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$109,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Camarao a milanesa",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$72,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Camarao alho e oleo",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Com casca: <strong>R$65,90</strong></li>
+                    <li>Sem casca: <strong>R$72,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Camarao e batata frita",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$65,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Linguado em tiras",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$65,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Tilapia em tiras",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$62,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Lula a milanesa",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$52,90</strong></li>
+                </ul>
+            ),
+        }
+    ];
+
+    const listItems2 = [
+        {
+            name: "Tainha ou papa terra frita",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$45,90</strong></li>
+
+                </ul>
+            ),
+        },
+        {
+            name: "Ostra gratinada",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$12,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Casquinha de siri",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$15,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "picanha em tiras",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$39,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Frango em tiras",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$39,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Polenta frita",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$19,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Mandioca niosete",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>Porção: <strong>R$21,90</strong></li>
+                </ul>
+            ),
+        },
+        {
+            name: "Batata frita",
+            price: (
+                <ul className="list-unstyled text-center">
+                    <li>1 pessoa: <strong>R$25,90</strong></li>
+                    <li>2 pessoas: <strong>R29,90</strong></li>
+                    <li>4 pessoas: <strong>R$52,90</strong></li>
+                </ul>
+            ),
+        }
+    ];
+
     return (
         <div className="menu-page">
             <header className="mt-5">
@@ -638,7 +761,7 @@ const Menu = () => {
 
                                 <button
                                     className={`category-button btn btn-outline-dark w-100 ${selectedCategory === category ? "active" : ""}`}
-                                    onClick={() => setSelectedCategory(category)}
+                                    onClick={() => setSelectedCategory(selectedCategory === category ? null : category)} // Toggle entre mostrar e esconder itens
                                     style={{ marginBottom: "20px" }}
                                 >
                                     {category} - Clica aqui
@@ -646,6 +769,7 @@ const Menu = () => {
                             </div>
                         ))}
                     </div>
+
                     {selectedCategory && (
                         <div>
                             <h3 className="text-center fs-2 mb-4 text-dark">{selectedCategory}</h3>
@@ -677,35 +801,43 @@ const Menu = () => {
                 </div>
             </div>
 
-            <div className="aperitivo  bg-dark text-light my-5">
+            <div className="aperitivo  text-light my-5">
                 <div className="container">
-                    <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text- " style={{ color: "orange" }}>Aperitivos</h2>
-                    <div className="row ">
-                        <div className="col-lg-6 d-flex flex-column justify-content-around">
-                            {aperitivo.map((item) => (
-                                <div key={item.id}>
-                                    <Card className="border-0">
-                                        <CardBody>
-                                            <CardTitle className="text-center fs-3" style={{ color: "orange" }}>
-                                                {item.name}
-                                            </CardTitle>
-                                            <CardText className="text-center fs-5">
-                                                {item.description}
-                                            </CardText>
-                                            <CardText className="text-center fs-5 fw-bold " style={{ color: "orange" }}>
-                                                {item.price}
-                                            </CardText>
-                                        </CardBody>
-                                    </Card>
+                    <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark" >Aperitivos</h2>
+                    <div className="row">
+                        <div className="col-lg-12 d-flex flex-column">
+                            <div className="d-flex flex-wrap justify-content-between mb-4 aperitivo-item">
+                                <img src={AppetizersImg1} className="img-fluid rounded aperitivo-img" alt="Aperitivo 1" />
+                                <div className=" d-flex flex-column justify-content-center mt-3 mt-md-0 aperitivo-list">
+                                    <ul className="list-group  text-dark">
+                                        {listItems1.map((item, index) => (
+                                            <li key={index} className="list-group-item d-flex justify-content-between">
+                                                <span>{item.name}</span>
+                                                <span>{item.price}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
                                 </div>
-                            ))}
-                        </div>
-                        <div className="col-lg-6 d-flex justify-content-center">
-                            <img src={AperitivoImg} className="img-fluid w-85 mt-4 mt-lg-0" alt="" />
+                            </div>
+
+                            <div className="d-flex flex-wrap justify-content-between mb-4 aperitivo-item">
+                                <img src={AppetizersImg2} className="aperitivo-img img-fluid rounded" alt="Aperitivo 2" />
+                                <div className="d-flex flex-column justify-content-center mt-3 mt-md-0 aperitivo-list">
+                                    <ul className="list-group text-dark">
+                                        {listItems2.map((item, index) => (
+                                            <li key={index} className="list-group-item d-flex justify-content-between">
+                                                <span>{item.name}</span>
+                                                <span>{item.price}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div className="aperitivo   my-5">
                 <div className="container">
                     <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-primary">Sobremesas</h2>

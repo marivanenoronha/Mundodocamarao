@@ -13,6 +13,18 @@
     align-items: center;
 }
 
+.menu-page .aperitivo-img {
+    width: 45%;
+    height: auto;
+}
+
+.menu-page .aperitivo-list {
+    width: 50%;
+}
+.menu-page .no-border {
+    border: none !important;
+}
+
 .menu-page .whatsapp-icon {
     font-size: 24px;
     margin-left: 10px;
@@ -59,7 +71,9 @@
 
 
 
+
 @media (max-width: 475px) {
+
     .menu-page .container {
         padding: 0 15px;
     }
@@ -117,6 +131,8 @@
         right: 10px;
     }
 
+
+
     .menu-page .welcome-message {
         font-size: 8px;
     }
@@ -157,6 +173,22 @@
         font-size: 10px;
     }
 
+    .menu-page .aperitivo-list {
+        width: 100% !important;
+    }
 
+    .menu-page .list-group-item {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .menu-page .aperitivo-img {
+        width: 100%;
+    }
+
+    .menu-page .aperitivo-item {
+        flex-direction: column;
+    }
 
 }
