@@ -13,17 +13,6 @@
     align-items: center;
 }
 
-.menu-page .aperitivo-img {
-    width: 45%;
-    height: auto;
-}
-
-.menu-page .aperitivo-list {
-    width: 50%;
-}
-.menu-page .no-border {
-    border: none !important;
-}
 
 .menu-page .whatsapp-icon {
     font-size: 24px;
@@ -162,7 +151,7 @@
     }
 
 
-    .category-button {
+    .menu-page .category-button {
         font-size: 1.3rem !important;
         padding: 1.rem 1.5rem !important;
     }
@@ -172,23 +161,26 @@
         text-align: center;
         font-size: 10px;
     }
-
-    .menu-page .aperitivo-list {
-        width: 100% !important;
+    .menu-page .text-center{
+        font-size: 1rem !important;
+    }
+    .menu-page .list-group-item .d-flex {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
-    .menu-page .list-group-item {
-        width: 100%;
-        font-size: 14px;
-        padding: 10px;
+    .menu-page  .list-group-item .d-flex .fs-5 {
+        font-size: 1rem;
     }
 
-    .menu-page .aperitivo-img {
-        width: 100%;
+    .menu-page .list-group-item .fs-6 {
+        font-size: 0.9rem;
     }
 
-    .menu-page .aperitivo-item {
-        flex-direction: column;
+    .menu-page .list-group-item .text-muted {
+        font-size: 0.7rem;
+        margin-top: 0.2rem;
     }
-
 }

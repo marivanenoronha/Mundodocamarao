@@ -36,16 +36,36 @@ import Image31 from "../fotos/img/gallery41.jpg";
 import Image32 from "../fotos/img/gallery49.jpg";
 import Image33 from "../fotos/img/gallery38.png";
 import Image34 from "../fotos/img/gallery50.jpg";
+import Image35 from "../fotos/img/appetizers8.jpg";
+import Image36 from "../fotos/img/appetizers8.jpg";
+import Image37 from "../fotos/img/appetizers8.jpg";
+import Image38 from "../fotos/img/appetizers8.jpg";
+import Image39 from "../fotos/img/appetizers8.jpg";
+import Image40 from "../fotos/img/appetizers8.jpg";
+import Image41 from "../fotos/img/appetizers8.jpg";
+import Image42 from "../fotos/img/appetizers8.jpg";
+import Image43 from "../fotos/img/appetizers8.jpg";
+import Image44 from "../fotos/img/appetizers8.jpg";
+import Image45 from "../fotos/img/appetizers8.jpg";
+import Image46 from "../fotos/img/appetizers8.jpg";
+import Image47 from "../fotos/img/appetizers8.jpg";
+import Image48 from "../fotos/img/appetizers8.jpg";
+import Image49 from "../fotos/img/appetizers8.jpg";
+import Image50 from "../fotos/img/appetizers8.jpg";
+import Image51 from "../fotos/img/dessert-img.jpg";
+import Image52 from "../fotos/img/desserts3.jpg";
+import Image53 from "../fotos/img/desserts2.jpg";
+import Image54 from "../fotos/img/desserts1.jpg";
 import gallery1 from '../fotos/img/gallery12.jpg';
 import gallery2 from '../fotos/img/gallery9.jpg';
 import gallery3 from '../fotos/img/gallery16.jpg';
 import gallery4 from '../fotos/img/gallery36.jpg';
-import AppetizersImg1 from "../fotos/img/gallery11.jpg";
-import AppetizersImg2 from "../fotos/img/appetizers8.jpg";
-import AppetizersImg3 from "../fotos/img/appetizers11.jpg";
-import AppetizersImg4 from "../fotos/img/appetizers1.jpg";
-import DrinkImg from "../fotos/img/drinks7.jpg";
-import DessertImg from "../fotos/img/dessert-img.jpg";
+import gallery5 from '../fotos/img/gallery11.jpg';
+import gallery6 from '../fotos/img/dessert-img.jpg';
+import gallery7 from '../fotos/img/drinks10.png';
+import gallery8 from '../fotos/img/drinks2.jpg';
+import gallery9 from '../fotos/img/drink3.jpg';
+import gallery10 from '../fotos/img/drinks8.jpg';
 
 
 
@@ -519,207 +539,394 @@ const alacarte = [
             </ul>
         ),
         image: Image34
-    }
-]
-
-
-
-const dessert = [
+    },
     {
-        id: 1,
+        id: 35,
+        name: "Misto de frutos do mar",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>2 pessoas: <strong>R$139,90</strong></li>
+                <li>4 pessoas: <strong>R$249,90</strong></li>
+            </ul>
+        ),
+        image: Image35
+    },
+    {
+        id: 36,
+        name: "Pestisco da casa",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$109,90</strong></li>
+            </ul>
+        ),
+        image: Image36
+    },
+    {
+        id: 37,
+        name: "Camarao a milanesa",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$72,90</strong></li>
+            </ul>
+        ),
+        image: Image37
+    },
+    {
+        id: 38,
+        name: "Camarao alho e oleo",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Com casca: <strong>R$65,90</strong></li>
+                <li>Sem casca: <strong>R$72,90</strong></li>
+            </ul>
+        ),
+        image: Image38
+    },
+    {
+        id: 39,
+        name: "Camarao e batata frita",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$65,90</strong></li>
+            </ul>
+        ),
+        image: Image39
+    },
+    {
+        id: 40,
+        name: "Linguado em tiras",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$65,90</strong></li>
+            </ul>
+        ),
+        image: Image40
+    },
+    {
+        id: 41,
+        name: "Tilapia em tiras",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$62,90</strong></li>
+            </ul>
+        ),
+        image: Image41
+    },
+    {
+        id: 42,
+        name: "Lula a milanesa",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$52,90</strong></li>
+            </ul>
+        ),
+        image: Image42
+    },
+    {
+        id: 43,
+        name: "Tainha frita ou papa terra",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>porção: <strong>R$145,90</strong></li>
+            </ul>
+        ),
+        image: Image43
+    },
+    {
+        id: 44,
+        name: "Ostra gratinada",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$12,90</strong></li>
+            </ul>
+        ),
+        image: Image44
+    },
+    {
+        id: 45,
+        name: "Casquinha de siri",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$15,90</strong></li>
+            </ul>
+        ),
+        image: Image45
+    },
+    {
+        id: 46,
+        name: "Picanha em tiras",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$75,90</strong></li>
+            </ul>
+        ),
+        image: Image46
+    },
+    {
+        id: 47,
+        name: "Frango em tiras",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$39,90</strong></li>
+            </ul>
+        ),
+        image: Image47
+    },
+    {
+        id: 48,
+        name: "polenta frita",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$19,90</strong></li>
+            </ul>
+        ),
+        image: Image48
+    },
+    {
+        id: 49,
+        name: "Mandioca noisete",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>Porção: <strong>R$21,90</strong></li>
+            </ul>
+        ),
+        image: Image49
+    },
+    {
+        id: 50,
+        name: "Batata frita",
+        category: "Aperitivos",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li>1 pessoa: <strong>R$25,90</strong></li>
+                <li>2 pessoas: <strong>R29,90</strong></li>
+                <li>4 pessoas: <strong>R$52,90</strong></li>
+            </ul>
+        ),
+        image: Image50
+    },
+    {
+        id: 51,
         name: "Petit gateau",
-        description: "Petit gateau com chocolate e sorvete sabor baunilha",
-        price: "R$20,00"
+        category: "Sobremesas",
+        description: "Delicioso Petit gateau de chocolate servido com sorvete de baunilha.",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li><strong>R$20,00</strong></li>
+            </ul>
+        ),
+        image: Image51
     },
     {
-        id: 2,
+        id: 52,
         name: "Taça de sorvete",
-        description: "Taça de sorvete com duas bolas, sabores de baunilha e chocolate",
-        price: "R$16,00"
+        category: "Sobremesas",
+        description: "Taça de sorvete com três bolas: baunilha, chocolate e morango.",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li><strong>R$16,00</strong></li>
+            </ul>
+        ),
+        image: Image52
     },
     {
-        id: 3,
+        id: 53,
         name: "Mousses",
-        description: "Mousses de marcujá, Morango, mamão, limão",
-        price: "R$15,00"
+        category: "Sobremesas",
+        description: "Mousse de maracujá, morango, limão e mamão.",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li><strong>R$20,00</strong></li>
+            </ul>
+        ),
+        image: Image53
+    },
+    {
+        id: 54,
+        name: "Creme de mamão papaia",
+        category: "Sobremesas",
+        price: (
+            <ul className="list-unstyled text-center">
+                <li><strong>R$20,00</strong></li>
+            </ul>
+        ),
+        image: Image54
     },
 ]
 
-const drink = [
+
+const drinks = [
     {
         id: 1,
-        name: "Sucos",
-        description: "Sucos de morango, laranja, limão, ortelã, kiwi",
-        price: "Apartir R$9,90"
+        name: "Coca cola 600ml",
+        category: "Refrigerantes",
+        price: "R$ 9,90"
     },
     {
         id: 2,
-        name: "Cervejas",
-        description: "Original, Heinkenn, pilsen",
-        price: "Apartir R$18,00"
+        name: "Coca cola zero 600ml",
+        category: "Refrigerantes",
+        price: "R$ 9,90"
     },
     {
         id: 3,
-        name: "Caipiras",
-        description: "Caipiras de smirnof, steinhaeger, bacardi, cachaça",
-        price: "Apartir R$16,00"
+        name: "Coca cola lata",
+        category: "Refrigerantes",
+        price: "R$ 6,90"
     },
-]
-
+    {
+        id: 4,
+        name: "Coca cola zero lata",
+        category: "Refrigerantes",
+        price: "R$ 6,90"
+    },
+    {
+        id: 5,
+        name: "Guaraná 600ml",
+        category: "Refrigerantes",
+        price: "R$ 9,90"
+    },
+    {
+        id: 6,
+        name: "Guaraná zero 600ml",
+        category: "Refrigerantes",
+        price: "R$ 9,90"
+    },
+    {
+        id: 7,
+        name: "Guaraná zero 600ml",
+        category: "Refrigerantes",
+        price: "R$ 9,90"
+    },
+    {
+        id: 8,
+        name: "Guaraná lata",
+        category: "Refrigerantes",
+        price: "R$ 6,90"
+    },
+    {
+        id: 9,
+        name: "Guaraná zero lata",
+        category: "Refrigerantes",
+        price: "R$ 6,90"
+    },
+    {
+        id: 10,
+        name: "H20",
+        category: "Refrigerantes",
+        price: "R$ 9,90"
+    },
+    {
+        id: 11,
+        name: "Tônica lata ",
+        category: "Refrigerantes",
+        price: "R$ 6,90"
+    },
+    {
+        id: 12,
+        name: "Soda lata",
+        category: "Refrigerantes",
+        price: "R$ 6,90"
+    },
+    {
+        id: 13,
+        name: "Schwerppes citrus lata",
+        category: "Refrigerantes",
+        price: "R$ 6,90"
+    },
+    {
+        id: 14,
+        name: "Jarra de suco",
+        description: "Laranja, abacaxi, maracujá, kiwi, limão e morango",
+        category: "Sucos",
+        price: "R$ 24,90"
+    },
+    {
+        id: 15,
+        name: "Jarra de suco",
+        description: "Abacaxi com hortelã ou limonada suíça",
+        category: "Sucos",
+        price: "R$ 26,90"
+    },
+    {
+        id: 16,
+        name: "Copo de suco",
+        description: "Limonada suíça, maracujá, morango e kiwi",
+        category: "Sucos",
+        price: "R$ 11,90"
+    },
+    {
+        id: 17,
+        name: "Copo de suco",
+        description: "Laranja , abacaxi e limão",
+        category: "Sucos",
+        price: "R$ 9,90"
+    },
+    {
+        id: 18,
+        name: "Original",
+        category: "Cervejas",
+        price: "R$ 18,00"
+    },
+    {
+        id: 19,
+        name: "Absolut",
+        description: "Morango, abacaxi, limão, maracujá e uva",
+        category: "Caipiras",
+        price: "R$ 26,90"
+    },
+    {
+        id: 20,
+        name: "Smirnoff",
+        description: "Morango, abacaxi, limão, maracujá e uva",
+        category: "Caipiras",
+        price: "R$ 21,90"
+    },
+];
 
 const Menu = () => {
 
     const [selectedCategory, setSelectedCategory] = useState(null);
+    const [categoryDrinks, setcategoryDrinks] = useState(null);
+
 
     const categoryImages = {
         "Frutos do mar": gallery1,
         "Peixes": gallery2,
         "Carnes": gallery3,
-        "Vegetariano/Vegano": gallery4
+        "Vegetariano/Vegano": gallery4,
+        "Aperitivos": gallery5,
+        "Sobremesas": gallery6,
     };
 
-    console.log("Categoria selecionada:", selectedCategory);
+    const categoryImgDrinks = {
+        "Refrigerantes": gallery7,
+        "Sucos": gallery8,
+        "Cervejas": gallery9,
+        "Caipiras": gallery10
+    }
 
-    const categories = ["Frutos do mar", "Peixes", "Carnes", "Vegetariano/Vegano"];
 
-    const listItems1 = [
-        {
-            name: "Misto de frutos do mar",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>2 pessoas: <strong>R$139,90</strong></li>
-                    <li>4 pessoas: <strong>R$249,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Pestisco da casa",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$109,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Camarao a milanesa",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$72,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Camarao alho e oleo",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Com casca: <strong>R$65,90</strong></li>
-                    <li>Sem casca: <strong>R$72,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Camarao e batata frita",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$65,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Linguado em tiras",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$65,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Tilapia em tiras",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$62,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Lula a milanesa",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$52,90</strong></li>
-                </ul>
-            ),
-        }
-    ];
+    const categories = ["Frutos do mar", "Peixes", "Carnes", "Vegetariano/Vegano", "Aperitivos", "Sobremesas"];
 
-    const listItems2 = [
-        {
-            name: "Tainha ou papa terra frita",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$45,90</strong></li>
+    const categoriesDrinks = ["Refrigerantes", "Sucos", "Cervejas", "Caipiras"];
 
-                </ul>
-            ),
-        },
-        {
-            name: "Ostra gratinada",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$12,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Casquinha de siri",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$15,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "picanha em tiras",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$39,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Frango em tiras",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$39,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Polenta frita",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$19,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Mandioca niosete",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>Porção: <strong>R$21,90</strong></li>
-                </ul>
-            ),
-        },
-        {
-            name: "Batata frita",
-            price: (
-                <ul className="list-unstyled text-center">
-                    <li>1 pessoa: <strong>R$25,90</strong></li>
-                    <li>2 pessoas: <strong>R29,90</strong></li>
-                    <li>4 pessoas: <strong>R$52,90</strong></li>
-                </ul>
-            ),
-        }
-    ];
+
 
     return (
         <div className="menu-page">
@@ -748,7 +955,7 @@ const Menu = () => {
                         </a>
                     </h2>
 
-                    <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Á la Carte</h2>
+                    <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Cardápio</h2>
                     <div className="text-center mb-5 d-flex justify-content-center">
                         {categories.map((category, index) => (
                             <div key={index} className="mx-3">
@@ -756,20 +963,19 @@ const Menu = () => {
                                     src={categoryImages[category]}
                                     alt={category}
                                     className="img-fluid mb-3 rounded "
-                                    style={{ width: "320px", height: "150px", objectFit: "cover" }}
+                                    style={{ width: "100%", height: "120px", objectFit: "cover" }}
                                 />
+
 
                                 <button
                                     className={`category-button btn btn-outline-dark w-100 ${selectedCategory === category ? "active" : ""}`}
-                                    onClick={() => setSelectedCategory(selectedCategory === category ? null : category)} // Toggle entre mostrar e esconder itens
-                                    style={{ marginBottom: "20px" }}
+                                    onClick={() => setSelectedCategory(selectedCategory === category ? null : category)}
                                 >
-                                    {category} - Clica aqui
+                                    {category}
                                 </button>
                             </div>
                         ))}
                     </div>
-
                     {selectedCategory && (
                         <div>
                             <h3 className="text-center fs-2 mb-4 text-dark">{selectedCategory}</h3>
@@ -795,107 +1001,80 @@ const Menu = () => {
                                         </div>
                                     ))}
                             </div>
+                            <div className="text-center mt-4">
+                                <button
+                                    className="btn btn-dark"
+                                    onClick={() => setSelectedCategory(null)}
+                                >
+                                    Voltar
+                                </button>
+                            </div>
                         </div>
                     )}
 
                 </div>
             </div>
 
-            <div className="aperitivo  text-light my-5">
+            <div className="drink   my-3">
                 <div className="container">
-                    <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark" >Aperitivos</h2>
-                    <div className="row">
-                        <div className="col-lg-12 d-flex flex-column">
-                            <div className="d-flex flex-wrap justify-content-between mb-4 aperitivo-item">
-                                <img src={AppetizersImg1} className="img-fluid rounded aperitivo-img" alt="Aperitivo 1" />
-                                <div className=" d-flex flex-column justify-content-center mt-3 mt-md-0 aperitivo-list">
-                                    <ul className="list-group  text-dark">
-                                        {listItems1.map((item, index) => (
-                                            <li key={index} className="list-group-item d-flex justify-content-between">
-                                                <span>{item.name}</span>
-                                                <span>{item.price}</span>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
+                    <div className="row justify-content-center">
+                        <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Drinks</h2>
+                        <div className="text-center mb-5 d-flex justify-content-center">
+                            {categoriesDrinks.map((category, index) => (
+                                <div key={index} className="mx-3">
+                                    <img
+                                        src={categoryImgDrinks[category]}
+                                        alt={category}
+                                        className="img-fluid mb-3 rounded "
+                                        style={{ width: "100%", height: "120px", objectFit: "cover" }}
+                                    />
 
-                            <div className="d-flex flex-wrap justify-content-between mb-4 aperitivo-item">
-                                <img src={AppetizersImg2} className="aperitivo-img img-fluid rounded" alt="Aperitivo 2" />
-                                <div className="d-flex flex-column justify-content-center mt-3 mt-md-0 aperitivo-list">
-                                    <ul className="list-group text-dark">
-                                        {listItems2.map((item, index) => (
-                                            <li key={index} className="list-group-item d-flex justify-content-between">
-                                                <span>{item.name}</span>
-                                                <span>{item.price}</span>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div className="aperitivo   my-5">
-                <div className="container">
-                    <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-primary">Sobremesas</h2>
-                    <div className="row ">
-                        <div className="col-lg-6 d-flex justify-content-center">
-                            <img src={DessertImg} className="img-fluid w-80 mt-4 mt-lg-0" alt="" />
-                        </div>
-                        <div className="col-lg-6 d-flex flex-column justify-content-around">
-                            {dessert.map((item) => (
-                                <div key={item.id}>
-                                    <Card className="border-0">
-                                        <CardBody>
-                                            <CardTitle className="text-center fs-3 text-primary">
-                                                {item.name}
-                                            </CardTitle>
-                                            <CardText className="text-center fs-5">
-                                                {item.description}
-                                            </CardText>
-                                            <CardText className="text-center fs-5 fw-bold text-primary">
-                                                {item.price}
-                                            </CardText>
-                                        </CardBody>
-                                    </Card>
+                                    <button
+                                        className={`category-button btn btn-outline-dark w-100 ${categoryDrinks === category ? "active" : ""}`}
+                                        onClick={() => setcategoryDrinks(categoryDrinks === category ? null : category)}
+                                    >
+                                        {category}
+                                    </button>
                                 </div>
                             ))}
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div className="drink bg-dark  my-5">
-                <div className="container">
-                    <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold " style={{ color: "orange" }}>Drinks</h2>
-                    <div className="row ">
-                        <div className="col-lg-6 d-flex flex-column justify-content-around" >
-                            {drink.map((item) => (
-                                <div key={item.id}>
-                                    <Card className="border-0">
-                                        <CardBody>
-                                            <CardTitle className="text-center fs-3" style={{ color: "orange" }}>
-                                                {item.name}
-                                            </CardTitle>
-                                            <CardText className="text-center fs-5">
-                                                {item.description}
-                                            </CardText>
-                                            <CardText className="text-center fs-5 fw-bold " style={{ color: "orange" }}>
-                                                {item.price}
-                                            </CardText>
-                                        </CardBody>
-                                    </Card>
+                        {categoryDrinks && (
+                            <div>
+                                <h3 className="text-center fs-2 mb-4 text-dark">{categoryDrinks}</h3>
+                                <ul className="list-group">
+                                    {drinks
+                                        .filter((item) => item.category.toLowerCase() === categoryDrinks.toLowerCase())
+                                        .map((item) => (
+                                            <li key={item.id} className="list-group-item">
+                                                <Card.Body className="w-100">
+                                                    {/* Linha com nome, descrição e preço do item */}
+                                                    <div className="d-flex justify-content-between align-items-center flex-wrap">
+                                                        <div className="d-flex flex-column">
+                                                            <Card.Title className="fs-5 text-dark">{item.name}</Card.Title>
+                                                            <Card.Text className="text-muted mt-1">{item.description}</Card.Text>
+                                                        </div>
+                                                        <Card.Text className="fs-6 text-dark">{item.price}</Card.Text>
+                                                    </div>
+                                                </Card.Body>
+                                            </li>
+                                        ))}
+                                </ul>
+                                <div className="text-center mt-4">
+                                    <button
+                                        className="btn btn-dark"
+                                        onClick={() => setcategoryDrinks(null)}
+                                    >
+                                        Voltar
+                                    </button>
                                 </div>
-                            ))}
-                        </div>
-                        <div className="col-lg-6 d-flex justify-content-center">
-                            <img src={DrinkImg} className="img-fluid w-80 mt-4 mt-lg-0" alt="" />
-                        </div>
+                            </div>
+                        )}
+
                     </div>
                 </div>
             </div>
+
             <div className="whatsapp-container position-fixed d-flex align-items-center">
                 <a
                     href="https://wa.me/5548991606536"
