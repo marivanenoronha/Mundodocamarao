@@ -33,8 +33,8 @@ function Contact() {
                         <ContactInfo />
                     </div>
                     <div className="col-lg-6 d-flex justify-content-center">
-                            <img src={contactImage}  className="img-fluid w-75" alt="" />
-                        </div>
+                        <img src={contactImage} className="img-fluid w-75" alt="" />
+                    </div>
 
                     <div className="container my-5">
                         <div className="row">
@@ -58,18 +58,18 @@ function Contact() {
                 <Reviews />
             </div>
             <div className="whatsapp-container position-fixed d-flex align-items-center">
-                    {showWelcomeMessage && (
-                        <span className="text-light bg-success p-2 rounded">Faça sua reserva</span>
-                    )}
-                    <a
-                        href="https://wa.me/5548991606536"
-                        className="whatsapp-icon ms-2"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i className="fab fa-whatsapp fa-3x text-success"></i>
-                    </a>
-                </div>
+                {showWelcomeMessage && (
+                    <span className="text-light bg-success p-2 rounded">Faça sua reserva</span>
+                )}
+                <a
+                    href="https://wa.me/5548991606536"
+                    className="whatsapp-icon ms-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i className="fab fa-whatsapp fa-3x text-success"></i>
+                </a>
+            </div>
         </div>
     )
 }

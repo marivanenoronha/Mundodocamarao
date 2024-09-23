@@ -1,7 +1,10 @@
 import React from "react";
 import { useState } from "react";
 import "./menu.css";
+import { ContactInfo } from "../components/ContactInfo";
+import contactImage from "../fotos/img/gallery5.jpg";
 import { Card, CardBody, CardText, CardTitle } from "react-bootstrap";
+
 import Image1 from "../fotos/img/gallery12.jpg";
 import Image2 from "../fotos/img/gallery8.jpg";
 import Image3 from "../fotos/img/gallery5.jpg";
@@ -66,6 +69,9 @@ import gallery7 from '../fotos/img/drinks10.png';
 import gallery8 from '../fotos/img/drinks2.jpg';
 import gallery9 from '../fotos/img/drink3.jpg';
 import gallery10 from '../fotos/img/drinks8.jpg';
+import gallery11 from '../fotos/img/drinks7.jpg';
+import gallery12 from '../fotos/img/drinks11.png';
+import gallery13 from '../fotos/img/drinks5.jpg';
 
 
 
@@ -877,27 +883,64 @@ const drinks = [
         category: "Sucos",
         price: "R$ 9,90"
     },
-    {
-        id: 18,
-        name: "Original",
-        category: "Cervejas",
-        price: "R$ 18,00"
-    },
-    {
-        id: 19,
-        name: "Absolut",
-        description: "Morango, abacaxi, limão, maracujá e uva",
-        category: "Caipiras",
-        price: "R$ 26,90"
-    },
-    {
-        id: 20,
-        name: "Smirnoff",
-        description: "Morango, abacaxi, limão, maracujá e uva",
-        category: "Caipiras",
-        price: "R$ 21,90"
-    },
+    /*Cervejas*/
+    { id: 18, name: "Original", category: "Cervejas", price: "R$ 18,00" },
+    { id: 19, name: "Heineken", category: "Cervejas", price: "R$ 19,00" },
+    { id: 20, name: "Heineken long neck", category: "Cervejas", price: "R$ 11,90" },
+    { id: 21, name: "S/álcool long neck", category: "Cervejas", price: "R$ 11,90" },
+    { id: 22, name: "Malzebier 350ml", category: "Cervejas", price: "R$ 9,90" },
+    { id: 23, name: "Pilsen 600ml", category: "Cervejas", price: "R$ 19,90" },
+    { id: 24, name: "Belgian 600ml", category: "Cervejas", price: "R$ 19,90" },
+    { id: 25, name: "In natura 600ml", category: "Cervejas", price: "R$ 19,90" },
+    { id: 26, name: "Ipa", category: "Cervejas", price: "R$ 19,90" },
+    { id: 27, name: "Weiss 600ml", category: "Cervejas", price: "R$ 19,90" },
+    { id: 28, name: "Chopp pilsen 750ml", category: "Cervejas", price: "R$ 32,00" },
+    { id: 29, name: "Chopp belgian 750ml", category: "Cervejas", price: "R$ 32,00" },
+    /*Caipiras*/
+    { id: 30, name: "Absolut", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 26,90" },
+    { id: 31, name: "Smirnoff", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 21,90" },
+    { id: 32, name: "Caipicorona", category: "Caipiras", price: "R$ 30,00" },
+    { id: 33, name: "Bacardi", description: "Morongo, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 20,90" },
+    { id: 34, name: "Steinhager", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 20,90" },
+    { id: 35, name: "Ypióca", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 16,90" },
+    { id: 36, name: "Cachaça", description: "Morango, abacaxi, limão, maracujá e uva", category: "Caipiras", price: "R$ 14,90" },
+    { id: 37, name: "Vinho", category: "Caipiras", price: "R$ 16,90" },
+    /*Drinks*/
+    { id: 38, name: "Alexander", description: "Licor de cacau, conhaque, creme de leite e canela", category: "Drinks", price: "R$ 19,90" },
+    { id: 39, name: "Aperol spritz", description: "aperol, espumante prosseco e água com gás", category: "Drinks", price: "R$ 29,90" },
+    { id: 40, name: "Campari tropical", description: "Campari e red bull tropical", category: "Drinks", price: "R$ 29,90" },
+    { id: 41, name: "Clericot", description: "Vinho branco água tônica e frutas", category: "Drinks", price: "R$ 29,90" },
+    { id: 42, name: "Fusca azul", description: "Corote e fanta uva", category: "Drinks", price: "R$ 29,90" },
+    { id: 43, name: "Fusca azul", description: "Corote e fanta uva", category: "Drinks", price: "R$ 29,90" },
+    { id: 44, name: "Gin citrus", description: "Gin, schweppes citrus e laranja", category: "Drinks", price: "R$ 28,90" },
+    { id: 45, name: "Gin de melancia e horteã", description: "Gin, melancia , hortelã e água", category: "Drinks", price: "R$ 29,90" },
+    { id: 46, name: "Gin mágico", description: "Gin, curaçau blue, monster ultra violet", category: "Drinks", price: "R$ 29,90" },
+    { id: 47, name: "Gin morango e kiwi", description: "Gin, fanta strawberry e kiwi", category: "Drinks", price: "R$ 29,90" },
+    { id: 48, name: "Gin tônica", description: "Gin, água tônica, limão siciliano e alecrim", category: "Drinks", price: "R$ 28,90" },
+    { id: 49, name: "Martini", description: "Gin, vermute seco", category: "Drinks", price: "R$ 29,90" },
+    { id: 50, name: "Mogito", description: "Rum, soda, limão e hprtelã", category: "Drinks", price: "R$ 22,90" },
+    { id: 51, name: "Negroni", description: "Gin, campari e vermute", category: "Drinks", price: "R$ 29,90" },
+    { id: 52, name: "Pinã colada", description: "Suco de abacaxi, leite de coco, rum, creme de leite e leite condensado", category: "Drinks", price: "R$ 29,90" },
+    { id: 53, name: "Sensação tropical", description: "Corote e energético de melancia", category: "Drinks", price: "R$ 29,90" },
+    { id: 54, name: "Coquetel de fruas sem/álcool", description: "Água co gás e duas opções de frutas: morango, maracujá, laranja, limão, kiwi e abacaxi", category: "Drinks", price: "R$ 19,90" },
+    { id: 55, name: "Lagoa azul sem/álcool", description: "Isotômico azul, água com gás e hortelã", category: "Drinks", price: "R$ 19,90" },
+    { id: 56, name: "Mogito sem/álcool", description: "Água com gás, limão e hortelã", category: "Drinks", price: "R$ 19,90" },
+    /*Vinhos*/
+    { id: 57, name: "Vinho branco seco", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 58, name: "Vinho branco suave", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 59, name: "Vinho tinto seco", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 60, name: "Vinho tinto suave", category: "Taça de vinho", price: "R$ 16,90" },
+    /*Doses*/
+    { id: 57, name: "Vinho branco seco", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 58, name: "Vinho branco suave", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 59, name: "Vinho tinto seco", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 560, name: "Vinho tinto suave", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 57, name: "Vinho branco seco", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 58, name: "Vinho branco suave", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 59, name: "Vinho tinto seco", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 560, name: "Vinho tinto suave", category: "Taça de vinho", price: "R$ 16,90" },
 ];
+
 
 const Menu = () => {
 
@@ -918,13 +961,16 @@ const Menu = () => {
         "Refrigerantes": gallery7,
         "Sucos": gallery8,
         "Cervejas": gallery9,
-        "Caipiras": gallery10
+        "Caipiras": gallery10,
+        "Drinks": gallery11,
+        "Taça de vinho": gallery12,
+        "Doses": gallery13
     }
 
 
     const categories = ["Frutos do mar", "Peixes", "Carnes", "Vegetariano/Vegano", "Aperitivos", "Sobremesas"];
 
-    const categoriesDrinks = ["Refrigerantes", "Sucos", "Cervejas", "Caipiras"];
+    const categoriesDrinks = ["Refrigerantes", "Sucos", "Cervejas", "Caipiras", "Drinks", "Taça de vinho", "Doses"];
 
 
 
@@ -1048,10 +1094,9 @@ const Menu = () => {
                                         .map((item) => (
                                             <li key={item.id} className="list-group-item">
                                                 <Card.Body className="w-100">
-                                                    {/* Linha com nome, descrição e preço do item */}
                                                     <div className="d-flex justify-content-between align-items-center flex-wrap">
                                                         <div className="d-flex flex-column">
-                                                            <Card.Title className="fs-5 text-dark">{item.name}</Card.Title>
+                                                            <Card.Title className="fs-6 text-dark">{item.name}</Card.Title>
                                                             <Card.Text className="text-muted mt-1">{item.description}</Card.Text>
                                                         </div>
                                                         <Card.Text className="fs-6 text-dark">{item.price}</Card.Text>
@@ -1073,6 +1118,29 @@ const Menu = () => {
 
                     </div>
                 </div>
+            </div>
+
+            <div className="  container my-5">
+                <div className="row">
+                    <div className=" col-lg-6 d-flex flex-column align-items-center justify-content-center mb-2 mb-lg-o">
+                        <ContactInfo />
+                    </div>
+                    <div className="col-lg-6 d-flex justify-content-center  d-lg-flex">
+                        <img src={contactImage} className="img-fluid m-5 w-75  rounded" alt="about img" />
+                    </div>
+                </div>
+                <div className="col-12 d-flex align-items-left justify-content-center flex-column">
+                        <h2>Localização</h2>
+                        <div className="ratio ratio-16x9">
+                            <iframe
+                                className="embed-responsive-item"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3565.136417862331!2d-49.37183408495774!3d-28.924780882351507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952137d5b9e1f0fd%3A0x4f6a5d5f03af0e39!2sR.%20Caxias%2C%2015%20-%20Morro%20dos%20Conventos%2C%20Ararangu%C3%A1%20-%20SC%2C%2088911-320%2C%20Brazil!5e0!3m2!1spt-BR!2sus!4v1691243027432!5m2!1spt-BR!2sus"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
             </div>
 
             <div className="whatsapp-container position-fixed d-flex align-items-center">

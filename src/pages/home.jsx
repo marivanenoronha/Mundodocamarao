@@ -113,8 +113,8 @@ function Home() {
                         <div className="col-lg-6 d-flex flex-column align-items-center justify-content-center mb-5 mb-lg-o">
                             <ContactInfo />
                         </div>
-                        <div className="col-lg-6 d-flex justify-content-center">
-                            <img src={contactImage} className="img-fluid m-3 w-75 rounded" alt="" />
+                        <div className="col-lg-6 d-flex justify-content-center  d-lg-flex">
+                            <img src={contactImage} className="img-fluid m-5 w-75  rounded" alt="about img" />
                         </div>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ export function ContactInfo() {
                 <i className="fas fa-envelope me-2"></i> mundodocamarao1@gmail.com<br></br>
                 <i className="fab fa-whatsapp me-2"></i> 48 99160-6536
 
-                <div className="contact-icons mt-5 d-flex justify-content-around w-75">
+                <div className="contact-icons mt-4 d-flex justify-content-around w-75">
                     <a href="https://www.instagram.com/mundodocamarao/" target="_blank" rel="noreferrer">
                         <i className="fab fa-instagram text-dark fa-2x"></i>
                     </a>
