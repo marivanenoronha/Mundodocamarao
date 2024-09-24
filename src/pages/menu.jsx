@@ -48,7 +48,7 @@ import Image40 from "../fotos/img/appetizers13.jpg";
 import Image41 from "../fotos/img/appetizers14.jpg";
 import Image42 from "../fotos/img/appetizers16.jpg";
 import Image43 from "../fotos/img/appetizers17.jpg";
-import Image44 from "../fotos/img/appetizers8.jpg";
+import Image44 from "../fotos/img/appetizers18.jpg";
 import Image45 from "../fotos/img/appetizers8.jpg";
 import Image46 from "../fotos/img/appetizers8.jpg";
 import Image47 from "../fotos/img/appetizers8.jpg";
