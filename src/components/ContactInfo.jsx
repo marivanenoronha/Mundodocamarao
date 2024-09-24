@@ -3,7 +3,7 @@ import React from "react";
 export function ContactInfo() {
     return (
         <div className="d-flex flex-column align-items-center">
-            <h2 className=" mb-3 text-uppercase fw-bold text-dark">Onde nos encontrar</h2>
+            <h3 className=" mb-3 text-uppercase fw-bold text-dark">Onde nos encontrar</h3>
             <p className="mb-5 text-dark"><i className="fas fa-map-marker-alt me-2"></i> Rua Caxias, 15, Morro do Conventos, SC<br></br>
                 <i className="fas fa-envelope me-2"></i> mundodocamarao1@gmail.com<br></br>
                 <i className="fab fa-whatsapp me-2"></i> 48 99160-6536
@@ -22,7 +22,7 @@ export function ContactInfo() {
             </p>
 
             <div className="operating-hours ">
-                <h3 className="mb-3 text-dark fw-bold">Horário de Funcionamento</h3>
+                <h4 className="mb-3 text-dark fw-bold">Horário de Funcionamento</h4>
                 <div className="hours">
                     <p className="day text-dark mb-2">
                         <i className="fas fa-calendar-day me-2 text-dark"></i>

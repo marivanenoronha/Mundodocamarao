@@ -65,7 +65,7 @@ import gallery3 from '../fotos/img/gallery16.jpg';
 import gallery4 from '../fotos/img/gallery36.jpg';
 import gallery5 from '../fotos/img/gallery11.jpg';
 import gallery6 from '../fotos/img/dessert-img.jpg';
-import gallery7 from '../fotos/img/drinks10.png';
+import gallery7 from '../fotos/img/drinks1.jpg';
 import gallery8 from '../fotos/img/drinks2.jpg';
 import gallery9 from '../fotos/img/drink3.jpg';
 import gallery10 from '../fotos/img/drinks8.jpg';
@@ -777,112 +777,25 @@ const alacarte = [
 
 
 const drinks = [
-    {
-        id: 1,
-        name: "Coca cola 600ml",
-        category: "Refrigerantes",
-        price: "R$ 9,90"
-    },
-    {
-        id: 2,
-        name: "Coca cola zero 600ml",
-        category: "Refrigerantes",
-        price: "R$ 9,90"
-    },
-    {
-        id: 3,
-        name: "Coca cola lata",
-        category: "Refrigerantes",
-        price: "R$ 6,90"
-    },
-    {
-        id: 4,
-        name: "Coca cola zero lata",
-        category: "Refrigerantes",
-        price: "R$ 6,90"
-    },
-    {
-        id: 5,
-        name: "Guaraná 600ml",
-        category: "Refrigerantes",
-        price: "R$ 9,90"
-    },
-    {
-        id: 6,
-        name: "Guaraná zero 600ml",
-        category: "Refrigerantes",
-        price: "R$ 9,90"
-    },
-    {
-        id: 7,
-        name: "Guaraná zero 600ml",
-        category: "Refrigerantes",
-        price: "R$ 9,90"
-    },
-    {
-        id: 8,
-        name: "Guaraná lata",
-        category: "Refrigerantes",
-        price: "R$ 6,90"
-    },
-    {
-        id: 9,
-        name: "Guaraná zero lata",
-        category: "Refrigerantes",
-        price: "R$ 6,90"
-    },
-    {
-        id: 10,
-        name: "H20",
-        category: "Refrigerantes",
-        price: "R$ 9,90"
-    },
-    {
-        id: 11,
-        name: "Tônica lata ",
-        category: "Refrigerantes",
-        price: "R$ 6,90"
-    },
-    {
-        id: 12,
-        name: "Soda lata",
-        category: "Refrigerantes",
-        price: "R$ 6,90"
-    },
-    {
-        id: 13,
-        name: "Schwerppes citrus lata",
-        category: "Refrigerantes",
-        price: "R$ 6,90"
-    },
-    {
-        id: 14,
-        name: "Jarra de suco",
-        description: "Laranja, abacaxi, maracujá, kiwi, limão e morango",
-        category: "Sucos",
-        price: "R$ 24,90"
-    },
-    {
-        id: 15,
-        name: "Jarra de suco",
-        description: "Abacaxi com hortelã ou limonada suíça",
-        category: "Sucos",
-        price: "R$ 26,90"
-    },
-    {
-        id: 16,
-        name: "Copo de suco",
-        description: "Limonada suíça, maracujá, morango e kiwi",
-        category: "Sucos",
-        price: "R$ 11,90"
-    },
-    {
-        id: 17,
-        name: "Copo de suco",
-        description: "Laranja , abacaxi e limão",
-        category: "Sucos",
-        price: "R$ 9,90"
-    },
+    /*Refriger*/
+    { id: 1, name: "Coca cola 600ml", category: "Refrigerantes", price: "R$ 9,90"},
+    { id: 2, name: "Coca cola zero 600ml",  category: "Refrigerantes", price: "R$ 9,90"},
+    {  id: 3,name: "Coca cola lata", category: "Refrigerantes", price: "R$ 6,90"},
+    { id: 4, name: "Coca cola zero lata", category: "Refrigerantes", price: "R$ 6,90"},
+    { id: 5, name: "Guaraná 600ml", category: "Refrigerantes", price: "R$ 9,90" },
+    { id: 6, name: "Guaraná zero 600ml", category: "Refrigerantes", price: "R$ 9,90" },
+    { id: 7, name: "Guaraná zero 600ml", category: "Refrigerantes", price: "R$ 9,90" },
+    { id: 8, name: "Guaraná lata", category: "Refrigerantes", price: "R$ 6,90" },
+    { id: 9, name: "Guaraná zero lata", category: "Refrigerantes", price: "R$ 6,90" },
+    { id: 10, name: "H20", category: "Refrigerantes", price: "R$ 9,90" },
+    { id: 11, name: "Tônica lata ", category: "Refrigerantes", price: "R$ 6,90" },
+    { id: 12, name: "Soda lata", category: "Refrigerantes", price: "R$ 6,90" },
+    { id: 13, name: "Schwerppes citrus lata", category: "Refrigerantes", price: "R$ 6,90" },
+    /*Sucos*/
+    { id: 14, name: "Jarra de suco", description: "Laranja, abacaxi, maracujá, kiwi, limão e morango", category: "Sucos", price: "R$ 24,90" },
+    { id: 15, name: "Jarra de suco", description: "Abacaxi com hortelã ou limonada suíça", category: "Sucos", price: "R$ 26,90" },
+    { id: 16, name: "Copo de suco", description: "Limonada suíça, maracujá, morango e kiwi", category: "Sucos", price: "R$ 11,90" },
+    { id: 17, name: "Copo de suco", description: "Laranja , abacaxi e limão", category: "Sucos", price: "R$ 9,90" },
     /*Cervejas*/
     { id: 18, name: "Original", category: "Cervejas", price: "R$ 18,00" },
     { id: 19, name: "Heineken", category: "Cervejas", price: "R$ 19,00" },
@@ -931,14 +844,17 @@ const drinks = [
     { id: 59, name: "Vinho tinto seco", category: "Taça de vinho", price: "R$ 16,90" },
     { id: 60, name: "Vinho tinto suave", category: "Taça de vinho", price: "R$ 16,90" },
     /*Doses*/
-    { id: 57, name: "Vinho branco seco", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 58, name: "Vinho branco suave", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 59, name: "Vinho tinto seco", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 560, name: "Vinho tinto suave", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 57, name: "Vinho branco seco", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 58, name: "Vinho branco suave", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 59, name: "Vinho tinto seco", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 560, name: "Vinho tinto suave", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 61, name: "Bacardi", category: "Doses", price: "R$ 9,00" },
+    { id: 62, name: "Smirnoff", category: "Doses", price: "R$ 10,00" },
+    { id: 63, name: "Ypióca", category: "Doses", price: "R$ 9,00" },
+    { id: 64, name: "Campari", category: "Doses", price: "R$ 9,00" },
+    { id: 65, name: "Underberg", category: "Doses", price: "R$ 8,00" },
+    { id: 66, name: "Martini", category: "Doses", price: "R$ 14,00" },
+    { id: 67, name: "Red label", category: "Doses", price: "R$ 20,00" },
+    { id: 68, name: "Passaport", category: "Doses", price: "R$ 14,00" },
+    { id: 69, name: "Licor 43", category: "Doses", price: "R$ 23,00" },
+    { id: 70, name: "Amarula", category: "Doses", price: "R$ 15,00" },
+    { id: 71, name: "Redbull", category: "Doses", price: "R$ 16,00" }
 ];
 
 
@@ -1002,9 +918,9 @@ const Menu = () => {
                     </h2>
 
                     <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Cardápio</h2>
-                    <div className="text-center mb-5 d-flex justify-content-center">
+                    <div className="text-center mb-5 d-flex justify-content-center flex-wrap category-grid">
                         {categories.map((category, index) => (
-                            <div key={index} className="mx-3">
+                            <div key={index} className="mx-3 category-item">
                                 <img
                                     src={categoryImages[category]}
                                     alt={category}
@@ -1052,7 +968,7 @@ const Menu = () => {
                                     className="btn btn-dark"
                                     onClick={() => setSelectedCategory(null)}
                                 >
-                                    Voltar
+                                    Fechar
                                 </button>
                             </div>
                         </div>
@@ -1061,13 +977,13 @@ const Menu = () => {
                 </div>
             </div>
 
-            <div className="drink   my-3">
+            <div className="drink   my-5">
                 <div className="container">
                     <div className="row justify-content-center">
                         <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Drinks</h2>
-                        <div className="text-center mb-5 d-flex justify-content-center">
+                        <div className="text-center mb-5 d-flex justify-content-center flex-wrap category-grid">
                             {categoriesDrinks.map((category, index) => (
-                                <div key={index} className="mx-3">
+                                <div key={index} className="mx-3 category-item">
                                     <img
                                         src={categoryImgDrinks[category]}
                                         alt={category}
@@ -1129,18 +1045,6 @@ const Menu = () => {
                         <img src={contactImage} className="img-fluid m-5 w-75  rounded" alt="about img" />
                     </div>
                 </div>
-                <div className="col-12 d-flex align-items-left justify-content-center flex-column">
-                        <h2>Localização</h2>
-                        <div className="ratio ratio-16x9">
-                            <iframe
-                                className="embed-responsive-item"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3565.136417862331!2d-49.37183408495774!3d-28.924780882351507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952137d5b9e1f0fd%3A0x4f6a5d5f03af0e39!2sR.%20Caxias%2C%2015%20-%20Morro%20dos%20Conventos%2C%20Ararangu%C3%A1%20-%20SC%2C%2088911-320%2C%20Brazil!5e0!3m2!1spt-BR!2sus!4v1691243027432!5m2!1spt-BR!2sus"
-                                allowfullscreen=""
-                                loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"
-                            ></iframe>
-                        </div>
-                    </div>
             </div>
 
             <div className="whatsapp-container position-fixed d-flex align-items-center">
