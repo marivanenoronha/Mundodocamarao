@@ -7,6 +7,13 @@ import AboutImg from "../fotos/img/about-chef2.jpg";
 import { ImageGallery } from "../components/imageGalery";
 import { ContactInfo } from "../components/ContactInfo";
 import contactImage from "../fotos/img/gallery5.jpg";
+import Image1 from "../fotos/img/gallery6.jpg";
+import Image2 from "../fotos/img/gallery7.jpg";
+import Image3 from "../fotos/img/drinks9.jpg";
+import Image4 from "../fotos/img/about-chef1.jpg";
+import Image5 from "../fotos/img/gallery15.jpg";
+import Image6 from "../fotos/img/gallery5.jpg";
+import Image7 from "../fotos/img/appetizers11.jpg";
 
 
 function Home() {
@@ -31,6 +38,7 @@ function Home() {
                             <h1 className="mb-5 text-primary fw-bold text-left text-sm-start slide-in-left">Mundo do<br></br><span style={{ color: "darkorange" }}>Camarão</span></h1>
                         </div>
                     </div>
+
                 </div>
             </header>
             <div className="container my-3">
@@ -107,6 +115,51 @@ function Home() {
                 </div>
             </div>
             <ImageGallery />
+            <div className="row">
+                <div id="carouselExampleIndicators" className="carousel slide " data-bs-ride="carousel">
+                    <div className="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 6"></button>
+                    </div>
+                    <div className="carousel-inner " >
+                        <div className="carousel-item active">
+                            <img src={Image1} className="d-block w-100 rounded" alt="Slide 1 " style={{ height: '300px', objectFit: 'cover' }} />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={Image2} className="d-block w-100 rounded" alt="Slide 2" style={{ height: '300px', objectFit: 'cover' }} />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={Image3} className="d-block w-100 rounded" alt="Slide 3" style={{ height: '300px', objectFit: 'cover' }} />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={Image4} className="d-block w-100 rounded" alt="Slide 4" style={{ height: '300px', objectFit: 'cover' }} />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={Image5} className="d-block w-100 rounded" alt="Slide 5" style={{ height: '300px', objectFit: 'cover' }} />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={Image6} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '300px', objectFit: 'cover' }} />
+                        </div>
+                        <div className="carousel-item">
+                            <img src={Image7} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '300px', objectFit: 'cover' }} />
+                        </div>
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
             <div className="text-light py-5 shadow">
                 <div className="container">
                     <div className="row">
@@ -114,7 +167,7 @@ function Home() {
                             <ContactInfo />
                         </div>
                         <div className="col-lg-6 d-flex justify-content-center  d-lg-flex">
-                            <img src={contactImage} className="img-fluid m-5 w-75  rounded" alt="about img" />
+                            <img src={contactImage} className="img-fluid m-5 w-100  rounded" alt="about img" />
                         </div>
                     </div>
                 </div>
