@@ -54,7 +54,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <div className=" text-light bg-dark py-5">
+            <div className=" text-dark py-5">
                 <Reviews />
             </div>
             <div className="whatsapp-container position-fixed d-flex align-items-center">
