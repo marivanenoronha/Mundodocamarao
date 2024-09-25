@@ -40,10 +40,10 @@ function About() {
 
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src={AboutChef3} className="img-fluid my-4" alt="" />
+                        <img src={AboutChef3} className="img-fluid my-4 rounded" alt="" />
                     </div>
                     <div className="col-lg-6">
-                        <img src={AboutChef4} className="img-fluid my-4" alt="" />
+                        <img src={AboutChef4} className="img-fluid my-4 rounded" alt="" />
                     </div>
                 </div>
                 <p>Temos uma das melhores sequência de camarão da região.
