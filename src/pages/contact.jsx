@@ -33,7 +33,7 @@ function Contact() {
                         <ContactInfo />
                     </div>
                     <div className="col-lg-6 d-flex justify-content-center">
-                        <img src={contactImage} className="img-fluid w-75 rounded" alt="" />
+                        <img src={contactImage} className="img-fluid w-100 rounded" alt="" />
                     </div>
 
                     <div className="container my-5">
