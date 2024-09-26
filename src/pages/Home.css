@@ -10,9 +10,43 @@ header {
 
 }
 
+header .container {
+    margin-top: 8rem;
+}
+
 header h1 {
     font-size: 5rem;
     line-height: 80px;
+}
+
+header h2 {
+    font-size: 2rem;
+}
+
+header h2,
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+header h2,
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.shrimp-img {
+    width: 180px;
+    height: 40px;
+    position: relative;
+    left: 10%;
+    top: 15px;
+}
+
+header .container-button {
+    position: relative;
+    top: 70px;
 }
 
 
@@ -104,24 +138,45 @@ header h1 {
 }
 
 @media (max-width: 475px) {
-    .home-page header {
+
+    header {
         text-align: center;
         padding: 20px;
-
     }
 
-    .home-page header h1 {
-        font-size: 1.8rem;
+    header .container {
+        margin-bottom: 30rem;
+    }
+
+    header h1 {
+        font-size: 1.9rem;
         line-height: 30px;
     }
 
-    .home-page header h2 {
-        font-size: 1.5rem;
+    header h2 {
+        font-size: 1.3rem;
 
     }
 
-    .home-page header .container {
-        padding: 0 15px;
+    .shrimp-img {
+        position: relative;
+        width: 88px;
+        height: 25px;
+        margin-right: 23%;
+        top: 8px;
+    }
+
+    .world-text {
+        font-size: 1.7rem;
+    }
+
+    .shrimp-text {
+        font-size: 1.8rem;
+    }
+
+    header .container-button{
+        position: relative;
+        top: 450px;
     }
 
     .home-page .container {

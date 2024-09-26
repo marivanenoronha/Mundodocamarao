@@ -6,6 +6,7 @@ import { MenuBtn } from "../components/menu.Btn";
 import AboutImg from "../fotos/img/about-chef2.jpg";
 import { ImageGallery } from "../components/imageGalery";
 import { ContactInfo } from "../components/ContactInfo";
+import GalleryImg from "../fotos/img/gallery40.png";
 import contactImage from "../fotos/img/gallery5.jpg";
 import Image1 from "../fotos/img/gallery6.jpg";
 import Image2 from "../fotos/img/gallery7.jpg";
@@ -33,12 +34,36 @@ function Home() {
             <header className="h-100 min-vh-100 d-flex align-items-center text-light ">
                 <div className="container ">
                     <div className="row">
-                        <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center text-left ">
-                            <h2 className="mb-0 text-light fw-bold slide-in-left" >Restaurante e Petiscaria</h2>
-                            <h1 className="mb-5 text-primary fw-bold text-left text-sm-start slide-in-left">Mundo do<br></br><span style={{ color: "darkorange" }}>Camarão</span></h1>
+                        <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center  ">
+                            <h2 className="mb-0 text-light fw-bold slide-in-left " >Restaurante e Petiscaria</h2>
+                            <img
+                                 src={GalleryImg}
+                                 alt="Shrimp"
+                                 className="shrimp-img slide-in-left"
+                            />
+
+                            <h1 className="mb-5 fw-bold text-left text-sm-start slide-in-left">
+                                <span className="world-text" style={{ color: "#003366" }}>Mundo do</span><br />
+                                <span className= "Shrimp-text"style={{ color: "#FF4500" }}>Camarão</span>
+                            </h1>
                         </div>
                     </div>
-
+                    <h2 className="container-button text-left fs-1 mb-4 mb-lg-5 text-uppercase">
+                        <a
+                            href="https://wa.me/5548991606536"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button
+                                type="button"
+                                className="reservation-button btn btn-outline-dark btn-lg "
+                                style={{ fontSize: '1.8rem', padding: '0.2rem 1.0rem' }}
+                            >
+                                Faça sua reserva
+                                <i className="fab fa-whatsapp text-wuite fa-1x" style={{ padding: "0.5rem" }}></i>
+                            </button>
+                        </a>
+                    </h2>
                 </div>
             </header>
             <div className="container my-3">
