@@ -128,9 +128,9 @@
  }
 
  @media (max-width: 475px) {
-     header {
+     .home-page header {
          text-align: center;
-         padding: 20px;
+         padding: 21px;
      }
 
      .home-page header h1 {
