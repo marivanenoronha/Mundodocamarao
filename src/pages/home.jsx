@@ -37,14 +37,14 @@ function Home() {
                         <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center  ">
                             <h2 className="mb-0 text-light fw-bold slide-in-left " >Restaurante e Petiscaria</h2>
                             <img
-                                 src={GalleryImg}
-                                 alt="Shrimp"
-                                 className="shrimp-img slide-in-left"
+                                src={GalleryImg}
+                                alt="Shrimp"
+                                className="shrimp-img slide-in-left"
                             />
 
                             <h1 className="mb-5 fw-bold text-left text-sm-start slide-in-left">
                                 <span className="world-text" style={{ color: "#003366" }}>Mundo do</span><br />
-                                <span className= "Shrimp-text"style={{ color: "#FF4500" }}>Camarão</span>
+                                <span className="Shrimp-text" style={{ color: "#FF4500" }}>Camarão</span>
                             </h1>
                         </div>
                     </div>
@@ -56,11 +56,10 @@ function Home() {
                         >
                             <button
                                 type="button"
-                                className="reservation-button btn btn-outline-dark btn-lg "
-                                style={{ fontSize: '1.8rem', padding: '0.2rem 1.0rem' }}
+                                className="btn btn-outline-dark btn-lg reservation-button"
                             >
                                 Faça sua reserva
-                                <i className="fab fa-whatsapp text-wuite fa-1x" style={{ padding: "0.5rem" }}></i>
+                                <i className="fab fa-whatsapp text-dark fa-1x" style={{ padding: "0.5rem" }}></i>
                             </button>
                         </a>
                     </h2>
