@@ -23,7 +23,7 @@ export function Reviews() {
                         </div>
                        </CardBody>
                        <CardFooter className="d-flex align-items-center">
-                        <img src={Person1} className="img-fluid rounded-circule mx-3 shadow" alt="" />
+                        <img  className="img-fluid rounded-circule mx-3 shadow" alt="" />
                         <CardTitle className="text-dark">Lara  Farias</CardTitle>
                        </CardFooter>
                     </Card>
@@ -40,7 +40,7 @@ export function Reviews() {
                         </div>
                        </CardBody>
                        <CardFooter className="d-flex align-items-center">
-                        <img src={Person2} className="img-fluid rounded-circule mx-3 shadow" alt="" />
+                        <img  className="img-fluid rounded-circule mx-3 shadow" alt="" />
                         <CardTitle className="text-dark">Junior Lemes</CardTitle>
                        </CardFooter>
                     </Card>
@@ -56,7 +56,7 @@ export function Reviews() {
                         </div>
                        </CardBody>
                        <CardFooter className="d-flex align-items-center">
-                        <img src={Person3} className="img-fluid rounded-circule mx-3 shadow" alt="" />
+                        <img  className="img-fluid rounded-circule mx-3 shadow" alt="" />
                         <CardTitle className="text-dark">Maria Jordani</CardTitle>
                        </CardFooter>
                     </Card>
@@ -72,7 +72,7 @@ export function Reviews() {
                         </div>
                        </CardBody>
                        <CardFooter className="d-flex align-items-center">
-                        <img src={Person4} className="img-fluid rounded-circule mx-3 shadow" alt="" />
+                        <img  className="img-fluid rounded-circule mx-3 shadow" alt="" />
                         <CardTitle className="text-dark">Lucas Ribeiro</CardTitle>
                        </CardFooter>
                     </Card>
