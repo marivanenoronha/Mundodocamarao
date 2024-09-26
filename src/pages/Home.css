@@ -44,6 +44,7 @@ h1 {
     top: 15px;
 }
 
+
 header .container-button {
     position: relative;
     top: 70px;
@@ -160,7 +161,7 @@ header .container-button {
     }
 
     header h2 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
 
     }
 
@@ -173,11 +174,11 @@ header .container-button {
     }
 
     .world-text {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
 
     .shrimp-text {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
     }
 
     header .container-button{
