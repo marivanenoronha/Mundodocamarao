@@ -1,246 +1,250 @@
  header {
-    background-image: url(../fotos/img/gallery3.jpg);
-    position: relative;
-    background-size: cover;
-    background-position: center;
-}
+     background-image: url(../fotos/img/gallery3.jpg);
+     position: relative;
+     background-size: cover;
+     background-position: center;
+ }
 
 
-header .container {
-    margin-top: 8rem;
-}
+ header .container {
+     margin-top: 8rem;
+ }
 
-header h1 {
-    font-size: 5rem;
-    line-height: 80px;
-}
+ header h1 {
+     font-size: 5rem;
+     line-height: 80px;
+ }
 
-header h2 {
-    font-size: 2rem;
-}
+ header h2 {
+     font-size: 2rem;
+ }
 
-header h2,
-h1 {
-    font-family: 'Poppins', sans-serif;
-}
+ header h2,
+ h1 {
+     font-family: 'Poppins', sans-serif;
+ }
 
-header h2,
-h1 {
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    margin-bottom: 20px;
-    line-height: 1.2;
-}
+ header h2,
+ h1 {
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+     border-radius: 5px;
+     margin-bottom: 20px;
+     line-height: 1.2;
+ }
 
-.shrimp-img {
-    width: 180px;
-    height: 40px;
-    position: relative;
-    left: 10%;
-    top: 15px;
-}
+ .shrimp-img {
+     width: 180px;
+     height: 40px;
+     position: relative;
+     left: 10%;
+     top: 15px;
+ }
 
-.whatsapp-container {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-}
+ .whatsapp-container {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     z-index: 100;
+     display: flex;
+     align-items: center;
+ }
 
-.whatsapp-icon {
-    font-size: 24px;
-    margin-left: 10px;
-    z-index: 100;
-}
+ .whatsapp-icon {
+     font-size: 24px;
+     margin-left: 10px;
+     z-index: 100;
+ }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+ @keyframes fadeIn {
+     from {
+         opacity: 0;
+     }
 
-    to {
-        opacity: 1;
-    }
-}
+     to {
+         opacity: 1;
+     }
+ }
 
-@keyframes fadeOut {
-    from {
-        opacity: 1;
-    }
+ @keyframes fadeOut {
+     from {
+         opacity: 1;
+     }
 
-    to {
-        opacity: 0;
-    }
-}
+     to {
+         opacity: 0;
+     }
+ }
 
-.welcome-message {
-    font-size: 14px;
-    animation: fadeOut 1s ease-in-out 5s forwards;
-}
-
-
-
-@keyframes slideInLeft {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.slide-in-left {
-    animation: slideInLeft 1s ease-out;
-}
-
-.slide-in-left:nth-child(2) {
-    animation-delay: 0.3s;
-}
+ .welcome-message {
+     font-size: 14px;
+     animation: fadeOut 1s ease-in-out 5s forwards;
+ }
 
 
-.menu-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../fotos/img/menu-img.jpg);
-    background-size: cover;
-    background-position: center;
-}
 
-.img {
-    border-style: solid;
-    border-width: 5px;
-}
+ @keyframes slideInLeft {
+     0% {
+         transform: translateX(-100%);
+         opacity: 0;
+     }
 
-.home-page .carousel-item img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
+     100% {
+         transform: translateX(0);
+         opacity: 1;
+     }
+ }
 
-@media (max-width: 768px) {
-    .home-page .carousel-item img {
-        height: 250px;
-        object-fit: cover;
-    }
-}
+ .slide-in-left {
+     animation: slideInLeft 1s ease-out;
+ }
 
-@media (max-width: 475px) {
-    header {
-        text-align: center;
-        padding: 20px;
-    }
-
-    .home-page  h1 {
-        font-size: 2rem;
-        line-height: 30px;
-    }
-
-    header h2 {
-        font-size: 1.4rem;
-        position: relative;
-    }
-
-    .home-page .shrimp-img {
-        position: relative;
-        width: 88px;
-        height: 25px;
-        margin-right: 23%;
-        top: 7px;
-    }
-
-    .world-text {
-        font-size: 1.9rem;
-    }
-
-    .shrimp-text {
-        font-size: 2.2rem;
-    }
+ .slide-in-left:nth-child(2) {
+     animation-delay: 0.3s;
+ }
 
 
-    .home-page .container {
-        padding: 0 10px;
-    }
+ .menu-section {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../fotos/img/menu-img.jpg);
+     background-size: cover;
+     background-position: center;
+ }
 
-    /* Sobre nós */
-    .home-page .col-lg.d-flex.flex-column {
-        text-align: center;
-    }
+ .img {
+     border-style: solid;
+     border-width: 5px;
+ }
 
-    .home-page .col-lg h2 {
-        margin-top: 30px;
-    }
+ .home-page .carousel-item img {
+     width: 100%;
+     height: 300px;
+     object-fit: cover;
+ }
 
-    .home-page .col-lg img {
-        width: 100%;
-        max-width: 250px;
-    }
+ @media (max-width: 768px) {
+     .home-page .carousel-item img {
+         height: 250px;
+         object-fit: cover;
+     }
+ }
 
-    .home-page .col-lg.d-flex img {
-        margin: 0 auto;
-    }
+ @media (max-width: 475px) {
+     header {
+         text-align: center;
+         padding: 20px;
+     }
 
-    .home-page .col-lg.d-flex button {
-        margin-bottom: 20px;
-    }
+     header h1 {
+         font-size: 2rem;
+         line-height: 30px;
+         position: relative;
+         right: 90px;
+     }
 
-    .home-page .menu-section {
-        padding: 20px 0;
-    }
+     header h2 {
+         font-size: 1.4rem;
+         position: relative;
+         right: 45px;
+     }
 
-    .home-page .menu-section ul {
-        padding: 0;
-        list-style-type: none;
-    }
+     header .shrimp-img {
+         position: relative;
+         width: 88px;
+         height: 25px;
+         margin-right: 85%;
+         top: 7px;
+        
+     }
 
-    .home-page .menu-section h3 {
-        font-size: 1.5rem;
-    }
+     .world-text {
+         font-size: 1.9rem;
+     }
 
-    .home-page .menu-section ul li {
-        font-size: 1.2rem;
-    }
-
-    .home-page .carousel-item img {
-        height: 100px;
-        object-fit: cover;
-    }
-
-    /* Contato */
-    .home-page .bg-dark .row {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .home-page .bg-dark img {
-        width: 100%;
-        max-width: 50px;
-        margin-bottom: 20px;
-    }
-
-    .home-page .ratio {
-        height: 390px;
-    }
-
-    .home-page .btn {
-        width: 100%;
-
-    }
-
-    .home-page .whatsapp-container {
-        bottom: 250px;
-        right: 20px;
-    }
-
-    .home-page .welcome-message {
-        font-size: 10px;
-    }
-
-    .home-page .whatsapp-icon {
-        font-size: 18px;
-    }
+     .shrimp-text {
+         font-size: 2.2rem;
+     }
 
 
-}
+     .home-page .container {
+         padding: 0 10px;
+     }
+
+     /* Sobre nós */
+     .home-page .col-lg.d-flex.flex-column {
+         text-align: center;
+     }
+
+     .home-page .col-lg h2 {
+         margin-top: 30px;
+     }
+
+     .home-page .col-lg img {
+         width: 100%;
+         max-width: 250px;
+     }
+
+     .home-page .col-lg.d-flex img {
+         margin: 0 auto;
+     }
+
+     .home-page .col-lg.d-flex button {
+         margin-bottom: 20px;
+     }
+
+     .home-page .menu-section {
+         padding: 20px 0;
+     }
+
+     .home-page .menu-section ul {
+         padding: 0;
+         list-style-type: none;
+     }
+
+     .home-page .menu-section h3 {
+         font-size: 1.5rem;
+     }
+
+     .home-page .menu-section ul li {
+         font-size: 1.2rem;
+     }
+
+     .home-page .carousel-item img {
+         height: 100px;
+         object-fit: cover;
+     }
+
+     /* Contato */
+     .home-page .bg-dark .row {
+         flex-direction: column;
+         text-align: center;
+     }
+
+     .home-page .bg-dark img {
+         width: 100%;
+         max-width: 50px;
+         margin-bottom: 20px;
+     }
+
+     .home-page .ratio {
+         height: 390px;
+     }
+
+     .home-page .btn {
+         width: 100%;
+
+     }
+
+     .home-page .whatsapp-container {
+         bottom: 20px;
+         right: 20px;
+     }
+
+     .home-page .welcome-message {
+         font-size: 10px;
+     }
+
+     .home-page .whatsapp-icon {
+         font-size: 18px;
+     }
+
+
+ }
