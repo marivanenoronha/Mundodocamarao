@@ -35,11 +35,11 @@
 
 @media(max-width: 475px) {
 
-    .contact-page h1 {
+    .contact-page header  h1 {
         position: relative;
         font-size: 1.8rem;
         text-align: center;
-        bottom: 120px;
+        top: 50px;
     }
       
     .contact-page .col-lg-6 {

@@ -75,11 +75,11 @@
         height: auto;
     }
 
-    .about-page h1 {
+    .about-page header h1 {
         position: relative;
         font-size: 1.8rem;
         text-align: center;
-        bottom: 120px;
+        top: 50px;
     }
 
     .about-page .ratio {
