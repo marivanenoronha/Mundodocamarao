@@ -182,12 +182,12 @@ header .container-button {
 
     header .container-button{
         position: relative;
-        top: 400px;
+        top: 415px;
     }
 
     header .reservation-button {
         position: relative;
-        font-size: 1.2rem !important; 
+        font-size: 1.3rem !important; 
         padding: 0.15em 0.7rem !important;
         width: 100%;
         max-width: 100%; 
