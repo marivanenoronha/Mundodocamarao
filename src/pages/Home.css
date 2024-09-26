@@ -45,16 +45,11 @@ h1 {
 }
 
 
-header .container-button {
+header .btn {
     position: relative;
     top: 70px;
+    
 }
-
-.reservation-button {
-    font-size: 1.8rem;
-    padding: 0.2rem 1.0rem;
-    width: auto;
-  }
 
 
 .whatsapp-container {
@@ -181,18 +176,18 @@ header .container-button {
         font-size: 1.9rem;
     }
 
-    header .container-button{
+    .home-page .btn {
         position: relative;
+        font-size: 1.6rem !important;
+        padding: 0.10rem 0.5rem !important;
         top: 420px;
+       
     }
 
-    header .reservation-button {
-        position: relative;
-        font-size: 1.3rem !important; 
-        padding: 0.15em 0.7rem !important;
-        width: 100%;
-        max-width: 100%; 
-      }
+    .home-page.fab {
+        margin-left: 0 !important;
+        margin-top: 0.5rem !important;
+    }
 
     .home-page .container {
         padding: 0 10px;
