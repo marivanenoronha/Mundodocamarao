@@ -130,7 +130,7 @@
  @media (max-width: 475px) {
      .home-page header {
          text-align: center;
-         padding: 21px;
+         padding: 20px;
      }
 
      .home-page header h1 {
@@ -166,7 +166,7 @@
      }
 
      header .container {
-         margin-bottom: 7rem;
+         margin-bottom: 8rem;
      }
 
      .home-page .container {
