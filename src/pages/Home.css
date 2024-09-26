@@ -151,7 +151,7 @@ header .container-button {
     }
 
     header .container {
-        margin-bottom: 30rem;
+        margin-bottom: 25rem;
     }
 
     header h1 {
@@ -182,7 +182,7 @@ header .container-button {
 
     header .container-button{
         position: relative;
-        top: 470px;
+        top: 420px;
     }
 
     header .reservation-button {
