@@ -32,7 +32,7 @@ function Home() {
     return (
         <div className="home-page">
             <header className="d-flex align-items-center text-light shadow">
-                <div className="background-blur"></div> {/* Background with blur */}
+                <div className="background-blur"></div> 
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center">
