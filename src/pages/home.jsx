@@ -31,7 +31,7 @@ function Home() {
 
     return (
         <div className="home-page">
-            <header className="d-flex align-items-center text-light">
+            <header className="d-flex align-items-center text-light shadow">
                 <div className="background-blur"></div> {/* Background with blur */}
                 <div className="container">
                     <div className="row">
@@ -81,15 +81,9 @@ function Home() {
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
                                     <li className="d-flex justify-content-between">
-                                        <p className="fs-3 mx-2">Camarão a milanesa</p>
+                                        <p className="fs-3 mx-2">Salmão grelhado</p>
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
-
-                                    <li className="d-flex justify-content-between">
-                                        <p className="fs-3 mx-2">Moda da casa</p>
-                                        <p className="fs-3 mx-2 text-success fw-bold"></p>
-                                    </li>
-
                                     <li className="d-flex justify-content-between">
                                         <p className="fs-3 mx-2">Belle meuniere</p>
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
@@ -110,10 +104,6 @@ function Home() {
                                     </li>
                                     <li className="d-flex justify-content-between">
                                         <p className="fs-3 mx-2">Sensação tropical</p>
-                                        <p className="fs-3 mx-2 text-success fw-bold"></p>
-                                    </li>
-                                    <li className="d-flex justify-content-between">
-                                        <p className="fs-3 mx-2">Pinã colada</p>
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
                                 </ul>
