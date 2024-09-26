@@ -1,11 +1,18 @@
 .home-page header {
     background-image: url(../fotos/img/gallery3.jpg);
 }
-header {
-    background-size: cover;
-    background-position: center;
 
+
+.home-page header {
+    header {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
 }
+
+
 
 header .container {
     margin-top: 8rem;
@@ -40,10 +47,6 @@ h1 {
     left: 10%;
     top: 15px;
 }
-
-
-
-
 
 .whatsapp-container {
     position: fixed;
@@ -133,19 +136,17 @@ h1 {
 }
 
 @media (max-width: 475px) {
+    
 
     header {
         text-align: center;
         padding: 20px;
     }
-
-    header .container {
-        margin-bottom: 15rem;
-    }
-
+   
     header h1 {
         font-size: 2rem;
         line-height: 30px;
+       
     }
 
     header h2 {

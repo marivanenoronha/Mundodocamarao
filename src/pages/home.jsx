@@ -31,17 +31,17 @@ function Home() {
 
     return (
         <div className="home-page">
-            <header className="h-100 min-vh-100 d-flex align-items-center text-light ">
-                <div className="container ">
+            <header className="d-flex align-items-center text-light">
+                <div className="background-blur"></div> {/* Background with blur */}
+                <div className="container">
                     <div className="row">
-                        <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center  ">
-                            <h2 className="mb-0 text-light fw-bold slide-in-left " >Restaurante e Petiscaria</h2>
+                        <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center">
+                            <h2 className="text-light fw-bold slide-in-left">Restaurante e Petiscaria</h2>
                             <img
                                 src={GalleryImg}
                                 alt="Shrimp"
                                 className="shrimp-img slide-in-left"
                             />
-
                             <h1 className="mb-5 fw-bold text-left text-sm-start slide-in-left">
                                 <span className="world-text" style={{ color: "#003366" }}>Mundo do</span><br />
                                 <span className="Shrimp-text" style={{ color: "#FF4500" }}>Camarão</span>
