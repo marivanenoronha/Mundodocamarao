@@ -5,7 +5,7 @@ export function MenuBtn() {
     return (
         <div>
             <Link to="/menu">
-                <button type="button" className="btn bg-dark text-white btn-lg ">Nosso cardápio completo</button>
+                <button type="button" className="btn bg-dark text-white btn-lg ">Cardápio completo</button>
             </Link>
         </div>
     )
