@@ -48,7 +48,7 @@ h1 {
 header .btn {
     position: relative;
     top: 70px;
-    
+
 }
 
 
@@ -178,7 +178,7 @@ header .btn {
 
     .home-page .btn {
         position: relative;
-        font-size: 1.6rem !important;
+        font-size: 1.7rem !important;
         padding: 0.10rem 0.5rem !important;
         top: 420px;
        
@@ -186,7 +186,7 @@ header .btn {
 
     .home-page.fab {
         margin-left: 0 !important;
-        margin-top: 0.5rem !important;
+        margin-top: 0.6rem !important;
     }
 
     .home-page .container {
