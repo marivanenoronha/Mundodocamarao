@@ -1,9 +1,6 @@
 .home-page header {
     background-image: url(../fotos/img/gallery3.jpg);
 }
-
-
-
 header {
     background-size: cover;
     background-position: center;
@@ -45,11 +42,7 @@ h1 {
 }
 
 
-header .btn {
-    position: relative;
-    top: 70px;
 
-}
 
 
 .whatsapp-container {
@@ -151,7 +144,7 @@ header .btn {
     }
 
     header h1 {
-        font-size: 1.9rem;
+        font-size: 2rem;
         line-height: 30px;
     }
 
@@ -176,18 +169,6 @@ header .btn {
         font-size: 2.2rem;
     }
 
-    .home-page .btn {
-        position: relative;
-        font-size: 1.7rem !important;
-        padding: 0.10rem 0.5rem !important;
-        top: 350px;
-       
-    }
-
-    .home-page.fab {
-        margin-left: 0 !important;
-        margin-top: 0.6rem !important;
-    }
 
     .home-page .container {
         padding: 0 10px;

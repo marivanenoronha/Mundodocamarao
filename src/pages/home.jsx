@@ -48,22 +48,6 @@ function Home() {
                             </h1>
                         </div>
                     </div>
-                    <h2 className="text-left fs-1 mb-4 mb-lg-5 text-uppercase">
-                        <a
-                            href="https://wa.me/5548991606536"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <button
-                                type="button"
-                                className="btn btn-outline-dark btn-lg "
-                                style={{ fontSize: '1.8rem', padding: '0.2rem 1.0rem' }}
-                            >
-                                Faça sua reserva
-                                <i className="fab fa-whatsapp text-wuite fa-1x" style={{ padding: "0.5rem" }}></i>
-                            </button>
-                        </a>
-                    </h2>
                 </div>
             </header>
             <div className="container my-3">
