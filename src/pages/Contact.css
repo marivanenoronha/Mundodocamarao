@@ -36,9 +36,12 @@
 @media(max-width: 475px) {
 
     .contact-page h1 {
+        position: relative;
         font-size: 1.8rem;
         text-align: center;
+        bottom: 120px;
     }
+      
     .contact-page .col-lg-6 {
         width: 100%;
         padding: 0 15px;

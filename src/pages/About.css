@@ -76,7 +76,10 @@
     }
 
     .about-page h1 {
+        position: relative;
         font-size: 1.8rem;
+        text-align: center;
+        bottom: 120px;
     }
 
     .about-page .ratio {
