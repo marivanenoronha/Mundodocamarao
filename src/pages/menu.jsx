@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import "./menu.css";
 import { ContactInfo } from "../components/ContactInfo";
 import contactImage from "../fotos/img/gallery5.jpg";
@@ -778,10 +778,10 @@ const alacarte = [
 
 const drinks = [
     /*Refriger*/
-    { id: 1, name: "Coca cola 600ml", category: "Refrigerantes", price: "R$ 9,90"},
-    { id: 2, name: "Coca cola zero 600ml",  category: "Refrigerantes", price: "R$ 9,90"},
-    {  id: 3,name: "Coca cola lata", category: "Refrigerantes", price: "R$ 6,90"},
-    { id: 4, name: "Coca cola zero lata", category: "Refrigerantes", price: "R$ 6,90"},
+    { id: 1, name: "Coca cola 600ml", category: "Refrigerantes", price: "R$ 9,90" },
+    { id: 2, name: "Coca cola zero 600ml", category: "Refrigerantes", price: "R$ 9,90" },
+    { id: 3, name: "Coca cola lata", category: "Refrigerantes", price: "R$ 6,90" },
+    { id: 4, name: "Coca cola zero lata", category: "Refrigerantes", price: "R$ 6,90" },
     { id: 5, name: "Guaraná 600ml", category: "Refrigerantes", price: "R$ 9,90" },
     { id: 6, name: "Guaraná zero 600ml", category: "Refrigerantes", price: "R$ 9,90" },
     { id: 7, name: "Guaraná zero 600ml", category: "Refrigerantes", price: "R$ 9,90" },
@@ -863,6 +863,41 @@ const Menu = () => {
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [categoryDrinks, setcategoryDrinks] = useState(null);
 
+    const categoryRefs = useRef({});
+    const itemsRef = useRef(null);
+
+
+    const scrollToItems = () => {
+        if (itemsRef.current) {
+            itemsRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
+
+
+    const scrollToCategory = () => {
+        if (categoryRefs.current[selectedCategory]) {
+            categoryRefs.current[selectedCategory].scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    };
+
+
+    const handleCategoryClick = (category) => {
+        setSelectedCategory(category);
+        setTimeout(scrollToItems, 300); // Garante que o layout se atualize antes da rolagem
+    };
+
+    useEffect(() => {
+        if (selectedCategory) {
+            scrollToItems();
+        }
+    }, [selectedCategory]);
+
+
+    const handleCloseClick = () => {
+        scrollToCategory();
+        setSelectedCategory(null);
+    };
+
 
     const categoryImages = {
         "Frutos do mar": gallery1,
@@ -918,28 +953,39 @@ const Menu = () => {
                     </h2>
 
                     <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Cardápio</h2>
+
+                    {/* Grid de Categorias */}
                     <div className="text-center mb-5 d-flex justify-content-center flex-wrap category-grid">
                         {categories.map((category, index) => (
-                            <div key={index} className="mx-3 category-item">
+                            <div
+                                key={index}
+                                className="mx-3 category-item"
+                                ref={(el) => {
+                                    if (el) {
+                                        categoryRefs.current[category] = el;
+                                    }
+                                }}
+                            >
                                 <img
                                     src={categoryImages[category]}
                                     alt={category}
-                                    className="img-fluid mb-3 rounded "
+                                    className="img-fluid mb-3 rounded"
                                     style={{ width: "100%", height: "120px", objectFit: "cover" }}
                                 />
 
-
                                 <button
                                     className={`category-button btn btn-outline-dark w-100 ${selectedCategory === category ? "active" : ""}`}
-                                    onClick={() => setSelectedCategory(selectedCategory === category ? null : category)}
+                                    onClick={() => handleCategoryClick(category)}
                                 >
                                     {category}
                                 </button>
                             </div>
                         ))}
                     </div>
+
+                    {/* Exibe os itens da categoria selecionada */}
                     {selectedCategory && (
-                        <div>
+                        <div ref={itemsRef}>
                             <h3 className="text-center fs-2 mb-4 text-dark">{selectedCategory}</h3>
                             <div className="row">
                                 {alacarte
@@ -954,20 +1000,19 @@ const Menu = () => {
                                                         alt={item.name}
                                                     />
                                                 </div>
-                                                <Card.Body>
-                                                    <Card.Title className="text-center fs-4 text-dark">{item.name}</Card.Title>
-                                                    <Card.Text className="text-center fs-6 text-dark">{item.description}</Card.Text>
-                                                    <Card.Text className="text-center fs-6 text-dark">{item.price}</Card.Text>
-                                                </Card.Body>
+                                                <CardBody>
+                                                    <CardTitle className="text-center fs-4 text-dark">{item.name}</CardTitle>
+                                                    <CardText className="text-center fs-6 text-dark">{item.description}</CardText>
+                                                    <CardText className="text-center fs-6 text-dark">{item.price}</CardText>
+                                                </CardBody>
                                             </Card>
                                         </div>
                                     ))}
                             </div>
+
+                            {/* Botão Fechar */}
                             <div className="text-center mt-4">
-                                <button
-                                    className="btn btn-dark"
-                                    onClick={() => setSelectedCategory(null)}
-                                >
+                                <button className="btn btn-dark" onClick={handleCloseClick}>
                                     Fechar
                                 </button>
                             </div>
