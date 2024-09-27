@@ -2,7 +2,7 @@ import React from "react";
 import Gallery1 from "../fotos/img/gallery.jpg";
 import Gallery2 from "../fotos/img/gallery11.jpg";
 import Gallery3 from "../fotos/img/gallery4.jpg";
-import Gallery4 from "../fotos/img/drinks8.jpg";
+import Gallery4 from "../fotos/img/drinks10.jpg";
 import Gallery5 from "../fotos/img/gallery14.jpg";
 import Gallery6 from "../fotos/img/gallery13.jpg";
 

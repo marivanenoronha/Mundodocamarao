@@ -7,7 +7,7 @@
 
 
  .home-page header .container {
-     margin-top: 14rem;
+     margin-top: 15rem;
  }
 
  header h1 {
@@ -116,7 +116,7 @@
 
  .home-page .carousel-item img {
      width: 100%;
-     height: 300px;
+     height: 350px;
      object-fit: cover;
  }
 
@@ -166,7 +166,7 @@
      }
 
      header .container {
-         margin-bottom: 9rem;
+         margin-bottom: 10rem;
      }
 
      .home-page .container {
