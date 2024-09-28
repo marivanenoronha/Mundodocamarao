@@ -865,25 +865,43 @@ const Menu = () => {
 
     const categoryRefs = useRef({});
     const itemsRef = useRef(null);
+    const drinksItemsRef = useRef(null); // Ref para os itens de Drinks
 
 
-    const scrollToItems = () => {
-        if (itemsRef.current) {
-            itemsRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    const scrollToItems = (ref) => {
+        if (ref && ref.current) {
+            ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
         }
     };
 
 
-    const scrollToCategory = () => {
-        if (categoryRefs.current[selectedCategory]) {
-            categoryRefs.current[selectedCategory].scrollIntoView({ behavior: "smooth", block: "start" });
+    const scrollToCategory = (category) => {
+        if (categoryRefs.current[category]) {
+            categoryRefs.current[category].scrollIntoView({ behavior: "smooth", block: "start" });
         }
     };
 
-
+    // Função para lidar com o clique na categoria de Alacarte
     const handleCategoryClick = (category) => {
         setSelectedCategory(category);
-        setTimeout(scrollToItems, 300); // Garante que o layout se atualize antes da rolagem
+        setTimeout(() => scrollToItems(itemsRef), 300); // Garante que o layout se atualize antes da rolagem
+    };
+
+    // Função para lidar com o clique na categoria de Drinks
+    const handleDrinksClick = (category) => {
+        setcategoryDrinks(category);
+        setTimeout(() => scrollToItems(drinksItemsRef), 300); // Garante que o layout se atualize antes da rolagem
+    };
+
+    // Função para lidar com o clique em "Fechar" para Alacarte
+    const handleCloseClick = () => {
+        scrollToCategory(selectedCategory);
+        setSelectedCategory(null);
+    };
+
+    const handleDrinksCloseClick = () => {
+        scrollToCategory(categoryDrinks);
+        setcategoryDrinks(null);
     };
 
     useEffect(() => {
@@ -892,11 +910,6 @@ const Menu = () => {
         }
     }, [selectedCategory]);
 
-
-    const handleCloseClick = () => {
-        scrollToCategory();
-        setSelectedCategory(null);
-    };
 
 
     const categoryImages = {
@@ -1028,26 +1041,32 @@ const Menu = () => {
                         <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Drinks</h2>
                         <div className="text-center mb-5 d-flex justify-content-center flex-wrap category-grid">
                             {categoriesDrinks.map((category, index) => (
-                                <div key={index} className="mx-3 category-item">
+                                <div
+                                    key={index}
+                                    className="mx-3 category-item"
+                                    ref={(el) => {
+                                        if (el) categoryRefs.current[category] = el;
+                                    }}
+                                >
                                     <img
                                         src={categoryImgDrinks[category]}
                                         alt={category}
-                                        className="img-fluid mb-3 rounded "
+                                        className="img-fluid mb-3 rounded"
                                         style={{ width: "100%", height: "120px", objectFit: "cover" }}
                                     />
-
-
                                     <button
                                         className={`category-button btn btn-outline-dark w-100 ${categoryDrinks === category ? "active" : ""}`}
-                                        onClick={() => setcategoryDrinks(categoryDrinks === category ? null : category)}
+                                        onClick={() => handleDrinksClick(category)}
                                     >
                                         {category}
                                     </button>
                                 </div>
                             ))}
                         </div>
+
+                        {/* Itens da categoria Drinks */}
                         {categoryDrinks && (
-                            <div>
+                            <div ref={drinksItemsRef}>
                                 <h3 className="text-center fs-2 mb-4 text-dark">{categoryDrinks}</h3>
                                 <ul className="list-group">
                                     {drinks
@@ -1067,16 +1086,12 @@ const Menu = () => {
                                         ))}
                                 </ul>
                                 <div className="text-center mt-4">
-                                    <button
-                                        className="btn btn-dark"
-                                        onClick={() => setcategoryDrinks(null)}
-                                    >
+                                    <button className="btn btn-dark" onClick={handleDrinksCloseClick}>
                                         Voltar
                                     </button>
                                 </div>
                             </div>
                         )}
-
                     </div>
                 </div>
             </div>
