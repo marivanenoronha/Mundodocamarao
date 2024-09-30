@@ -165,16 +165,10 @@
       }
 
     .menu-page .btn {
-        font-size: 1.2rem !important;
-        padding: 0.8rem 1.rem !important;
-        width: 90%;
-       
-    }
-
-    .menu-page .btn-button{
         font-size: 1.3rem !important;
         padding: 0.8rem 1.rem !important;
         width: 90%;
+       
     }
 
     .btn .fab {
