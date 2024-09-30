@@ -955,7 +955,7 @@ const Menu = () => {
                         >
                             <button
                                 type="button"
-                                className="btn-btn btn-outline-dark btn-lg "
+                                className="btn custom-btn btn-outline-dark btn-lg "
                                 style={{ fontSize: '1.8rem', padding: '0.2rem 1.0rem' }}
                             >
                                 Faça sua reserva

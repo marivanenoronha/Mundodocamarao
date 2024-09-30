@@ -34,7 +34,7 @@
 }
 
   .ms-auto .text-uppercase{
-    font-size: 1rem;
+    font-size: 0.89rem;
   } 
 
   @media (max-width: 475px) {

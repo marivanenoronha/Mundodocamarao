@@ -16,7 +16,7 @@ function App() {
       <Navbar expand="lg" className='fixed-top bg-body-tertiary'>
         <Container>
           <Navbar.Brand className="navbar-brand fw-semibold">
-            <a href="/"><img src={Logo} width="120" height="60" className="d-inline-block align-top" alt="Logo do Restaurante" /></a>
+            <a href="/"><img src={Logo} width="130" height="60" className="d-inline-block align-top" alt="Logo do Restaurante" /></a>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
