@@ -21,10 +21,10 @@ function App() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className="ms-auto d-lg-flex align-items-center justify-content-end w-100">
-              <Nav.Link href="/" className="text-uppercase px-3" style={{ fontSize: '0.85rem' }}>Home</Nav.Link>
-              <Nav.Link href="/about" className="text-uppercase px-3" style={{ fontSize: '0.85rem' }}>Sobre nós</Nav.Link>
-              <Nav.Link href="/menu" className="text-uppercase px-3" style={{ fontSize: '0.85rem' }}>Cardápio</Nav.Link>
-              <Nav.Link href="/contact" className="text-uppercase px-3" style={{ fontSize: '0.85rem' }}>Contato</Nav.Link>
+              <Nav.Link href="/" className="text-uppercase px-3" >Home</Nav.Link>
+              <Nav.Link href="/about" className="text-uppercase px-3">Sobre nós</Nav.Link>
+              <Nav.Link href="/menu" className="text-uppercase px-3" >Cardápio</Nav.Link>
+              <Nav.Link href="/contact" className="text-uppercase px-3">Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

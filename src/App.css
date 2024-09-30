@@ -33,6 +33,22 @@
   color: white;
 }
 
+  .ms-auto .text-uppercase{
+    font-size: 1rem;
+  } 
+
+  @media (max-width: 475px) {
+    .navbar-collapse {
+      text-align: left;
+    }
+    .navbar .nav-link {
+      font-size: 0.80rem;
+      text-align: left;
+      padding-left: 0.5rem; 
+      padding-right: 0;
+      width: 100%; 
+    }
+  }
 
 @keyframes App-logo-spin {
   from {
