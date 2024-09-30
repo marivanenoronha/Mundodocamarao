@@ -32,16 +32,16 @@
     object-fit: cover;
     aspect-ratio: 16 / 9;
 }
-
-.text-center.mt-4 {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-  }
 .category-button {
     font-size: 1rem;
     padding: 10px; 
 }
+
+.text-center.mt-4 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
 
 
 .menu-page .whatsapp-icon {
@@ -160,7 +160,16 @@
         font-size: 18px;
     }
 
-   
+    .menu-page .text-center.mt-4 {
+        justify-content: center;
+      }
+
+    .menu-page .btn {
+        font-size: 1.3rem !important;
+        padding: 0.8rem 1.rem !important;
+        width: 90%;
+        flex-direction: column !important;
+    }
 
     .btn .fab {
         margin-left: 0 !important;
@@ -192,10 +201,6 @@
         height: auto;
         aspect-ratio: 16 / 9; 
     }
-
-    .text-center.mt-4 {
-        justify-content: center;
-      }
     .category-button {
         font-size: 1rem !important;
         padding: 10hng bjnpx !important;
