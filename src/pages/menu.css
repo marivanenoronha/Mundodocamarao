@@ -170,6 +170,9 @@
         width: 90%;
        
     }
+    .menu-page .btn-btn{
+        font-size: 1.5rem;
+    }
 
     .btn .fab {
         margin-left: 0 !important;
