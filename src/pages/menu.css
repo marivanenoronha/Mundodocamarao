@@ -4,6 +4,8 @@
     height: 50vh;
 }
 
+
+
 .menu-page .whatsapp-container {
     position: fixed;
     bottom: 20px;
@@ -130,6 +132,12 @@
         font-size: 0.7rem;
     }
 
+    .menu-page .btn-dark {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem; 
+        width: 100%; 
+      }
+
     .menu-page .img-fluid {
         height: 150px; 
       }
@@ -146,9 +154,10 @@
         font-size: 18px;
     }
 
-    .btn {
-        font-size: 1.5rem !important;
-        padding: 1.rem 2.rem !important;
+    .menu-page .btn {
+        font-size: 1.3rem !important;
+        padding: 0.8rem 1.rem !important;
+        width: 90%;
         flex-direction: column !important;
     }
 
@@ -165,6 +174,11 @@
     .menu-page .text-center{
         font-size: 1rem !important;
     }
+
+    .menu-page .menu{
+        font-size: 1.5rem !important;
+    }
+
 
     .category-item {
         width: 90%; 

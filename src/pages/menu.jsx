@@ -784,77 +784,76 @@ const drinks = [
     { id: 4, name: "Coca cola zero lata", category: "Refrigerantes", price: "R$ 6,90" },
     { id: 5, name: "Guaraná 600ml", category: "Refrigerantes", price: "R$ 9,90" },
     { id: 6, name: "Guaraná zero 600ml", category: "Refrigerantes", price: "R$ 9,90" },
-    { id: 7, name: "Guaraná zero 600ml", category: "Refrigerantes", price: "R$ 9,90" },
-    { id: 8, name: "Guaraná lata", category: "Refrigerantes", price: "R$ 6,90" },
-    { id: 9, name: "Guaraná zero lata", category: "Refrigerantes", price: "R$ 6,90" },
-    { id: 10, name: "H20", category: "Refrigerantes", price: "R$ 9,90" },
-    { id: 11, name: "Tônica lata ", category: "Refrigerantes", price: "R$ 6,90" },
-    { id: 12, name: "Soda lata", category: "Refrigerantes", price: "R$ 6,90" },
-    { id: 13, name: "Schwerppes citrus lata", category: "Refrigerantes", price: "R$ 6,90" },
+    { id: 7, name: "Guaraná lata", category: "Refrigerantes", price: "R$ 6,90" },
+    { id: 8, name: "Guaraná zero lata", category: "Refrigerantes", price: "R$ 6,90" },
+    { id: 9, name: "H20", category: "Refrigerantes", price: "R$ 9,90" },
+    { id: 10, name: "Tônica lata ", category: "Refrigerantes", price: "R$ 6,90" },
+    { id: 11, name: "Soda lata", category: "Refrigerantes", price: "R$ 6,90" },
+    { id: 12, name: "Schwerppes citrus lata", category: "Refrigerantes", price: "R$ 6,90" },
     /*Sucos*/
-    { id: 14, name: "Jarra de suco", description: "Laranja, abacaxi, maracujá, kiwi, limão e morango", category: "Sucos", price: "R$ 24,90" },
-    { id: 15, name: "Jarra de suco", description: "Abacaxi com hortelã ou limonada suíça", category: "Sucos", price: "R$ 26,90" },
-    { id: 16, name: "Copo de suco", description: "Limonada suíça, maracujá, morango e kiwi", category: "Sucos", price: "R$ 11,90" },
-    { id: 17, name: "Copo de suco", description: "Laranja , abacaxi e limão", category: "Sucos", price: "R$ 9,90" },
+    { id: 13, name: "Jarra de suco", description: "Laranja, abacaxi, maracujá, kiwi, limão e morango", category: "Sucos", price: "R$ 24,90" },
+    { id: 14, name: "Jarra de suco", description: "Abacaxi com hortelã ou limonada suíça", category: "Sucos", price: "R$ 26,90" },
+    { id: 15, name: "Copo de suco", description: "Limonada suíça, maracujá, morango e kiwi", category: "Sucos", price: "R$ 11,90" },
+    { id: 16, name: "Copo de suco", description: "Laranja , abacaxi e limão", category: "Sucos", price: "R$ 9,90" },
     /*Cervejas*/
-    { id: 18, name: "Original", category: "Cervejas", price: "R$ 18,00" },
-    { id: 19, name: "Heineken", category: "Cervejas", price: "R$ 19,00" },
-    { id: 20, name: "Heineken long neck", category: "Cervejas", price: "R$ 11,90" },
-    { id: 21, name: "S/álcool long neck", category: "Cervejas", price: "R$ 11,90" },
-    { id: 22, name: "Malzebier 350ml", category: "Cervejas", price: "R$ 9,90" },
-    { id: 23, name: "Pilsen 600ml", category: "Cervejas", price: "R$ 19,90" },
-    { id: 24, name: "Belgian 600ml", category: "Cervejas", price: "R$ 19,90" },
-    { id: 25, name: "In natura 600ml", category: "Cervejas", price: "R$ 19,90" },
-    { id: 26, name: "Ipa", category: "Cervejas", price: "R$ 19,90" },
-    { id: 27, name: "Weiss 600ml", category: "Cervejas", price: "R$ 19,90" },
-    { id: 28, name: "Chopp pilsen 750ml", category: "Cervejas", price: "R$ 32,00" },
-    { id: 29, name: "Chopp belgian 750ml", category: "Cervejas", price: "R$ 32,00" },
+    { id: 17, name: "Original", category: "Cervejas", price: "R$ 18,00" },
+    { id: 18, name: "Heineken", category: "Cervejas", price: "R$ 19,00" },
+    { id: 19, name: "Heineken long neck", category: "Cervejas", price: "R$ 11,90" },
+    { id: 20, name: "S/álcool long neck", category: "Cervejas", price: "R$ 11,90" },
+    { id: 21, name: "Malzebier 350ml", category: "Cervejas", price: "R$ 9,90" },
+    { id: 22, name: "Pilsen 600ml", category: "Cervejas", price: "R$ 19,90" },
+    { id: 23, name: "Belgian 600ml", category: "Cervejas", price: "R$ 19,90" },
+    { id: 24, name: "In natura 600ml", category: "Cervejas", price: "R$ 19,90" },
+    { id: 25, name: "Ipa", category: "Cervejas", price: "R$ 19,90" },
+    { id: 26, name: "Weiss 600ml", category: "Cervejas", price: "R$ 19,90" },
+    { id: 27, name: "Chopp pilsen 750ml", category: "Cervejas", price: "R$ 32,00" },
+    { id: 28, name: "Chopp belgian 750ml", category: "Cervejas", price: "R$ 32,00" },
     /*Caipiras*/
-    { id: 30, name: "Absolut", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 26,90" },
-    { id: 31, name: "Smirnoff", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 21,90" },
-    { id: 32, name: "Caipicorona", category: "Caipiras", price: "R$ 30,00" },
-    { id: 33, name: "Bacardi", description: "Morongo, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 20,90" },
-    { id: 34, name: "Steinhager", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 20,90" },
-    { id: 35, name: "Ypióca", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 16,90" },
-    { id: 36, name: "Cachaça", description: "Morango, abacaxi, limão, maracujá e uva", category: "Caipiras", price: "R$ 14,90" },
-    { id: 37, name: "Vinho", category: "Caipiras", price: "R$ 16,90" },
+    { id: 29, name: "Absolut", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 26,90" },
+    { id: 30, name: "Smirnoff", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 21,90" },
+    { id: 31, name: "Caipicorona", category: "Caipiras", price: "R$ 30,00" },
+    { id: 32, name: "Bacardi", description: "Morongo, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 20,90" },
+    { id: 33, name: "Steinhager", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 20,90" },
+    { id: 34, name: "Ypióca", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 16,90" },
+    { id: 35, name: "Cachaça", description: "Morango, abacaxi, limão, maracujá e uva", category: "Caipiras", price: "R$ 14,90" },
+    { id: 36, name: "Vinho", category: "Caipiras", price: "R$ 16,90" },
     /*Drinks*/
-    { id: 38, name: "Alexander", description: "Licor de cacau, conhaque, creme de leite e canela", category: "Drinks", price: "R$ 19,90" },
-    { id: 39, name: "Aperol spritz", description: "aperol, espumante prosseco e água com gás", category: "Drinks", price: "R$ 29,90" },
-    { id: 40, name: "Campari tropical", description: "Campari e red bull tropical", category: "Drinks", price: "R$ 29,90" },
-    { id: 41, name: "Clericot", description: "Vinho branco água tônica e frutas", category: "Drinks", price: "R$ 29,90" },
+    { id: 37, name: "Alexander", description: "Licor de cacau, conhaque, creme de leite e canela", category: "Drinks", price: "R$ 19,90" },
+    { id: 38, name: "Aperol spritz", description: "aperol, espumante prosseco e água com gás", category: "Drinks", price: "R$ 29,90" },
+    { id: 49, name: "Campari tropical", description: "Campari e red bull tropical", category: "Drinks", price: "R$ 29,90" },
+    { id: 40, name: "Clericot", description: "Vinho branco água tônica e frutas", category: "Drinks", price: "R$ 29,90" },
+    { id: 41, name: "Fusca azul", description: "Corote e fanta uva", category: "Drinks", price: "R$ 29,90" },
     { id: 42, name: "Fusca azul", description: "Corote e fanta uva", category: "Drinks", price: "R$ 29,90" },
-    { id: 43, name: "Fusca azul", description: "Corote e fanta uva", category: "Drinks", price: "R$ 29,90" },
-    { id: 44, name: "Gin citrus", description: "Gin, schweppes citrus e laranja", category: "Drinks", price: "R$ 28,90" },
-    { id: 45, name: "Gin de melancia e horteã", description: "Gin, melancia , hortelã e água", category: "Drinks", price: "R$ 29,90" },
-    { id: 46, name: "Gin mágico", description: "Gin, curaçau blue, monster ultra violet", category: "Drinks", price: "R$ 29,90" },
-    { id: 47, name: "Gin morango e kiwi", description: "Gin, fanta strawberry e kiwi", category: "Drinks", price: "R$ 29,90" },
-    { id: 48, name: "Gin tônica", description: "Gin, água tônica, limão siciliano e alecrim", category: "Drinks", price: "R$ 28,90" },
-    { id: 49, name: "Martini", description: "Gin, vermute seco", category: "Drinks", price: "R$ 29,90" },
-    { id: 50, name: "Mogito", description: "Rum, soda, limão e hprtelã", category: "Drinks", price: "R$ 22,90" },
-    { id: 51, name: "Negroni", description: "Gin, campari e vermute", category: "Drinks", price: "R$ 29,90" },
-    { id: 52, name: "Pinã colada", description: "Suco de abacaxi, leite de coco, rum, creme de leite e leite condensado", category: "Drinks", price: "R$ 29,90" },
-    { id: 53, name: "Sensação tropical", description: "Corote e energético de melancia", category: "Drinks", price: "R$ 29,90" },
-    { id: 54, name: "Coquetel de fruas sem/álcool", description: "Água co gás e duas opções de frutas: morango, maracujá, laranja, limão, kiwi e abacaxi", category: "Drinks", price: "R$ 19,90" },
-    { id: 55, name: "Lagoa azul sem/álcool", description: "Isotômico azul, água com gás e hortelã", category: "Drinks", price: "R$ 19,90" },
-    { id: 56, name: "Mogito sem/álcool", description: "Água com gás, limão e hortelã", category: "Drinks", price: "R$ 19,90" },
+    { id: 43, name: "Gin citrus", description: "Gin, schweppes citrus e laranja", category: "Drinks", price: "R$ 28,90" },
+    { id: 44, name: "Gin de melancia e horteã", description: "Gin, melancia , hortelã e água", category: "Drinks", price: "R$ 29,90" },
+    { id: 45, name: "Gin mágico", description: "Gin, curaçau blue, monster ultra violet", category: "Drinks", price: "R$ 29,90" },
+    { id: 46, name: "Gin morango e kiwi", description: "Gin, fanta strawberry e kiwi", category: "Drinks", price: "R$ 29,90" },
+    { id: 47, name: "Gin tônica", description: "Gin, água tônica, limão siciliano e alecrim", category: "Drinks", price: "R$ 28,90" },
+    { id: 48, name: "Martini", description: "Gin, vermute seco", category: "Drinks", price: "R$ 29,90" },
+    { id: 49, name: "Mogito", description: "Rum, soda, limão e hprtelã", category: "Drinks", price: "R$ 22,90" },
+    { id: 50, name: "Negroni", description: "Gin, campari e vermute", category: "Drinks", price: "R$ 29,90" },
+    { id: 51, name: "Pinã colada", description: "Suco de abacaxi, leite de coco, rum, creme de leite e leite condensado", category: "Drinks", price: "R$ 29,90" },
+    { id: 52, name: "Sensação tropical", description: "Corote e energético de melancia", category: "Drinks", price: "R$ 29,90" },
+    { id: 53, name: "Coquetel de fruas sem/álcool", description: "Água co gás e duas opções de frutas: morango, maracujá, laranja, limão, kiwi e abacaxi", category: "Drinks", price: "R$ 19,90" },
+    { id: 54, name: "Lagoa azul sem/álcool", description: "Isotômico azul, água com gás e hortelã", category: "Drinks", price: "R$ 19,90" },
+    { id: 55, name: "Mogito sem/álcool", description: "Água com gás, limão e hortelã", category: "Drinks", price: "R$ 19,90" },
     /*Vinhos*/
-    { id: 57, name: "Vinho branco seco", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 58, name: "Vinho branco suave", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 59, name: "Vinho tinto seco", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 60, name: "Vinho tinto suave", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 56, name: "Vinho branco seco", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 57, name: "Vinho branco suave", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 58, name: "Vinho tinto seco", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 69, name: "Vinho tinto suave", category: "Taça de vinho", price: "R$ 16,90" },
     /*Doses*/
-    { id: 61, name: "Bacardi", category: "Doses", price: "R$ 9,00" },
-    { id: 62, name: "Smirnoff", category: "Doses", price: "R$ 10,00" },
-    { id: 63, name: "Ypióca", category: "Doses", price: "R$ 9,00" },
-    { id: 64, name: "Campari", category: "Doses", price: "R$ 9,00" },
-    { id: 65, name: "Underberg", category: "Doses", price: "R$ 8,00" },
-    { id: 66, name: "Martini", category: "Doses", price: "R$ 14,00" },
-    { id: 67, name: "Red label", category: "Doses", price: "R$ 20,00" },
-    { id: 68, name: "Passaport", category: "Doses", price: "R$ 14,00" },
-    { id: 69, name: "Licor 43", category: "Doses", price: "R$ 23,00" },
-    { id: 70, name: "Amarula", category: "Doses", price: "R$ 15,00" },
-    { id: 71, name: "Redbull", category: "Doses", price: "R$ 16,00" }
+    { id: 60, name: "Bacardi", category: "Doses", price: "R$ 9,00" },
+    { id: 61, name: "Smirnoff", category: "Doses", price: "R$ 10,00" },
+    { id: 62, name: "Ypióca", category: "Doses", price: "R$ 9,00" },
+    { id: 63, name: "Campari", category: "Doses", price: "R$ 9,00" },
+    { id: 64, name: "Underberg", category: "Doses", price: "R$ 8,00" },
+    { id: 65, name: "Martini", category: "Doses", price: "R$ 14,00" },
+    { id: 66, name: "Red label", category: "Doses", price: "R$ 20,00" },
+    { id: 67, name: "Passaport", category: "Doses", price: "R$ 14,00" },
+    { id: 68, name: "Licor 43", category: "Doses", price: "R$ 23,00" },
+    { id: 79, name: "Amarula", category: "Doses", price: "R$ 15,00" },
+    { id: 70, name: "Redbull", category: "Doses", price: "R$ 16,00" }
 ];
 
 
@@ -865,7 +864,7 @@ const Menu = () => {
 
     const categoryRefs = useRef({});
     const itemsRef = useRef(null);
-    const drinksItemsRef = useRef(null); // Ref para os itens de Drinks
+    const drinksItemsRef = useRef(null); 
 
 
     const scrollToItems = (ref) => {
@@ -881,19 +880,19 @@ const Menu = () => {
         }
     };
 
-    // Função para lidar com o clique na categoria de Alacarte
+    
     const handleCategoryClick = (category) => {
         setSelectedCategory(category);
-        setTimeout(() => scrollToItems(itemsRef), 300); // Garante que o layout se atualize antes da rolagem
+        setTimeout(() => scrollToItems(itemsRef), 300); 
     };
 
-    // Função para lidar com o clique na categoria de Drinks
+   
     const handleDrinksClick = (category) => {
         setcategoryDrinks(category);
-        setTimeout(() => scrollToItems(drinksItemsRef), 300); // Garante que o layout se atualize antes da rolagem
+        setTimeout(() => scrollToItems(drinksItemsRef), 300); 
     };
 
-    // Função para lidar com o clique em "Fechar" para Alacarte
+  
     const handleCloseClick = () => {
         scrollToCategory(selectedCategory);
         setSelectedCategory(null);
@@ -965,9 +964,7 @@ const Menu = () => {
                         </a>
                     </h2>
 
-                    <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Cardápio</h2>
-
-                    {/* Grid de Categorias */}
+                    <h2 className=" menu text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Cardápio</h2>
                     <div className="text-center mb-5 d-flex justify-content-center flex-wrap category-grid">
                         {categories.map((category, index) => (
                             <div
@@ -995,8 +992,6 @@ const Menu = () => {
                             </div>
                         ))}
                     </div>
-
-                    {/* Exibe os itens da categoria selecionada */}
                     {selectedCategory && (
                         <div ref={itemsRef}>
                             <h3 className="text-center fs-2 mb-4 text-dark">{selectedCategory}</h3>
@@ -1022,8 +1017,6 @@ const Menu = () => {
                                         </div>
                                     ))}
                             </div>
-
-                            {/* Botão Fechar */}
                             <div className="text-center mt-4">
                                 <button className="btn btn-dark" onClick={handleCloseClick}>
                                     Fechar
@@ -1031,14 +1024,13 @@ const Menu = () => {
                             </div>
                         </div>
                     )}
-
                 </div>
             </div>
-
+           
             <div className="drink   my-5">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Drinks</h2>
+                        <h2 className=" menu text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Drinks</h2>
                         <div className="text-center mb-5 d-flex justify-content-center flex-wrap category-grid">
                             {categoriesDrinks.map((category, index) => (
                                 <div
@@ -1063,8 +1055,6 @@ const Menu = () => {
                                 </div>
                             ))}
                         </div>
-
-                        {/* Itens da categoria Drinks */}
                         {categoryDrinks && (
                             <div ref={drinksItemsRef}>
                                 <h3 className="text-center fs-2 mb-4 text-dark">{categoryDrinks}</h3>
@@ -1073,21 +1063,21 @@ const Menu = () => {
                                         .filter((item) => item.category.toLowerCase() === categoryDrinks.toLowerCase())
                                         .map((item) => (
                                             <li key={item.id} className="list-group-item">
-                                                <Card.Body className="w-100">
+                                                <CardBody className="w-100">
                                                     <div className="d-flex justify-content-between align-items-center flex-wrap">
                                                         <div className="d-flex flex-column">
-                                                            <Card.Title className="fs-6 text-dark">{item.name}</Card.Title>
-                                                            <Card.Text className="text-muted mt-1">{item.description}</Card.Text>
+                                                            <CardTitle className="fs-6 text-dark">{item.name}</CardTitle>
+                                                            <CardText className="text-muted mt-1">{item.description}</CardText>
                                                         </div>
-                                                        <Card.Text className="fs-6 text-dark">{item.price}</Card.Text>
+                                                        <CardText className="fs-6 text-dark">{item.price}</CardText>
                                                     </div>
-                                                </Card.Body>
+                                                </CardBody>
                                             </li>
                                         ))}
                                 </ul>
                                 <div className="text-center mt-4">
                                     <button className="btn btn-dark" onClick={handleDrinksCloseClick}>
-                                        Voltar
+                                        Fechar
                                     </button>
                                 </div>
                             </div>
@@ -1095,7 +1085,6 @@ const Menu = () => {
                     </div>
                 </div>
             </div>
-
             <div className="  container my-5">
                 <div className="row">
                     <div className=" col-lg-6 d-flex flex-column align-items-center justify-content-center mb-2 mb-lg-o">
