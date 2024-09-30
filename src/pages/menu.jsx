@@ -994,7 +994,7 @@ const Menu = () => {
                     </div>
                     {selectedCategory && (
                         <div ref={itemsRef}>
-                            <h3 className="text-center fs-2 mb-4 text-dark">{selectedCategory}</h3>
+                            <h3 className=" menu text-center fs-2 mb-4 fw-bold text-dark">{selectedCategory}</h3>
                             <div className="row">
                                 {alacarte
                                     .filter((item) => item.category.toLowerCase() === selectedCategory.toLowerCase())
@@ -1009,7 +1009,7 @@ const Menu = () => {
                                                     />
                                                 </div>
                                                 <CardBody>
-                                                    <CardTitle className="text-center fs-4 text-dark">{item.name}</CardTitle>
+                                                    <CardTitle className=" menu-name text-center fs-4 fw-bold text-dark">{item.name}</CardTitle>
                                                     <CardText className="text-center fs-6 text-dark">{item.description}</CardText>
                                                     <CardText className="text-center fs-6 text-dark">{item.price}</CardText>
                                                 </CardBody>
@@ -1057,7 +1057,7 @@ const Menu = () => {
                         </div>
                         {categoryDrinks && (
                             <div ref={drinksItemsRef}>
-                                <h3 className="text-center fs-2 mb-4 text-dark">{categoryDrinks}</h3>
+                                <h3 className=" menu text-center fs-2 mb-4 text-dark">{categoryDrinks}</h3>
                                 <ul className="list-group">
                                     {drinks
                                         .filter((item) => item.category.toLowerCase() === categoryDrinks.toLowerCase())

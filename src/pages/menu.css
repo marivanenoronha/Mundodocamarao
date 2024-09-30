@@ -179,7 +179,9 @@
         font-size: 1.5rem !important;
     }
 
-
+    .menu-page .menu-name{
+        font-size: 1.2rem !important;
+    }
     .category-item {
         width: 90%; 
     }
