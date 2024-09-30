@@ -13,23 +13,22 @@ import Logo from "./fotos/img/logo-restaurante.png";
 function App() {
   return (
     <div >
-      <Navbar expand="1g" className='fixed-top bg-body-tertiary '>
+      <Navbar expand="lg" className='fixed-top bg-body-tertiary'>
         <Container>
-          <Navbar.Brand className="navbar-brand  fw-semibold">
-            <a href="/"><img src={ Logo } width="120" height="60" className="d-inline-block align-top"  alt="Logo do Restaurante" /></a>
+          <Navbar.Brand className="navbar-brand fw-semibold">
+            <a href="/"><img src={Logo} width="120" height="60" className="d-inline-block align-top" alt="Logo do Restaurante" /></a>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='me-auto justify-content-end w-100'>
-              <Nav.Link href='/' className='active text-upercase'>Home</Nav.Link>
-              <Nav.Link href='/about' className='text-upercase'>Sobre nós</Nav.Link>
-              <Nav.Link href='/menu' className='text-upercase'>Cardápio</Nav.Link>
-              <Nav.Link href='/contact' className='text-upercase'>Contato</Nav.Link>
+            <Nav className="ms-auto d-lg-flex align-items-center justify-content-end w-100">
+              <Nav.Link href="/" className="text-uppercase px-3" style={{ fontSize: '0.85rem' }}>Home</Nav.Link>
+              <Nav.Link href="/about" className="text-uppercase px-3" style={{ fontSize: '0.85rem' }}>Sobre nós</Nav.Link>
+              <Nav.Link href="/menu" className="text-uppercase px-3" style={{ fontSize: '0.85rem' }}>Cardápio</Nav.Link>
+              <Nav.Link href="/contact" className="text-uppercase px-3" style={{ fontSize: '0.85rem' }}>Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
