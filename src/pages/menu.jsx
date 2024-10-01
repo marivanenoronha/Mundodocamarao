@@ -2,9 +2,7 @@ import React from "react";
 import { useState, useRef, useEffect } from "react";
 import "./menu.css";
 import { ContactInfo } from "../components/ContactInfo";
-import contactImage from "../fotos/img/gallery5.jpg";
 import { Card, CardBody, CardText, CardTitle } from "react-bootstrap";
-
 import Image1 from "../fotos/img/gallery12.jpg";
 import Image2 from "../fotos/img/gallery8.jpg";
 import Image3 from "../fotos/img/gallery5.jpg";

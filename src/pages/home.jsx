@@ -6,7 +6,6 @@ import { MenuBtn } from "../components/menu.Btn";
 import AboutImg from "../fotos/img/about-chef2.jpg";
 import { ContactInfo } from "../components/ContactInfo";
 import GalleryImg from "../fotos/img/gallery40.png";
-import contactImage from "../fotos/img/gallery5.jpg";
 import Image1 from "../fotos/img/gallery.jpg";
 import Image2 from "../fotos/img/gallery7.jpg";
 import Image3 from "../fotos/img/drinks9.jpg";

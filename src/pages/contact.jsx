@@ -1,22 +1,10 @@
 import React from "react";
 import "./Contact.css";
-import { useState, useEffect } from 'react';
 import { ContactInfo } from "../components/ContactInfo";
 import { Reviews } from "../components/Reviews";
-import contactImage from "../fotos/img/gallery5.jpg";
 
 
 function Contact() {
-
-    const [showWelcomeMessage, setShowWelcomeMessage] = useState(true);
-
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setShowWelcomeMessage(false);
-        }, 2000);
-
-        return () => clearTimeout(timer);
-    }, []);
 
     return (
         <div className="contact-page">
@@ -66,9 +54,7 @@ function Contact() {
                 <Reviews />
             </div>
             <div className="whatsapp-container position-fixed d-flex align-items-center">
-                {showWelcomeMessage && (
-                    <span className="text-light bg-success p-2 rounded">Faça sua reserva</span>
-                )}
+               
                 <a
                     href="https://wa.me/5548991606536"
                     className="whatsapp-icon ms-2"
