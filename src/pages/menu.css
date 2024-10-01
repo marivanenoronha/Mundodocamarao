@@ -172,6 +172,11 @@
        
     }
 
+    .menu-page .custom-btn {
+        font-size: 1.4rem !important;
+        padding: 0.8rem 1.rem !important;
+    }
+
     .btn .fab {
         margin-left: 0 !important;
         margin-top: 0.5rem !important;
