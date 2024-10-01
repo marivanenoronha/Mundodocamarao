@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
+import { QRCodeCanvas } from "qrcode.react";
 import "./menu.css";
 import { ContactInfo } from "../components/ContactInfo";
 import { Card, CardBody, CardText, CardTitle } from "react-bootstrap";
@@ -857,12 +858,15 @@ const drinks = [
 
 const Menu = () => {
 
+    const qrCodeUrl = `${window.location.origin}/menu`;
+
+
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [categoryDrinks, setcategoryDrinks] = useState(null);
 
     const categoryRefs = useRef({});
     const itemsRef = useRef(null);
-    const drinksItemsRef = useRef(null); 
+    const drinksItemsRef = useRef(null);
 
 
     const scrollToItems = (ref) => {
@@ -878,19 +882,19 @@ const Menu = () => {
         }
     };
 
-    
+
     const handleCategoryClick = (category) => {
         setSelectedCategory(category);
-        setTimeout(() => scrollToItems(itemsRef), 300); 
+        setTimeout(() => scrollToItems(itemsRef), 300);
     };
 
-   
+
     const handleDrinksClick = (category) => {
         setcategoryDrinks(category);
-        setTimeout(() => scrollToItems(drinksItemsRef), 300); 
+        setTimeout(() => scrollToItems(drinksItemsRef), 300);
     };
 
-  
+
     const handleCloseClick = () => {
         scrollToCategory(selectedCategory);
         setSelectedCategory(null);
@@ -1024,7 +1028,9 @@ const Menu = () => {
                     )}
                 </div>
             </div>
-           
+            <div className="text-center  mb-5">
+                <QRCodeCanvas value={qrCodeUrl} size={128} />
+            </div>
             <div className="drink   my-5">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -1085,7 +1091,7 @@ const Menu = () => {
             </div>
             <div className="  container my-5">
                 <div className="row">
-                <ContactInfo />
+                    <ContactInfo />
                 </div>
             </div>
 
