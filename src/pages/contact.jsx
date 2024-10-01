@@ -25,17 +25,25 @@ function Contact() {
                     <h1 className="text-light slide-in-down">Contato</h1>
                 </div>
             </header>
-
-
             <div className="  container my-5">
+            <h2 className="text-center fs-1 mb-4 mb-lg-5 text-uppercase">
+                        <a
+                            href="https://wa.me/5548991606536"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button
+                                type="button"
+                                className="btn custom-btn btn-outline-dark btn-lg "
+                                style={{ fontSize: '1.8rem', padding: '0.2rem 1.0rem' }}
+                            >
+                                Faça sua reserva
+                                <i className="fab fa-whatsapp text-wuite fa-1x" style={{ padding: "0.5rem" }}></i>
+                            </button>
+                        </a>
+                    </h2>
                 <div className="row">
-                    <div className=" col-lg-6 d-flex flex-column align-items-center justify-content-center mb-5 mb-lg-o">
-                        <ContactInfo />
-                    </div>
-                    <div className="col-lg-6 d-flex justify-content-center">
-                        <img src={contactImage} className="img-fluid w-100 rounded" alt="" />
-                    </div>
-
+                <ContactInfo />
                     <div className="container my-5">
                         <div className="row">
                             <div className="col-12 d-flex align-items-left justify-content-center flex-column">

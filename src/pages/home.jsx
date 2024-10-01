@@ -171,19 +171,8 @@ function Home() {
                     </div>
                 </div>
             </div>
-
-            <div className="text-light py-5 shadow">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6 d-flex flex-column align-items-center justify-content-center mb-5 mb-lg-o">
-                            <ContactInfo />
-                        </div>
-                        <div className="col-lg-6 d-flex justify-content-center  d-lg-flex">
-                            <img src={contactImage} className="img-fluid m-5 w-100  rounded" alt="about img" />
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ContactInfo />
+           
             <div className="container my-5">
                 <div className="row">
                     <div className="col-12 d-flex align-items-left justify-content-center flex-column">

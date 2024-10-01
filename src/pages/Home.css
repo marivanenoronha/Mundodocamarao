@@ -120,6 +120,7 @@
      object-fit: cover;
  }
 
+
  @media (max-width: 768px) {
      .home-page .carousel-item img {
          height: 250px;
@@ -230,6 +231,18 @@
          margin-bottom: 20px;
      }
 
+     .contact-icons i {
+        font-size: 1.5rem; 
+      }
+
+     .col-12 h3 {
+        font-size: 1.2rem; 
+      }
+
+      .mb-4 .d-flex {
+        font-size: 1rem;
+      }
+      
      .home-page .ratio {
          height: 390px;
      }

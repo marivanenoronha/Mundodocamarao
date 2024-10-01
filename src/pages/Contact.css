@@ -59,7 +59,10 @@
        font-size: 1rem;
     }
 
-    
+    .contact-page .custom-btn {
+        font-size: 1.4rem !important;
+        padding: 0.8rem 1.rem !important;
+    }
 
     .contact-page .whatsapp-container {
         bottom: 210px;
