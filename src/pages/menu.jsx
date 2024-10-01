@@ -858,8 +858,6 @@ const drinks = [
 
 const Menu = () => {
 
-    const qrCodeUrl = `${window.location.origin}/menu`;
-
 
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [categoryDrinks, setcategoryDrinks] = useState(null);
@@ -1028,9 +1026,7 @@ const Menu = () => {
                     )}
                 </div>
             </div>
-            <div className="text-center  mb-5">
-                <QRCodeCanvas value={qrCodeUrl} size={128} />
-            </div>
+            
             <div className="drink   my-5">
                 <div className="container">
                     <div className="row justify-content-center">
