@@ -1,6 +1,5 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
-import { QRCodeCanvas } from "qrcode.react";
 import "./menu.css";
 import { ContactInfo } from "../components/ContactInfo";
 import { Card, CardBody, CardText, CardTitle } from "react-bootstrap";
@@ -1026,7 +1025,7 @@ const Menu = () => {
                     )}
                 </div>
             </div>
-            
+           
             <div className="drink   my-5">
                 <div className="container">
                     <div className="row justify-content-center">
