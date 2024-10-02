@@ -70,7 +70,7 @@ function Home() {
                             em adega climatizada. Também oferecemos coquetéis exclusivos e sobremesas irresistíveis, tornando sua
                             visita memorável do começo ao fim.
                         </p>
-                        
+
                         <Link to="/about">
                             <button type="button" className="btn btn-outline-dark btn-lg">Mais sobre nós</button>
                         </Link>
@@ -199,7 +199,7 @@ function Home() {
                     <span className="text-light bg-success p-2 rounded">Faça sua reserva</span>
                 )}
                 <a
-                    href="https://wa.me/5548991606536"
+                    href="https://wa.me/5548991606536?text=Aguarde%20um%20momento%2C%20já%20iremos%20atender."
                     className="whatsapp-icon ms-2"
                     target="_blank"
                     rel="noopener noreferrer"
