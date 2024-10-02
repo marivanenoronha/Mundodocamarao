@@ -199,7 +199,7 @@ function Home() {
                     <span className="text-light bg-success p-2 rounded">Faça sua reserva</span>
                 )}
                 <a
-                    href="https://wa.me/5548991606536?text=Aguarde%20um%20momento%2C%20já%20iremos%20atender."
+                    href="https://wa.me/5548991606536"
                     className="whatsapp-icon ms-2"
                     target="_blank"
                     rel="noopener noreferrer"
