@@ -32,10 +32,10 @@ function Home() {
     return (
         <div className="home-page">
             <header className="d-flex align-items-center text-light shadow">
-                
+
                 <div className="background-blur"></div>
                 <div className="container">
-                
+
                     <div className="row">
                         <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center">
                             <h2 className="text-light fw-bold slide-in-left">Restaurante e Petiscaria</h2>
@@ -59,12 +59,18 @@ function Home() {
                     </div>
                     <div className="col-lg d-flex flex-column align-items-center justify-content-center">
                         <h2 className="fs-1 mb-5 text-uppercase fw-bold ">Sobre nós</h2>
-                        <p className="mb-3">Restaurante especializado em frutos do mar, sempre com produtos e
-                            ingredientes fresquinhos, selecionados por quem entende do assunto.</p>
-                        <p className="mb-5">O almoço inclui camarão alho e óleo, camarão empanado, casquinha de siri, bolinho de peixe,
-                            isca de peixe, lula empanada, risoto de camarão, pirão de peixe,
-                            filé de peixe empanado, peixe frito, salada e fritas.
+                        <p className="mb-3 text-justify">
+                            Somos um restaurante e petiscaria especializado em frutos do mar, comprometidos em oferecer
+                            pratos feitos com ingredientes frescos e cuidadosamente selecionados. Nossa equipe de especialistas
+                            garante que cada prato entregue a você seja preparado com o mais alto padrão de qualidade.
                         </p>
+                        <p className="mb-5 text-justify">
+                            No Restaurante e Petiscaria Mundo do Camarão, nosso cardápio variado é elaborado com critério e zelo.
+                            Complementamos sua experiência gastronômica com uma seleção de vinhos nacionais e importados, mantidos
+                            em adega climatizada. Também oferecemos coquetéis exclusivos e sobremesas irresistíveis, tornando sua
+                            visita memorável do começo ao fim.
+                        </p>
+                        
                         <Link to="/about">
                             <button type="button" className="btn btn-outline-dark btn-lg">Mais sobre nós</button>
                         </Link>
@@ -171,7 +177,7 @@ function Home() {
                 </div>
             </div>
             <ContactInfo />
-           
+
             <div className="container my-5">
                 <div className="row">
                     <div className="col-12 d-flex align-items-left justify-content-center flex-column">

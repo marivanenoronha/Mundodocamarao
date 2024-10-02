@@ -26,30 +26,25 @@ function About() {
                 </div>
             </header>
             <div className="container my-5">
-                <p>Opções para todos os gostos, desde á la carte,
-                    pratos aperitivos e frutos do mar.Trabalhamos com a execução dos mais variados pratos,
-                    Todos nossos pratos são preparados e supervisionados por chefs renomados.
-                </p>
-                
-                <p> O Restaurante e Petiscaria mundo do Camarão prima por um cardápio variado, preparado com critério e zelo.
-                    Acrescido a isso uma carta de vinhos com rótulos bastante selecionados: nacionais e importados,
-                    mantidos em adega climatizada, coquetéis exclusivos e sobremesas de “tirar o fôlego”.
-                    È um dos melhores restaurante e petiscaria  de frutos do mar da região, o que tem lhe rendido
-                    notório reconhecimento e confiança por parte de seus clientes.</p>
+                <p>   No Restaurante e Petiscaria Mundo do Camarão, nosso cardápio variado é elaborado com critério e zelo.
+                    Complementamos sua experiência gastronômica com uma seleção de vinhos nacionais e importados, mantidos
+                    em adega climatizada. Também oferecemos coquetéis exclusivos e sobremesas irresistíveis, tornando sua
+                    visita memorável do começo ao fim.</p>
 
                 <div className="row">
-                    <div className="col-lg-6">
-                        <img src={AboutChef3} className="img-fluid my-4 rounded" alt="" />
+                    <div className="col-lg-6 col-12 d-flex justify-content-center mb-3">
+                        <img src={AboutChef3} className="img-fluid my-2 rounded" alt="Chef 3" />
                     </div>
-                    <div className="col-lg-6">
-                        <img src={AboutChef4} className="img-fluid my-4 rounded" alt="" />
+                    <div className="col-lg-6 col-12 d-flex justify-content-center mb-3">
+                        <img src={AboutChef4} className="img-fluid my-2 rounded" alt="Chef 4" />
                     </div>
                 </div>
                 <p>Temos uma das melhores sequência de camarão da região.
-                    Além de outros pratos deliciosos. Também temos pratos veganos/vegetarianos, pratos sem glúten. Temos pratos de carnes e frangos. Petiscos para um happy hour delicioso com uma vista maravilhosa. Temos espaço para eventos de finais de ano,
-                    aniversários formaturas.</p>
+                    Além de outros pratos deliciosos. Também temos pratos veganos/vegetarianos, pratos sem glúten. Temos pratos de carnes e frangos. Petiscos para um happy hour delicioso com um ambiente maravilhoso. Temos espaço para eventos de finais de ano,
+                    aniversários formaturas.
+                </p>
             </div>
-            <div className="text-dark">
+            <div className="text-dark ">
                 <ImageGallery />
             </div>
             <div className="my-5">
