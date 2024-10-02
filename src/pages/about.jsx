@@ -40,7 +40,7 @@ function About() {
                     </div>
                 </div>
                 <p>Temos uma das melhores sequência de camarão da região.
-                    Além de outros pratos deliciosos. Também temos pratos veganos/vegetarianos, pratos sem glúten. Temos pratos de carnes e frangos. Petiscos para um happy hour delicioso com um ambiente maravilhoso. Temos espaço para eventos de finais de ano,
+                    Além de outros pratos deliciosos. Também temos pratos veganos/vegetarianos, pratos sem glúten. Temos pratos de carnes e frangos. Petiscos para um happy hour delicioso em um ambiente maravilhoso. Temos espaço para eventos de finais de ano,
                     aniversários formaturas.
                 </p>
             </div>
