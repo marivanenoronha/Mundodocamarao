@@ -7,6 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Home from "./pages/home";
 import Menu from "./pages/menu";
 import About from "./pages/about";
+import Cardapio from "./pages/Cardapio";
 import Contact from "./pages/contact";
 import Logo from "./fotos/img/logo-restaurante.png";
 
@@ -35,6 +36,7 @@ function App() {
           <Route path='/menu' element={<Menu />} />
           <Route path='/about' element={<About />} />
           <Route path='/Contact' element={<Contact />} />
+          <Route path='/Cardapio' element={<Cardapio />} />
         </Routes>
       </BrowserRouter>
 
