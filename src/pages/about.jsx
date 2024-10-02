@@ -30,12 +30,11 @@ function About() {
                     pratos aperitivos e frutos do mar.Trabalhamos com a execução dos mais variados pratos,
                     Todos nossos pratos são preparados e supervisionados por chefs renomados.
                 </p>
-                <p>O gosto pela pescaria inspirou a família  a abrir, em 2014, um restaurante de peixes e frutos do mar.
-                    Desde a sua fundação,
-                    o Restaurante-Website prima por um cardápio variado, preparado com critério e zelo.
+                
+                <p> O Restaurante e Petiscaria mundo do Camarão prima por um cardápio variado, preparado com critério e zelo.
                     Acrescido a isso uma carta de vinhos com rótulos bastante selecionados: nacionais e importados,
                     mantidos em adega climatizada, coquetéis exclusivos e sobremesas de “tirar o fôlego”.
-                    È um dos melhores restaurante de frutos do mar da região, o que tem lhe rendido
+                    È um dos melhores restaurante e petiscaria  de frutos do mar da região, o que tem lhe rendido
                     notório reconhecimento e confiança por parte de seus clientes.</p>
 
                 <div className="row">
@@ -47,7 +46,7 @@ function About() {
                     </div>
                 </div>
                 <p>Temos uma das melhores sequência de camarão da região.
-                    Além de outros pratos deliciosos como o Polvo à Timoneiro. Também temos pratos vegetarianos, pratos sem glúten e sem lactose, consulte o garçom. Temos pratos de carnes e frangos. Petiscos para um happy hour delicioso com uma vista maravilhosa. Temos espaço para eventos de finais de ano,
+                    Além de outros pratos deliciosos. Também temos pratos veganos/vegetarianos, pratos sem glúten. Temos pratos de carnes e frangos. Petiscos para um happy hour delicioso com uma vista maravilhosa. Temos espaço para eventos de finais de ano,
                     aniversários formaturas.</p>
             </div>
             <div className="text-dark">
