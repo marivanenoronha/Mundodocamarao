@@ -16,7 +16,6 @@ import Image7 from "../fotos/img/appetizers11.jpg";
 import Image8 from "../fotos/img/gallery11.jpg";
 import Image9 from "../fotos/img/gallery6.jpg";
 
-
 function Home() {
 
     const [showWelcomeMessage, setShowWelcomeMessage] = useState(true);
