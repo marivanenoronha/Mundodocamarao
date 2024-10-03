@@ -1,32 +1,13 @@
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Card, CardBody, CardText, CardFooter, CardTitle } from "react-bootstrap";
 import "./Reviews.css";
 
 export function Reviews() {
 
-    useEffect(() => {
-       
-        const script = document.createElement('script');
-        script.src = 'https://embedsocial.com/embedscript/review.js';
-        script.async = true;
-        script.id = 'EmbedSocialScript';
-        document.body.appendChild(script);
-
-        return () => {
-           
-            document.getElementById('EmbedSocialScript')?.remove();
-        };
-
-    }, []); 
 
     return (
         <div className="reviews-section container">
-
-            <div className="reviews-section container">
-                <h2 className="text-center mb-5 text-uppercase fw-bold fs-1">Avaliações</h2>
-                <div className="embedsocial-reviews" data-ref="acfbd1af1153e02dcc456c76f7c076902415a5fe"></div>
-            </div>
             <h2 className="text-center mb-5 text-upercase fw-bold fs-1">Avaliações</h2>
             <div className="row g-4">
                 <div className="col-lg-6">
