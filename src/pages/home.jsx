@@ -1,4 +1,5 @@
 import React from "react";
+import { Reviews } from "../components/Reviews";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import "./Home.css";
@@ -174,6 +175,9 @@ function Home() {
                         </button>
                     </div>
                 </div>
+            </div>
+            <div className="my-5">
+                <Reviews />
             </div>
             <ContactInfo />
 
