@@ -5,6 +5,8 @@ import { useState, useEffect } from 'react';
 import "./Home.css";
 import { MenuBtn } from "../components/menu.Btn";
 import AboutImg from "../fotos/img/about-chef2.jpg";
+import AboutImg1 from "../fotos/img/gallery7.jpg";
+import AboutImg2 from "../fotos/img/About-chef4.jpg";
 import { ContactInfo } from "../components/ContactInfo";
 import GalleryImg from "../fotos/img/gallery40.png";
 import Image1 from "../fotos/img/gallery.jpg";
@@ -55,7 +57,19 @@ function Home() {
             <div className="container my-3">
                 <div className="row">
                     <div className="col-lg-6 d-flex justify-content-center d-none d-lg-flex">
-                        <img src={AboutImg} className="img-fluid m-5 w-52  rounded" alt="about img" />
+                        <div id="aboutCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <img src={AboutImg} className="img-fluid rounded" alt="About img 1" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img src={AboutImg1} className="img-fluid rounded" alt="About img 2" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img src={AboutImg2} className="img-fluid rounded" alt="About img 3" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="col-lg d-flex flex-column align-items-center justify-content-center">
                         <h2 className="fs-1 mb-5 text-uppercase fw-bold ">Sobre nós</h2>
@@ -75,6 +89,7 @@ function Home() {
                             <button type="button" className="btn btn-outline-dark btn-lg">Mais sobre nós</button>
                         </Link>
                     </div>
+
                 </div>
 
                 <div className="menu-section py-3 text-light rounded shadow">

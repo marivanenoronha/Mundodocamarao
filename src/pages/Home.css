@@ -32,8 +32,21 @@
  }
 
  .home-page .col-lg h2{
-    margin-top: 40px;
+    margin-top: 50px;
  }
+
+
+ .home-page .col-lg-6{
+    position: relative;
+    top: 80px;
+ }
+ 
+ .home-page .carousel-inner img {
+    position: relative;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
 
  .home-page .col-lg button{
     margin-bottom: 40px;
