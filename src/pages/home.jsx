@@ -56,7 +56,7 @@ function Home() {
             </header>
             <div className="container my-3">
                 <div className="row">
-                    <div className="col-lg-6 d-flex justify-content-center d-none d-lg-flex">
+                    <div className="col-h2 col-lg-6 d-flex justify-content-center d-none d-lg-flex">
                         <div id="aboutCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
