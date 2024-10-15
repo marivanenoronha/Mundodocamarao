@@ -7,12 +7,12 @@
   pointer-events: none;
 }
 .navbar .nav-link {
-  font-size: 1.25rem; /* Define o tamanho de fonte desejado para telas grandes */
+  font-size: 1.25rem; 
 }
 
 @media (max-width: 475px) {
   .nav-link {
-    font-size: 0.75rem; /* Fonte menor para dispositivos pequenos */
+    font-size: 0.75rem; 
   }
 }
 
