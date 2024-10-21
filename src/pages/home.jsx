@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Reviews } from "../components/Reviews";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from 'react';
@@ -6,7 +7,7 @@ import "./Home.css";
 import { MenuBtn } from "../components/menu.Btn";
 import AboutImg from "../fotos/img/about-chef2.jpg";
 import AboutImg1 from "../fotos/img/gallery7.jpg";
-import AboutImg2 from "../fotos/img/About-chef4.jpg";
+import AboutImg2 from "../fotos/img/about-chef1.jpg";
 import { ContactInfo } from "../components/ContactInfo";
 import GalleryImg from "../fotos/img/gallery40.png";
 import Image1 from "../fotos/img/gallery.jpg";
@@ -31,7 +32,13 @@ function Home() {
         return () => clearTimeout(timer);
     }, []);
 
+    <Helmet>
+          <title>Restaurante de Frutos do Mar em Araranguá | Mundo do Camarão</title>
+          <meta name="description" content="O melhor restaurante de frutos do mar em Araranguá. Pratos frescos, ambiente agradável e uma experiência gastronômica inesquecível." />
+    </Helmet>
+
     return (
+
         <div className="home-page">
             <header className="d-flex align-items-center text-light shadow">
 
@@ -86,7 +93,7 @@ function Home() {
                         </p>
 
                         <Link to="/about">
-                            <button type="button" className="btn btn-outline-dark btn-lg">Mais sobre nós</button>
+                            <button type="button" className="btn btn-outline-dark btn-lg ">Mais sobre nós</button>
                         </Link>
                     </div>
 

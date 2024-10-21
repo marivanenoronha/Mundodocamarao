@@ -12,6 +12,7 @@ import Contact from "./pages/contact";
 import Logo from "./fotos/img/logo-restaurante.png";
 
 function App() {
+
   return (
     <div >
       <Navbar expand="lg" className='fixed-top bg-body-tertiary'>

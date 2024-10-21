@@ -983,7 +983,7 @@ const Menu = () => {
                                 />
 
                                 <button
-                                    className={`category-button btn btn-outline-dark w-100 ${selectedCategory === category ? "active" : ""}`}
+                                    className= {`category-button btn btn-outline-dark  w-100 ${selectedCategory === category ? "active" : ""} `}
                                     onClick={() => handleCategoryClick(category)}
                                 >
                                     {category}
