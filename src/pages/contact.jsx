@@ -8,7 +8,7 @@ import { Reviews } from "../components/Reviews";
 function Contact() {
 
     <Helmet>
-    <title>Contato - Restaurante de frutos do mar Mundo do Camarão</title>
+    <title>Restaurante de frutos do mar Mundo do Camarão</title>
     <meta name="description" content="Entre em contato com o Restaurante de frutos do mar Mundo do Camarão para fazer sua reserva ou tirar dúvidas. Atendimento de qualidade à sua disposição." />
     <meta name="keywords" content="contato, reserva, telefone, e-mail, restaurante de frutos do mar" />
   </Helmet>

@@ -10,9 +10,9 @@ import { Reviews } from "../components/Reviews";
 function About() {
 
     <Helmet>
-    <title>Sobre Nós - Restaurante de frutos do mar Mundo do Camarão</title>
+    <title>Restaurante de frutos do mar Mundo do Camarão</title>
     <meta name="description" content="Conheça a história do Restaurante de frutos do mar Mundo do Camarão, especializado em frutos do mar e comprometido com a qualidade e frescor em cada prato." />
-    <meta name="keywords" content="sobre nós, restaurante frutos do mar, história, qualidade, frescor" />
+    <meta name="keywords" content=" restaurante frutos do mar, história, qualidade, frescor" />
   </Helmet>
 
     const [showWelcomeMessage, setShowWelcomeMessage] = useState(true);
