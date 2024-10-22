@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./About.css";
 import { useState, useEffect } from 'react';
 import AboutChef3 from "../fotos/img/About-chef4.jpg";
@@ -7,6 +8,12 @@ import { ImageGallery } from "../components/imageGalery";
 import { Reviews } from "../components/Reviews";
 
 function About() {
+
+    <Helmet>
+    <title>Sobre Nós - Restaurante de frutos do mar Mundo do Camarão</title>
+    <meta name="description" content="Conheça a história do Restaurante de frutos do mar Mundo do Camarão, especializado em frutos do mar e comprometido com a qualidade e frescor em cada prato." />
+    <meta name="keywords" content="sobre nós, restaurante frutos do mar, história, qualidade, frescor" />
+  </Helmet>
 
     const [showWelcomeMessage, setShowWelcomeMessage] = useState(true);
 

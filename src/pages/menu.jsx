@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { useState, useRef, useEffect } from "react";
 import "./menu.css";
 import { ContactInfo } from "../components/ContactInfo";
@@ -856,6 +857,12 @@ const drinks = [
 
 
 const Menu = () => {
+
+    <Helmet>
+        <title>Cardápio - Restaurante de frutos do mar Mundo do Camarão</title>
+        <meta name="description" content="Confira nosso cardápio variado, com pratos de frutos do mar frescos, carnes, opções vegetarianas e sobremesas irresistíveis." />
+        <meta name="keywords" content="cardápio, restaurante de frutos do mar, carne, vegetariano, sobremesa" />
+      </Helmet>
 
 
     const [selectedCategory, setSelectedCategory] = useState(null);
