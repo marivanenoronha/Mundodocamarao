@@ -43,7 +43,7 @@ export function ContactInfo() {
                         </div>
                         <div className="d-flex align-items-center mt-2">
                             <i className="fas fa-utensils me-2 text-dark"></i>
-                            Almoço: <span className="fw-bold">11:00 - 15:00</span>
+                            Almoço: <span className="fw-bold">11:30 - 15:00</span>
                         </div>
                         <div className="d-flex align-items-center mt-2">
                             <i className="fas fa-moon me-2 text-dark"></i>

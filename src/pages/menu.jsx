@@ -821,7 +821,6 @@ const drinks = [
     { id: 38, name: "Aperol spritz", description: "aperol, espumante prosseco e água com gás", category: "Drinks", price: "R$ 29,90" },
     { id: 49, name: "Campari tropical", description: "Campari e red bull tropical", category: "Drinks", price: "R$ 29,90" },
     { id: 40, name: "Clericot", description: "Vinho branco água tônica e frutas", category: "Drinks", price: "R$ 29,90" },
-    { id: 41, name: "Fusca azul", description: "Corote e fanta uva", category: "Drinks", price: "R$ 29,90" },
     { id: 42, name: "Fusca azul", description: "Corote e fanta uva", category: "Drinks", price: "R$ 29,90" },
     { id: 43, name: "Gin citrus", description: "Gin, schweppes citrus e laranja", category: "Drinks", price: "R$ 28,90" },
     { id: 44, name: "Gin de melancia e horteã", description: "Gin, melancia , hortelã e água", category: "Drinks", price: "R$ 29,90" },
