@@ -143,6 +143,11 @@
          height: 250px;
          object-fit: cover;
      }
+
+     .home-page .container h2 {
+        position: relative;
+        top: 20px ;
+     }
  }
 
  @media (max-width: 475px) {
@@ -241,6 +246,10 @@
 
      .home-page .menu-section ul li {
          font-size: 1.2rem;
+     }
+     .home-page .container h2 {
+        position: relative;
+        top: 20px ;
      }
 
      .home-page .carousel-item img {
