@@ -42,10 +42,7 @@ function Home() {
 
         <div className="home-page">
             <header className="d-flex align-items-center text-light shadow">
-
-                <div className="background-blur"></div>
                 <div className="container">
-
                     <div className="row">
                         <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center">
                             <h2 className="text-light fw-bold slide-in-left">Restaurante e Petiscaria</h2>
@@ -161,31 +158,31 @@ function Home() {
                         </div>
                         <div className="carousel-inner " >
                             <div className="carousel-item active">
-                                <img src={Image1} className="d-block w-100 rounded" alt="Slide 1 " style={{ height: '350px', objectFit: 'cover' }} />
+                                <img src={Image1} className="d-block w-100 rounded" alt="Slide 1 " style={{ height: '100%', objectFit: 'cover' }} />
                             </div>
                             <div className="carousel-item">
-                                <img src={Image2} className="d-block w-100 rounded" alt="Slide 2" style={{ height: '350px', objectFit: 'cover' }} />
+                                <img src={Image2} className="d-block w-100 rounded" alt="Slide 2" style={{ height: '100%', objectFit: 'cover' }} />
                             </div>
                             <div className="carousel-item">
-                                <img src={Image3} className="d-block w-100 rounded" alt="Slide 3" style={{ height: '350px', objectFit: 'cover' }} />
+                                <img src={Image3} className="d-block w-100 rounded" alt="Slide 3" style={{ height: '100%', objectFit: 'cover' }} />
                             </div>
                             <div className="carousel-item">
-                                <img src={Image4} className="d-block w-100 rounded" alt="Slide 4" style={{ height: '350px', objectFit: 'cover' }} />
+                                <img src={Image4} className="d-block w-100 rounded" alt="Slide 4" style={{ height: '100%', objectFit: 'cover' }} />
                             </div>
                             <div className="carousel-item">
-                                <img src={Image5} className="d-block w-100 rounded" alt="Slide 5" style={{ height: '350px', objectFit: 'cover' }} />
+                                <img src={Image5} className="d-block w-100 rounded" alt="Slide 5" style={{ height: '100%', objectFit: 'cover' }} />
                             </div>
                             <div className="carousel-item">
-                                <img src={Image6} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '350px', objectFit: 'cover' }} />
+                                <img src={Image6} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '100%', objectFit: 'cover' }} />
                             </div>
                             <div className="carousel-item">
-                                <img src={Image7} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '350px', objectFit: 'cover' }} />
+                                <img src={Image7} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '100%', objectFit: 'cover' }} />
                             </div>
                             <div className="carousel-item">
-                                <img src={Image8} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '350px', objectFit: 'cover' }} />
+                                <img src={Image8} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '100%', objectFit: 'cover' }} />
                             </div>
                             <div className="carousel-item">
-                                <img src={Image9} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '350px', objectFit: 'cover' }} />
+                                <img src={Image9} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '100%', objectFit: 'cover' }} />
                             </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
