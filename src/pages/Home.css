@@ -177,15 +177,15 @@ h1 {
 
     header .carousel-caption .caption-background h1 {
         position: relative;
-        margin-bottom: 330px;
+        margin-bottom: 280px;
         line-height: 2.5rem;
         left: 10px;
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
 
     header .carousel-caption .caption-background p {
         position: relative;
-        bottom: 290px;
+        bottom: 250px;
         left: 10px;
         font-size: 1rem;
     }
