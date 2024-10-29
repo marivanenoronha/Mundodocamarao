@@ -15,22 +15,25 @@ function App() {
 
   return (
     <div >
+
       <Navbar expand="lg" className='fixed-top bg-body-tertiary'>
         <Container>
           <Navbar.Brand className="navbar-brand fw-semibold">
-            <a href="/"><img src={Logo} width="130" height="60" className="d-inline-block align-top" alt="Logo do Restaurante" /></a>
+            <a href="/"><img src={Logo} width="120px" height="52px"className="d-inline-block align-top" alt="Logo do Restaurante" /></a>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className="ms-auto d-lg-flex align-items-center justify-content-end w-100">
-              <Nav.Link href="/" className="text-uppercase px-3" >Home</Nav.Link>
-              <Nav.Link href="/about" className="text-uppercase px-3">Sobre nós</Nav.Link>
-              <Nav.Link href="/menu" className="text-uppercase px-3" >Cardápio</Nav.Link>
-              <Nav.Link href="/contact" className="text-uppercase px-3">Contato</Nav.Link>
+              <Nav.Link href="/" className="display-4" >Home</Nav.Link>
+              <Nav.Link href="/about" className="display-4">Sobre nós</Nav.Link>
+              <Nav.Link href="/menu" className="display-4" >Cardápio</Nav.Link>
+              <Nav.Link href="/contact" className="display-4">Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
+
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />

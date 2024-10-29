@@ -1,35 +1,30 @@
- header {
-     background-image: url(../fotos/img/gallery3.jpg);
-     position: relative;
-     background-size: cover;
-     background-position: center;
- }
 
- .home-page header .container {
-     margin-top: 16rem;
- }
 
  header h1 {
      font-size: 5rem;
      line-height: 80px;
  }
 
- header h2 {
-     font-size: 2rem;
- }
 
- header h2,
- h1 {
-     font-family: 'Poppins', sans-serif;
- }
-
- header h2,
+ header p,
  h1 {
      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
      border-radius: 5px;
      margin-bottom: 20px;
      line-height: 1.2;
  }
+
+.carousel-caption .caption-background h1 {
+    position: relative;
+    bottom: 50px;
+    font-size: 5rem; 
+}
+
+.carousel-caption .caption-background p {
+    position: relative;
+    bottom: 65px;
+    font-size: 1.3rem;
+}
 
  .home-page .col-lg h2{
     margin-top: 50px;
@@ -139,8 +134,8 @@
 
 
  @media (max-width: 768px) {
-     .home-page .carousel-item img {
-         height: 250px;
+     .home-page .item img {
+         height: 200px;
          object-fit: cover;
      }
 
@@ -148,6 +143,20 @@
         position: relative;
         top: 20px ;
      }
+
+     header .carousel-caption .caption-background h1 {
+        position: relative;
+        margin-bottom: 130px;
+        left: 10px;
+        font-size: 2.7rem; 
+    }
+
+    header .carousel-caption .caption-background p {
+        position: relative;
+        bottom: 170px;
+        left: 10px;
+        font-size: 1rem; 
+    }
  }
 
  @media (max-width: 475px) {
@@ -160,6 +169,26 @@
      header .container {
         margin-bottom: 12rem;
     }
+
+    header  .carousel-caption .caption-background h1 {
+        position: relative;
+        margin-bottom: 330px ;
+        left: 10px;
+        font-size: 2rem; 
+    }
+
+    header  .carousel-caption .caption-background p {
+        position: relative;
+        bottom: 300px;
+        left: 10px;
+        font-size: 1rem; 
+    }
+    
+    header .carousel-caption {
+        bottom: 20px; /* Ajuste de posição */
+    }
+
+    
 
      .home-page header h1 {
          font-size: 2rem;
@@ -252,8 +281,8 @@
         top: 20px ;
      }
 
-     .home-page .carousel-item img {
-         height: 100%;
+     .home-page .item img {
+         height: 300px !important;
          object-fit: cover;
      }
 

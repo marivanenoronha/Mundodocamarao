@@ -10,6 +10,13 @@
   font-size: 1.25rem; 
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.ms-auto {
+  font-family:'Playfair Display', serif;
+}
+
 @media (max-width: 475px) {
   .nav-link {
     font-size: 0.75rem; 
@@ -33,7 +40,7 @@
   color: white;
 }
 
-  .ms-auto .text-uppercase{
+  .ms-auto {
     font-size: 0.89rem;
   } 
 

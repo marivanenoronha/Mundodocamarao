@@ -3,13 +3,13 @@ import { Helmet } from "react-helmet";
 import { Reviews } from "../components/Reviews";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from 'react';
+import { Carousel, Container } from 'react-bootstrap';
 import "./Home.css";
 import { MenuBtn } from "../components/menu.Btn";
 import AboutImg from "../fotos/img/about-chef2.jpg";
 import AboutImg1 from "../fotos/img/gallery7.jpg";
 import AboutImg2 from "../fotos/img/about-chef1.jpg";
 import { ContactInfo } from "../components/ContactInfo";
-import GalleryImg from "../fotos/img/gallery40.png";
 import Image1 from "../fotos/img/gallery.jpg";
 import Image2 from "../fotos/img/gallery7.jpg";
 import Image3 from "../fotos/img/drinks9.jpg";
@@ -19,6 +19,9 @@ import Image6 from "../fotos/img/gallery5.jpg";
 import Image7 from "../fotos/img/appetizers11.jpg";
 import Image8 from "../fotos/img/gallery11.jpg";
 import Image9 from "../fotos/img/gallery6.jpg";
+import Image10 from "../fotos/img/About-chef4.jpg";
+import Image11 from "../fotos/img/gallery14.jpg";
+
 
 function Home() {
 
@@ -33,32 +36,66 @@ function Home() {
     }, []);
 
     <Helmet>
-          <title>Restaurante de frutos do mar Mundo do Camarão</title>
-          <meta name="description" content="O melhor restaurante de frutos do mar . Pratos frescos, ambiente agradável e uma experiência gastronômica inesquecível." />
-          <meta name="keywords" content="restaurante de frutos do mar, camarão, comida fresca, ambiente acolhedor" />
+        <title>Restaurante de frutos do mar Mundo do Camarão</title>
+        <meta name="description" content="O melhor restaurante de frutos do mar . Pratos frescos, ambiente agradável e uma experiência gastronômica inesquecível." />
+        <meta name="keywords" content="restaurante de frutos do mar, camarão, comida fresca, ambiente acolhedor" />
     </Helmet>
 
     return (
 
         <div className="home-page">
             <header className="d-flex align-items-center text-light shadow">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-6 d-flex d-sm-block flex-column align-items-center">
-                            <h2 className="text-light fw-bold slide-in-left">Restaurante e Petiscaria</h2>
+                <Container fluid className="p-0">
+                    <Carousel fade controls={false} indicators={false} data-bs-interval="1000">
+                        <Carousel.Item>
                             <img
-                                src={GalleryImg}
-                                alt="Shrimp"
-                                className="shrimp-img slide-in-left"
+                                className="d-block w-100"
+                                src={Image10}
+                                alt="Primeiro slide"
+                                style={{ height: '100vh', objectFit: 'cover' }}
                             />
-                            <h1 className="mb-5 fw-bold text-left text-sm-start slide-in-left">
-                                <span className="world-text" style={{ color: "#003366" }}>Mundo do</span><br />
-                                <span className="Shrimp-text" style={{ color: "#FF4500" }}>Camarão</span>
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+                            <Carousel.Caption className="carousel-caption">
+                                <div className="caption-background">
+                                    <h1 className="display-4 fw-bold  ">O melhor em <br /> frutos do mar</h1>
+                                    <p className="lead mt-2 fw-bold ">Restaurante e Petiscaria</p>
+                                </div>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Image11}
+                                alt="Segundo slide"
+                                style={{ height: '100vh', objectFit: 'cover' }}
+                            />
+                            <Carousel.Caption className="carousel-caption">
+                                <div className="caption-background">
+                                    <h1 className="display-4 fw-bold">O melhor em <br /> frutos do mar</h1>
+                                    <p className="lead mt-2 fw-bold">Restaurante e Petiscaria</p>
+                                </div>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={Image1}
+                                alt="Terceiro slide"
+                                style={{ height: '100vh', objectFit: 'cover' }}
+                            />
+                            <Carousel.Caption className="carousel-caption">
+                                <div className="caption-background">
+                                    <h1 className="display-4 fw-bold">O melhor em <br /> frutos do mar</h1>
+                                    <p className="lead mt-2 fw-bold ">Restaurante e Petiscaria</p>
+                                </div>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+                </Container>
             </header>
+
+
             <div className="container my-3">
                 <div className="row">
                     <div className="col-h2 col-lg-6 d-flex justify-content-center d-none d-lg-flex">
@@ -77,7 +114,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="col-lg d-flex flex-column align-items-center justify-content-center">
-                        <h2 className="fs-1 mb-5 text-uppercase fw-bold ">Sobre nós</h2>
+                        <h2 className="fs-1 mb-5  fw-bold ">Sobre nós</h2>
                         <p className="mb-3 text-justify">
                             Somos um restaurante e petiscaria especializado em frutos do mar, comprometidos em oferecer
                             pratos feitos com ingredientes frescos e cuidadosamente selecionados. Nossa equipe de especialistas
@@ -99,7 +136,7 @@ function Home() {
 
                 <div className="menu-section py-3 text-light rounded shadow">
                     <div className="container d-flex flex-column align-items-center ">
-                        <h2 className="fs-1 mb-5 text-uppercase fw-bold">Nossos favoritos</h2>
+                        <h2 className="fs-1 mb-5  fw-bold">Nossos favoritos</h2>
                         <div className="row mb-5 w-100  ">
                             <div className="col-lg d-flex flex-column align-items-center mb-5 mb-lg-0  ">
                                 <h3 className="fs-2 mb-5">Pratos</h3>
@@ -142,7 +179,7 @@ function Home() {
                 </div>
             </div>
             <div className="container  py-5">
-                <h2 className="text-center fs-1 mb-5 text-uppercase fw-bold">Galeria de fotos</h2>
+                <h2 className="text-center fs-1 mb-5  fw-bold">Galeria de fotos</h2>
                 <div className="row">
                     <div id="carouselExampleIndicators" className="carousel slide " data-bs-ride="carousel" data-bs-interval="3000">
                         <div className="carousel-indicators">
@@ -157,32 +194,32 @@ function Home() {
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 6"></button>
                         </div>
                         <div className="carousel-inner " >
-                            <div className="carousel-item active">
-                                <img src={Image1} className="d-block w-100 rounded" alt="Slide 1 " style={{ height: '100%', objectFit: 'cover' }} />
+                            <div className="carousel-item item active">
+                                <img src={Image1} className="d-block w-100 rounded" alt="Slide 1 " style={{ height: '550px', objectFit: 'cover' }} />
                             </div>
-                            <div className="carousel-item">
-                                <img src={Image2} className="d-block w-100 rounded" alt="Slide 2" style={{ height: '100%', objectFit: 'cover' }} />
+                            <div className="carousel-item item">
+                                <img src={Image2} className="d-block w-100 rounded" alt="Slide 2" style={{ height: '550px', objectFit: 'cover' }} />
                             </div>
-                            <div className="carousel-item">
-                                <img src={Image3} className="d-block w-100 rounded" alt="Slide 3" style={{ height: '100%', objectFit: 'cover' }} />
+                            <div className="carousel-item item">
+                                <img src={Image3} className="d-block w-100 rounded" alt="Slide 3" style={{ height: '550px', objectFit: 'cover' }} />
                             </div>
-                            <div className="carousel-item">
-                                <img src={Image4} className="d-block w-100 rounded" alt="Slide 4" style={{ height: '100%', objectFit: 'cover' }} />
+                            <div className="carousel-item item">
+                                <img src={Image4} className="d-block w-100 rounded" alt="Slide 4" style={{ height: '550px', objectFit: 'cover' }} />
                             </div>
-                            <div className="carousel-item">
-                                <img src={Image5} className="d-block w-100 rounded" alt="Slide 5" style={{ height: '100%', objectFit: 'cover' }} />
+                            <div className="carousel-item item">
+                                <img src={Image5} className="d-block w-100 rounded" alt="Slide 5" style={{ height: '550px', objectFit: 'cover' }} />
                             </div>
-                            <div className="carousel-item">
-                                <img src={Image6} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '100%', objectFit: 'cover' }} />
+                            <div className="carousel-item item">
+                                <img src={Image6} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '550px', objectFit: 'cover' }} />
                             </div>
-                            <div className="carousel-item">
-                                <img src={Image7} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '100%', objectFit: 'cover' }} />
+                            <div className="carousel-item item">
+                                <img src={Image7} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '550px', objectFit: 'cover' }} />
                             </div>
-                            <div className="carousel-item">
-                                <img src={Image8} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '100%', objectFit: 'cover' }} />
+                            <div className="carousel-item item">
+                                <img src={Image8} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '550px', objectFit: 'cover' }} />
                             </div>
-                            <div className="carousel-item">
-                                <img src={Image9} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '100%', objectFit: 'cover' }} />
+                            <div className="carousel-item item">
+                                <img src={Image9} className="d-block w-100 rounded" alt="Slide 6" style={{ height: '550px', objectFit: 'cover' }} />
                             </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

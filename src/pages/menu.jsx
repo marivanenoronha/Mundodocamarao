@@ -969,7 +969,7 @@ const Menu = () => {
                         </a>
                     </h2>
 
-                    <h2 className=" menu text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Cardápio</h2>
+                    <h2 className=" menu text-center fs-1 mb-4 mb-lg-5  fw-bold text-dark">Cardápio</h2>
                     <div className="text-center mb-5 d-flex justify-content-center flex-wrap category-grid">
                         {categories.map((category, index) => (
                             <div
@@ -1035,7 +1035,7 @@ const Menu = () => {
             <div className="drink   my-5">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <h2 className=" menu text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-dark">Drinks</h2>
+                        <h2 className=" menu text-center fs-1 mb-4 mb-lg-5  fw-bold text-dark">Drinks</h2>
                         <div className="text-center mb-5 d-flex justify-content-center flex-wrap category-grid">
                             {categoriesDrinks.map((category, index) => (
                                 <div

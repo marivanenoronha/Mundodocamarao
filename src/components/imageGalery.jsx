@@ -9,7 +9,7 @@ import Gallery6 from "../fotos/img/gallery13.jpg";
 export function ImageGallery() {
     return (
         <div className="container  py-5">
-            <h2 className="text-center fs-1 mb-5 text-uppercase fw-bold">Galeria de fotos</h2>
+            <h2 className="text-center fs-1 mb-5 fw-bold">Galeria de fotos</h2>
             <div className="row">  
                 <div className="col-md-4 px-2">
                     <div className="my-3">

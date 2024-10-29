@@ -5,7 +5,7 @@ export function ContactInfo() {
         <div className="text-light py-5 shadow">
             <div className="row">
                 <div className="col-12 col-lg-6 mb-4 mb-lg-0 d-flex flex-column align-items-center">
-                    <h3 className="mb-3 text-uppercase fw-bold text-dark">Onde nos encontrar</h3>
+                    <h3 className="mb-3  fw-bold text-dark">Onde nos encontrar</h3>
                     <p className="mb-4 text-dark text-center">
                         <div className="d-flex align-items-center">
                             <i className="fas fa-map-marker-alt me-2"></i>
@@ -35,7 +35,7 @@ export function ContactInfo() {
                 </div>
 
                 <div className="col-12 col-lg-6 d-flex flex-column align-items-center">
-                    <h3 className="mb-3 text-uppercase text-dark fw-bold">Horário de Funcionamento</h3>
+                    <h3 className="mb-3  text-dark fw-bold">Horário de Funcionamento</h3>
                     <p className="mb-4 text-dark text-center">
                         <div className="d-flex align-items-center">
                             <i className="fas fa-calendar-day me-2 text-dark"></i>

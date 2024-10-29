@@ -1,6 +1,8 @@
 .contact-page header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(../fotos/img/about-chef1.jpg);
+    background-size: cover;
+    background-position: center;
     height: 50vh;
 }
 
@@ -20,13 +22,23 @@
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
 
 .welcome-message {
@@ -35,13 +47,13 @@
 
 @media(max-width: 475px) {
 
-    .contact-page header  h1 {
+    .contact-page header h1 {
         position: relative;
         font-size: 1.8rem;
         text-align: center;
         top: 50px;
     }
-      
+
     .contact-page .col-lg-6 {
         width: 100%;
         padding: 0 15px;
@@ -50,13 +62,13 @@
     }
 
     .contact-page .ratio {
-        height: 390px; 
+        height: 390px;
     }
-    
+
     .contact-page .btn {
         width: 100%;
         padding: 10px;
-       font-size: 1rem;
+        font-size: 1rem;
     }
 
     .contact-page .custom-btn {
@@ -66,17 +78,17 @@
 
     .contact-page .whatsapp-container {
         bottom: 210px;
-         right: 10px; 
-     }
- 
-     .contact-page .welcome-message {
-         font-size: 8px; 
-     }
- 
-     .contact-page .whatsapp-icon {
-         font-size: 18px;
-     }
- 
+        right: 10px;
+    }
 
-    
+    .contact-page .welcome-message {
+        font-size: 8px;
+    }
+
+    .contact-page .whatsapp-icon {
+        font-size: 18px;
+    }
+
+
+
 }
