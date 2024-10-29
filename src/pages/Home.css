@@ -312,8 +312,10 @@ h1 {
         font-size: 1.6rem;
     }
 
-    .col-12 h3 {
-        font-size: 1.2rem;
+    .home-page .col-12 h2 {
+        position: relative;
+        font-size: 1.3rem;
+        margin-bottom: 25px;
     }
 
     .mb-4 .d-flex {
