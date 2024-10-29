@@ -10,6 +10,7 @@ import AboutImg from "../fotos/img/about-chef2.jpg";
 import AboutImg1 from "../fotos/img/gallery7.jpg";
 import AboutImg2 from "../fotos/img/about-chef1.jpg";
 import { ContactInfo } from "../components/ContactInfo";
+
 import Image1 from "../fotos/img/gallery.jpg";
 import Image2 from "../fotos/img/gallery7.jpg";
 import Image3 from "../fotos/img/drinks9.jpg";
@@ -45,54 +46,12 @@ function Home() {
 
         <div className="home-page">
             <header className="d-flex align-items-center text-light shadow">
-                <Container fluid className="p-0">
-                    <Carousel fade controls={false} indicators={false} data-bs-interval="1000">
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={Image10}
-                                alt="Primeiro slide"
-                                style={{ height: '100vh', objectFit: 'cover' }}
-                            />
-                            <Carousel.Caption className="carousel-caption">
-                                <div className="caption-background">
-                                    <h1 className="display-4 fw-bold  ">O melhor em <br /> frutos do mar</h1>
-                                    <p className="lead mt-2 fw-bold ">Restaurante e Petiscaria</p>
-                                </div>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={Image11}
-                                alt="Segundo slide"
-                                style={{ height: '100vh', objectFit: 'cover' }}
-                            />
-                            <Carousel.Caption className="carousel-caption">
-                                <div className="caption-background">
-                                    <h1 className="display-4 fw-bold">O melhor em <br /> frutos do mar</h1>
-                                    <p className="lead mt-2 fw-bold">Restaurante e Petiscaria</p>
-                                </div>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100"
-                                src={Image1}
-                                alt="Terceiro slide"
-                                style={{ height: '100vh', objectFit: 'cover' }}
-                            />
-                            <Carousel.Caption className="carousel-caption">
-                                <div className="caption-background">
-                                    <h1 className="display-4 fw-bold">O melhor em <br /> frutos do mar</h1>
-                                    <p className="lead mt-2 fw-bold ">Restaurante e Petiscaria</p>
-                                </div>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>
-                </Container>
+                <div className="carousel-caption">
+                <div className="caption-background">
+                    <h1 className="display-4 fw-bold  ">O melhor em <br /> frutos do mar</h1>
+                    <p className="lead mt-2 fw-bold ">Restaurante e Petiscaria</p>
+                </div>
+                </div>
             </header>
 
 
