@@ -226,7 +226,7 @@ header .slide-fade-exit-active {
     header .caption-background .reservation-message h3 {
         position: relative;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         line-height: 2.5rem;
         font-size: 2.3rem;
     }
@@ -234,28 +234,28 @@ header .slide-fade-exit-active {
     header .caption-background .menu-message h3 {
         position: relative;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         line-height: 2.3rem;
         font-size: 1.8rem;
     }
 
     header .caption-background .reservation-message p {
         position: relative;
-        bottom: 130px;
+        bottom: 140px;
         left: 10px;
         font-size: 1rem;
     }
 
     header .caption-background .menu-message p {
         position: relative;
-        bottom: 130px;
+        bottom: 140px;
         left: 10px;
         font-size: 1rem;
     }
 
     header .caption-background .button-close-spacing {
         position: relative;
-        bottom: 200px;
+        bottom: 190px;
         padding: 0.5rem 1rem !important;
         font-size: 1rem;
     }
