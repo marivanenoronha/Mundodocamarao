@@ -83,7 +83,7 @@ function Home() {
                                 <div className="reservation-message">
                                 <p className="lead text-light ">Garanta o seu lugar e desfrute de uma experiência gastronômica inesquecível.</p>
                                     <h3 className="display-5 mt-4 text-light">Faça já sua reserva aqui</h3>
-                                    <Button href="/reservation" variant="outline-light " size="lg" className="fw-bold px-4 py-2 mt-3 button-close-spacing">
+                                    <Button href="https://wa.me/5548991606536" variant="outline-light " size="lg" className="fw-bold px-4 py-2 mt-3 button-close-spacing">
                                         Faça uma reserva
                                     </Button>
                                 </div>
