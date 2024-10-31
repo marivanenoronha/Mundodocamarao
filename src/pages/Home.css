@@ -4,34 +4,61 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    width: 100%;
 }
 
-header h1 {
-    font-size: 5rem;
-    line-height: 80px;
-}
-
-
-header p,
-h1 {
+header .carousel-caption .caption-background h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    margin-bottom: 20px;
-    line-height: 1.2;
-}
-
-.carousel-caption .caption-background h1 {
     position: relative;
     line-height: 75px;
-    bottom: 85px;
+    bottom: 155px;
     font-size: 5rem;
 }
 
-.carousel-caption .caption-background p {
+header .carousel-caption .caption-background h3 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     position: relative;
-    bottom: 75px;
+    line-height: 75px;
+    bottom: 155px;
+    font-size: 3rem;
+}
+
+header .carousel-caption .caption-background p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 135px;
     font-size: 1.3rem;
 }
+
+
+header .button-close-spacing {
+    position: relative;
+    bottom: 6rem;
+}
+
+
+header .slide-fade {
+    opacity: 0;
+    transform: translateY(20%);
+}
+
+header .slide-fade-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+}
+
+header .slide-fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+header .slide-fade-exit-active {
+    opacity: 0;
+    transform: translateY(-20%);
+    transition: opacity 500ms, transform 500ms;
+}
+
 
 
 .home-page .col-lg h2 {
@@ -175,28 +202,74 @@ h1 {
         padding: 20px;
     }
 
-    header .carousel-caption .caption-background h1 {
+    header .caption-background .initial-message h1 {
         position: relative;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 290px;
         line-height: 2.5rem;
         left: 10px;
-        font-size: 42px;
+        font-size: 2.5rem;
     }
 
-    header .carousel-caption .caption-background p {
+    header .caption-background .initial-message p {
         position: relative;
         bottom: 250px;
         left: 10px;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
-    header .carousel-caption {
-        bottom: 20px;
+    header .caption-background  .initial-message {
+        padding: 1rem;
+        animation: fadeInUp 1s ease-out;
     }
 
-    header {
-        width: 100vw;
-        height: 100vh;
+    header .caption-background .reservation-message h3 {
+        position: relative;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        margin-bottom: 90px;
+        line-height: 2.5rem;
+        font-size: 2.3rem;
+    }
+
+    header .caption-background .menu-message h3 {
+        position: relative;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        margin-bottom: 90px;
+        line-height: 2.3rem;
+        font-size: 1.8rem;
+    }
+
+    header .caption-background .reservation-message p {
+        position: relative;
+        bottom: 140px;
+        left: 10px;
+        font-size: 1rem;
+    }
+
+    header .caption-background .menu-message p {
+        position: relative;
+        bottom: 140px;
+        left: 10px;
+        font-size: 1rem;
+    }
+
+    header .caption-background .button-close-spacing {
+        position: relative;
+        bottom: 230px;
+        padding: 0.5rem 1rem !important;
+        font-size: 1rem;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 
     .home-page header h1 {

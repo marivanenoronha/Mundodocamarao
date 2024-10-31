@@ -3,14 +3,14 @@ import { Helmet } from "react-helmet";
 import { Reviews } from "../components/Reviews";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from 'react';
-import { Carousel, Container } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import "./Home.css";
 import { MenuBtn } from "../components/menu.Btn";
 import AboutImg from "../fotos/img/about-chef2.jpg";
 import AboutImg1 from "../fotos/img/gallery7.jpg";
 import AboutImg2 from "../fotos/img/about-chef1.jpg";
 import { ContactInfo } from "../components/ContactInfo";
-
+import { CSSTransition } from "react-transition-group";
 import Image1 from "../fotos/img/gallery.jpg";
 import Image2 from "../fotos/img/gallery7.jpg";
 import Image3 from "../fotos/img/drinks9.jpg";
@@ -20,8 +20,6 @@ import Image6 from "../fotos/img/gallery5.jpg";
 import Image7 from "../fotos/img/appetizers11.jpg";
 import Image8 from "../fotos/img/gallery11.jpg";
 import Image9 from "../fotos/img/gallery6.jpg";
-import Image10 from "../fotos/img/About-chef4.jpg";
-import Image11 from "../fotos/img/gallery14.jpg";
 
 
 function Home() {
@@ -42,23 +40,83 @@ function Home() {
         <meta name="keywords" content="restaurante de frutos do mar, camarão, comida fresca, ambiente acolhedor" />
     </Helmet>
 
+
+    const [activeMessage, setActiveMessage] = useState(1);
+    const [isMessageVisible, setIsMessageVisible] = useState(true);
+
+    useEffect(() => {
+        const cycleMessages = setInterval(() => {
+            setIsMessageVisible(false);
+            setTimeout(() => {
+                setActiveMessage((prev) => (prev === 3 ? 1 : prev + 1)); 
+                setIsMessageVisible(true); 
+            }, 8000);
+        }, 6800); 
+
+        return () => clearInterval(cycleMessages);
+    }, []);
+
     return (
 
         <div className="home-page">
             <header className="d-flex align-items-center text-light shadow">
-                <div className="carousel-caption">
-                <div className="caption-background">
-                    <h1 className="display-4 fw-bold  ">O melhor em <br /> frutos do mar</h1>
-                    <p className="lead mt-2 fw-bold ">Restaurante e Petiscaria</p>
-                </div>
-                </div>
-            </header>
+                <Container fluid className="p-0">
+                    <div className="carousel-caption">
+                        <div className="caption-background">
+                            <CSSTransition
+                                in={isMessageVisible && activeMessage === 1}
+                                timeout={500}
+                                classNames="slide-fade"
+                                unmountOnExit
+                            >
+                                <div className="initial-message">
+                                    <h1 className="display-4 ">O melhor em  frutos do mar</h1>
+                                    <p className="lead mt-2 fw-bold">Restaurante e Petiscaria</p>
+                                </div>
+                            </CSSTransition>
+                            <CSSTransition
+                                in={isMessageVisible && activeMessage === 2}
+                                timeout={500}
+                                classNames="slide-fade"
+                                unmountOnExit
+                            >
+                                <div className="reservation-message">
+                                <p className="lead text-light ">Garanta o seu lugar e desfrute de uma experiência gastronômica inesquecível.</p>
+                                    <h3 className="display-5 mt-4 text-light">Faça já sua reserva aqui</h3>
+                                    <Button href="/reservation" variant="outline-light " size="lg" className="fw-bold px-4 py-2 mt-3 button-close-spacing">
+                                        Faça uma reserva
+                                    </Button>
+                                </div>
+                            </CSSTransition>
 
+                            <CSSTransition
+                                in={isMessageVisible && activeMessage === 3}
+                                timeout={500}
+                                classNames="slide-fade"
+                                unmountOnExit
+                            >
+                                <div className="menu-message ">
+                                <p className="lead text-light  "  >Descubra pratos deliciosos e aproveite cada sabor especial que oferecemos.</p>
+                                    <h3 className="display-5 mt-4 text-light ">Confira o nosso cardápio exclusivo!</h3>
+                                    <Button
+                                        href="/menu"
+                                        variant="outline-light"
+                                        size="lg"
+                                        className="fw-bold px-4 py-2 mt-3 button-close-spacing"
+                                    >
+                                        Conferir Cardápio
+                                    </Button>
+                                </div>
+                            </CSSTransition>
+                        </div>
+                    </div>
+                </Container>
+            </header>
 
             <div className="container my-3">
                 <div className="row">
                     <div className="col-h2 col-lg-6 d-flex justify-content-center d-none d-lg-flex">
-                        <div id="aboutCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div id="aboutCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <img src={AboutImg} className="img-fluid rounded" alt="About img 1" />
@@ -140,7 +198,7 @@ function Home() {
             <div className="container  py-5">
                 <h2 className="text-center fs-1 mb-5  fw-bold">Galeria de fotos</h2>
                 <div className="row">
-                    <div id="carouselExampleIndicators" className="carousel slide " data-bs-ride="carousel" data-bs-interval="3000">
+                    <div id="carouselExampleIndicators" className="carousel slide " data-bs-ride="carousel" data-bs-interval="2000">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -195,24 +253,23 @@ function Home() {
             <div className="my-5">
                 <Reviews />
             </div>
-            <ContactInfo />
 
             <div className="container my-5">
-                        <div className="row">
-                            <div className="col-12 d-flex align-items-left justify-content-center flex-column">
-                                <h2>Localização</h2>
-                                <div className="ratio ratio-16x9">
-                                    <iframe
-                                        className="embed-responsive-item"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3565.136417862331!2d-49.37183408495774!3d-28.924780882351507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952137d5b9e1f0fd%3A0x4f6a5d5f03af0e39!2sR.%20Caxias%2C%2015%20-%20Morro%20dos%20Conventos%2C%20Ararangu%C3%A1%20-%20SC%2C%2088911-320%2C%20Brazil!5e0!3m2!1spt-BR!2sus!4v1691243027432!5m2!1spt-BR!2sus"
-                                        allowfullscreen=""
-                                        loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"
-                                    ></iframe>
-                                </div>
-                            </div>
+                <div className="row">
+                    <div className="col-12 d-flex align-items-left justify-content-center flex-column">
+                        <h2>Localização</h2>
+                        <div className="ratio ratio-16x9">
+                            <iframe
+                                className="embed-responsive-item"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3565.136417862331!2d-49.37183408495774!3d-28.924780882351507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952137d5b9e1f0fd%3A0x4f6a5d5f03af0e39!2sR.%20Caxias%2C%2015%20-%20Morro%20dos%20Conventos%2C%20Ararangu%C3%A1%20-%20SC%2C%2088911-320%2C%20Brazil!5e0!3m2!1spt-BR!2sus!4v1691243027432!5m2!1spt-BR!2sus"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
                         </div>
                     </div>
+                </div>
+            </div>
             <div className="whatsapp-container position-fixed d-flex align-items-center">
                 {showWelcomeMessage && (
                     <span className="text-light bg-success p-2 rounded">Faça sua reserva</span>
@@ -226,7 +283,7 @@ function Home() {
                     <i className="fab fa-whatsapp fa-3x text-success"></i>
                 </a>
             </div>
-
+            <ContactInfo />
         </div>
     )
 }
