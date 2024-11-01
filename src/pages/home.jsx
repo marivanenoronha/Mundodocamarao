@@ -70,7 +70,7 @@ function Home() {
                                 unmountOnExit
                             >
                                 <div className="initial-message">
-                                    <h1 className="display-4 ">O melhor em  frutos do mar</h1>
+                                    <h1 className="display-5 mt-4  ">O melhor em  frutos do mar</h1>
                                     <p className="lead mt-2 fw-bold">Restaurante e Petiscaria</p>
                                 </div>
                             </CSSTransition>
@@ -81,10 +81,10 @@ function Home() {
                                 unmountOnExit
                             >
                                 <div className="reservation-message">
-                                <p className="lead text-light ">Garanta o seu lugar e desfrute de uma experiência gastronômica inesquecível.</p>
-                                    <h3 className="display-5 mt-4 text-light">Faça já sua reserva aqui</h3>
-                                    <Button href="https://wa.me/5548991606536" variant="outline-light " size="lg" className="fw-bold px-4 py-2 mt-3 button-close-spacing">
-                                        Faça uma reserva
+                                <p className="lead  ">Garanta o seu lugar e desfrute de uma experiência gastronômica inesquecível.</p>
+                                    <h3 className="display-5 mt-4 ">Faça já sua reserva aqui</h3>
+                                    <Button href="https://wa.me/5548991606536" variant="light " size="lg" className="fw-bold px-4 py-2 mt-3 button-close-spacing">
+                                        Faça sua reserva
                                     </Button>
                                 </div>
                             </CSSTransition>
@@ -96,11 +96,11 @@ function Home() {
                                 unmountOnExit
                             >
                                 <div className="menu-message ">
-                                <p className="lead text-light  "  >Descubra pratos deliciosos e aproveite cada sabor especial que oferecemos.</p>
-                                    <h3 className="display-5 mt-4 text-light ">Confira o nosso cardápio exclusivo!</h3>
+                                <p className="lead  "  >Descubra pratos deliciosos e aproveite cada sabor especial que oferecemos.</p>
+                                    <h3 className="display-5 mt-4  ">Confira o nosso cardápio exclusivo!</h3>
                                     <Button
                                         href="/menu"
-                                        variant="outline-light"
+                                        variant="light"
                                         size="lg"
                                         className="fw-bold px-4 py-2 mt-3 button-close-spacing"
                                     >
