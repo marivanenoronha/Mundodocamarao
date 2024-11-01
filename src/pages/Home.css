@@ -11,29 +11,36 @@ header .carousel-caption .caption-background h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     position: relative;
     line-height: 75px;
-    bottom: 155px;
+    bottom: 220px;
     font-size: 5rem;
+}
+
+header .carousel-caption .caption-background .initial-message p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 220px;
+    font-size: 1.3rem;
 }
 
 header .carousel-caption .caption-background h3 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     position: relative;
     line-height: 75px;
-    bottom: 155px;
+    bottom: 145px;
     font-size: 3rem;
 }
 
 header .carousel-caption .caption-background p {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     position: relative;
-    bottom: 135px;
+    bottom: 120px;
     font-size: 1.3rem;
 }
 
 
 header .button-close-spacing {
     position: relative;
-    bottom: 6rem;
+    bottom: 7rem;
 }
 
 
@@ -203,19 +210,19 @@ header .slide-fade-exit-active {
     }
 
     header .caption-background .initial-message h1 {
-        position: relative;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 290px;
-        line-height: 2.5rem;
-        left: 10px;
-        font-size: 2.5rem;
+        line-height: 1.2; 
+        white-space: pre-line;
+        text-align: center; 
     }
 
     header .caption-background .initial-message p {
         position: relative;
-        bottom: 250px;
-        left: 10px;
-        font-size: 1rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        bottom: 250px !important;
+        text-align: center; 
+        font-size: 1.2rem; 
     }
 
     header .caption-background  .initial-message {
@@ -242,14 +249,14 @@ header .slide-fade-exit-active {
     header .caption-background .reservation-message p {
         position: relative;
         bottom: 140px;
-        left: 10px;
+        text-align: center; 
         font-size: 1rem;
     }
 
     header .caption-background .menu-message p {
         position: relative;
         bottom: 140px;
-        left: 10px;
+        text-align: center; 
         font-size: 1rem;
     }
 
