@@ -212,14 +212,14 @@ header .slide-fade-exit-active {
     header .caption-background .initial-message h1 {
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 290px;
+        font-size: 2.5rem; 
         line-height: 1.2; 
-        white-space: pre-line;
+        white-space: pre-line; 
         text-align: center; 
     }
 
     header .caption-background .initial-message p {
         position: relative;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         bottom: 250px !important;
         text-align: center; 
         font-size: 1rem; 

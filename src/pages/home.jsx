@@ -70,7 +70,7 @@ function Home() {
                                 unmountOnExit
                             >
                                 <div className="initial-message">
-                                    <h1 className="display-5 mt-4  ">O melhor em  frutos do mar</h1>
+                                    <h1 className="display-5 mt-4 ">O melhor em frutos do mar</h1>
                                     <p className="lead mt-2 fw-bold">Restaurante e Petiscaria</p>
                                 </div>
                             </CSSTransition>
@@ -83,7 +83,7 @@ function Home() {
                                 <div className="reservation-message">
                                 <p className="lead  ">Garanta o seu lugar e desfrute de uma experiência gastronômica inesquecível.</p>
                                     <h3 className="display-5 mt-4 ">Faça já sua reserva aqui</h3>
-                                    <Button href="https://wa.me/5548991606536" variant="light " size="lg" className="fw-bold px-4 py-2 mt-3 button-close-spacing">
+                                    <Button href="https://wa.me/5548991606536" variant="light " size="lg" className="fw-bold text-dark px-4 py-2 mt-3 button-close-spacing">
                                         Faça sua reserva
                                     </Button>
                                 </div>
@@ -102,7 +102,7 @@ function Home() {
                                         href="/menu"
                                         variant="light"
                                         size="lg"
-                                        className="fw-bold px-4 py-2 mt-3 button-close-spacing"
+                                        className="fw-bold text-dark px-4 py-2 mt-3 button-close-spacing"
                                     >
                                         Conferir Cardápio
                                     </Button>
