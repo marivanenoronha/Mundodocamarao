@@ -24,10 +24,10 @@ function App() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className="ms-auto d-lg-flex align-items-center justify-content-end w-100">
-              <Nav.Link href="/" className="display-4" >Home</Nav.Link>
-              <Nav.Link href="/about" className="display-4">Sobre nós</Nav.Link>
-              <Nav.Link href="/menu" className="display-4" >Cardápio</Nav.Link>
-              <Nav.Link href="/contact" className="display-4">Contato</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/about" >Sobre nós</Nav.Link>
+              <Nav.Link href="/menu" >Cardápio</Nav.Link>
+              <Nav.Link href="/contact" >Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

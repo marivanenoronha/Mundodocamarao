@@ -2,9 +2,9 @@ import React from "react";
 
 export function ContactInfo() {
     return (
-        <div className="text-light py-5 shadow">
+        <div className="text-light  py-5 shadow">
             <div className="row">
-                <div className="col-12 col-lg-6 mb-4 mb-lg-0 d-flex flex-column align-items-center">
+                <div className="col-12  col-lg-6 mb-4 mb-lg-0 d-flex flex-column align-items-center">
                     <h3 className="mb-3  fw-bold text-dark">Onde nos encontrar</h3>
                     <p className="mb-4 text-dark text-center">
                         <div className="d-flex align-items-center">
