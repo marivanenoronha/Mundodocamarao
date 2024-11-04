@@ -41,21 +41,21 @@ function Home() {
     </Helmet>
 
 
-    const [activeMessage, setActiveMessage] = useState(1);
-    const [isMessageVisible, setIsMessageVisible] = useState(true);
+const [activeMessage, setActiveMessage] = useState(1);
+const [isMessageVisible, setIsMessageVisible] = useState(true);
 
-    useEffect(() => {
-        const cycleMessages = setInterval(() => {
-            setIsMessageVisible(false);
-            setTimeout(() => {
-                setActiveMessage((prev) => (prev === 3 ? 1 : prev + 1)); 
-                setIsMessageVisible(true); 
-            }, 8000);
-        }, 6800); 
+useEffect(() => {
+    const cycleMessages = setInterval(() => {
+        setIsMessageVisible(false);
 
-        return () => clearInterval(cycleMessages);
-    }, []);
+        setTimeout(() => {
+            setActiveMessage((prev) => (prev === 3 ? 1 : prev + 1)); 
+            setIsMessageVisible(true); 
+        }, 1000); 
+    }, 4000); 
 
+    return () => clearInterval(cycleMessages);
+}, []);
     return (
 
         <div className="home-page">
