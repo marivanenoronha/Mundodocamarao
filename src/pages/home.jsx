@@ -52,7 +52,7 @@ useEffect(() => {
             setActiveMessage((prev) => (prev === 3 ? 1 : prev + 1)); 
             setIsMessageVisible(true); 
         }, 1000); 
-    }, 4000); 
+    }, 3000); 
 
     return () => clearInterval(cycleMessages);
 }, []);
