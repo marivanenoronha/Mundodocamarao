@@ -14,7 +14,7 @@ export function Reviews() {
             <h2 className="text-center mb-5 text-dark fs-1">Avaliações</h2>
             <div className="row g-4">
                 <div className="col-lg-6">
-                    <Card className="h-100 shadow">
+                    <Card className="h-100 shadow ">
                         <CardBody>
                             <div className="p-4 ">
                                 <CardText className="p">
