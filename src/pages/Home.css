@@ -82,10 +82,10 @@ header .slide-fade-exit-active {
 
 .home-page .carousel-inner .carousel-item img {
     width: 100%;
-    height: auto; /* Mantém a proporção original da imagem */
-    max-height: 500px; /* Ajusta o limite de altura para telas grandes */
-    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
-    transition: opacity 1s ease, transform 0.8s ease; /* Aplica uma transição suave */
+    height: auto; 
+    max-height: 500px;
+    object-fit: cover; 
+    transition: opacity 1s ease, transform 0.8s ease; 
 }
 
 

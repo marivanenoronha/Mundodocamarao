@@ -6,8 +6,7 @@ import Person1 from "../fotos//img/person1.png";
 import Person2 from "../fotos/img/person2.png";
 import Person3 from "../fotos//img/person3.png";
 import Person4 from "../fotos/img/person4.png";
-import LogoGoogle from "../fotos/img/logo-google.png"
-import Carousel from 'react-bootstrap/Carousel';
+import LogoGoogle from "../fotos/img/logo-google.png";
 
 export function Reviews() {
     return (
@@ -18,7 +17,7 @@ export function Reviews() {
                     <Card className="h-100 shadow">
                         <CardBody>
                             <div className="p-4 ">
-                                <CardText>
+                                <CardText className="p">
                                     Nunca me arrependo de ir a Mundo do Camarão, frutos do mar fresquinhos, sentar em baixo da sombra na área do deck, tomando uma caipirinha, não tem preço. O atendimento bacana demais, pessoal super atencioso. É sempre uma ótima experiência comer lá!
                                 </CardText>
                             </div>
@@ -27,14 +26,14 @@ export function Reviews() {
                             <div className="d-flex align-items-center">
                                 <img src={Person1} className="img-fluid rounded-circle mx-3 shadow" alt="" />
                                 <div>
-                                    <CardTitle className="text-dark mb-0">Quinho Melo</CardTitle>
-                                    <small className="text-muted">03 de Outubro, 2024</small>
+                                    <CardTitle className="text-dark mb-0 title">Quinho Melo</CardTitle>
+                                    <small className="text-muted small">03 de Outubro, 2024</small>
                                 </div>
                             </div>
                             <img
                                     src={LogoGoogle}
                                     alt="Logo Google"
-                                    className="mt-1"
+                                    className="mt-1 logo"
                                     style={{ width:'70px'}} 
                                 />
                         </CardFooter>
@@ -45,7 +44,7 @@ export function Reviews() {
                     <Card className="h-100 shadow">
                         <CardBody>
                             <div className="p-4">
-                                <CardText>
+                                <CardText className="p">
                                     O restaurante é aconchegante, a proprietária atenciosa e muito gentil para atender. A comida é servida com um delicioso peixe!
                                 </CardText>
                             </div>
@@ -54,14 +53,14 @@ export function Reviews() {
                             <div className="d-flex align-items-center">
                                 <img src={Person2} className="img-fluid rounded-circle mx-3 shadow" alt="" />
                                 <div>
-                                    <CardTitle className="text-dark">Rosangela Pereira</CardTitle>
-                                    <small className="text-muted">30 de Setembro, 2024</small>
+                                    <CardTitle className="text-dark title">Rosangela Pereira</CardTitle>
+                                    <small className="text-muted small">30 de Setembro, 2024</small>
                                 </div>
                             </div>
                             <img
                                     src={LogoGoogle}
                                     alt="Logo Google"
-                                    className="mt-1"
+                                    className="mt-1 logo"
                                     style={{ width: '70px'}} 
                                 />
                         </CardFooter>
@@ -72,7 +71,7 @@ export function Reviews() {
                     <Card className="h-100 shadow">
                         <CardBody>
                             <div className="p-4">
-                                <CardText>
+                                <CardText className="p">
                                     Simplesmente perfeito. Restaurante com bastante procura e muito movimento, mas a comida chegou em perfeito estado, muito saborosa e atendimento impecável! Super recomendo, restaurante familiar e muito aconchegante, um dos melhores em Araranguá.
                                 </CardText>
                             </div>
@@ -81,14 +80,14 @@ export function Reviews() {
                             <div className="d-flex align-items-center">
                                 <img src={Person3} className="img-fluid rounded-circle mx-3 shadow" alt="" />
                                 <div>
-                                    <CardTitle className="text-dark">Leandro tomaz Borges</CardTitle>
-                                    <small className="text-muted">29 de Setembro, 2024</small>
+                                    <CardTitle className="text-dark title">Leandro tomaz Borges</CardTitle>
+                                    <small className="text-muted small">29 de Setembro, 2024</small>
                                 </div>
                             </div>
                             <img
                                     src={LogoGoogle}
                                     alt="Logo Google"
-                                    className="mt-1"
+                                    className="mt-1 logo"
                                     style={{ width: '70px'}} 
                                 />
                         </CardFooter>
@@ -100,7 +99,7 @@ export function Reviews() {
                     <Card className="h-100 shadow">
                         <CardBody>
                             <div className="p-4">
-                                <CardText>
+                                <CardText className="p">
                                     Eu amo o Mundo do Camarão, hoje fui novamente, e, apesar do movimento (um domingo bem ensolarado), a experiência foi excelente! O atendimento foi atencioso e a espera valeu a pena, pois os pratos estavam simplesmente deliciosos. Refeição impecável como sempre! Amoo!!
                                 </CardText>
                             </div>
@@ -109,14 +108,14 @@ export function Reviews() {
                             <div className="d-flex align-items-center">
                                 <img src={Person4} className="img-fluid rounded-circle mx-3 shadow" alt="" />
                                 <div>
-                                    <CardTitle className="text-dark mb-0">Cauane Teixeira Presse</CardTitle>
-                                    <small className="text-muted">28 de Setembro, 2024</small>
+                                    <CardTitle className="text-dark mb-0 title">Cauane Teixeira Presse</CardTitle>
+                                    <small className="text-muted small">28 de Setembro, 2024</small>
                                 </div>
                             </div>
                             <img
                                     src={LogoGoogle}
                                     alt="Logo Google"
-                                    className="mt-1"
+                                    className="mt-1 logo"
                                     style={{ width: '70px'}} 
                                 />
                         </CardFooter>

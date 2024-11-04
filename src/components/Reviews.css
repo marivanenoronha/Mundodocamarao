@@ -2,3 +2,22 @@
     width: 15%;
     border-width: thin;
 }
+
+@media (max-width: 475px) {
+    .reviews-section .p {
+        position: relative;
+        font-size: 0.8rem;
+    }
+
+    .reviews-section .title {
+        font-size: 1rem;
+    }
+
+    .reviews-section .small {
+        font-size: 0.7rem;
+    }
+
+    .reviews-section .logo {
+        width: 60px !important;
+    }
+}
