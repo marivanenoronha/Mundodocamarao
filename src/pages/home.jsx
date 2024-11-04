@@ -7,8 +7,8 @@ import { Container, Button } from 'react-bootstrap';
 import "./Home.css";
 import { MenuBtn } from "../components/menu.Btn";
 import AboutImg from "../fotos/img/about-chef2.jpg";
-import AboutImg1 from "../fotos/img/gallery7.jpg";
-import AboutImg2 from "../fotos/img/about-chef1.jpg";
+import AboutImg1 from "../fotos/img/gallery5.jpg";
+import AboutImg2 from "../fotos/img/gallery14.jpg";
 import { ContactInfo } from "../components/ContactInfo";
 import { CSSTransition } from "react-transition-group";
 import Image1 from "../fotos/img/gallery.jpg";
@@ -41,21 +41,21 @@ function Home() {
     </Helmet>
 
 
-const [activeMessage, setActiveMessage] = useState(1);
-const [isMessageVisible, setIsMessageVisible] = useState(true);
+    const [activeMessage, setActiveMessage] = useState(1);
+    const [isMessageVisible, setIsMessageVisible] = useState(true);
 
-useEffect(() => {
-    const cycleMessages = setInterval(() => {
-        setIsMessageVisible(false);
+    useEffect(() => {
+        const cycleMessages = setInterval(() => {
+            setIsMessageVisible(false);
 
-        setTimeout(() => {
-            setActiveMessage((prev) => (prev === 3 ? 1 : prev + 1)); 
-            setIsMessageVisible(true); 
-        }, 1000); 
-    }, 4000); 
+            setTimeout(() => {
+                setActiveMessage((prev) => (prev === 3 ? 1 : prev + 1));
+                setIsMessageVisible(true);
+            }, 1000);
+        }, 4000);
 
-    return () => clearInterval(cycleMessages);
-}, []);
+        return () => clearInterval(cycleMessages);
+    }, []);
     return (
 
         <div className="home-page">
@@ -81,7 +81,7 @@ useEffect(() => {
                                 unmountOnExit
                             >
                                 <div className="reservation-message">
-                                <p className="lead  ">Garanta o seu lugar e desfrute de uma experiência gastronômica inesquecível.</p>
+                                    <p className="lead  ">Garanta o seu lugar e desfrute de uma experiência gastronômica inesquecível.</p>
                                     <h3 className="display-5 mt-4 ">Faça já sua reserva aqui</h3>
                                     <Button href="https://wa.me/5548991606536" variant="light " size="lg" className="fw-bold text-dark px-4 py-2 mt-3 button-close-spacing">
                                         Faça sua reserva
@@ -96,7 +96,7 @@ useEffect(() => {
                                 unmountOnExit
                             >
                                 <div className="menu-message ">
-                                <p className="lead  "  >Descubra pratos deliciosos e aproveite cada sabor especial que oferecemos.</p>
+                                    <p className="lead  "  >Descubra pratos deliciosos e aproveite cada sabor especial que oferecemos.</p>
                                     <h3 className="display-5 mt-4  ">Confira o nosso cardápio exclusivo!</h3>
                                     <Button
                                         href="/menu"
@@ -115,8 +115,8 @@ useEffect(() => {
 
             <div className="container my-3">
                 <div className="row">
-                    <div className="col-h2 col-lg-6 d-flex justify-content-center d-none d-lg-flex">
-                        <div id="aboutCarousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div className=" col-h2 col-lg-6 d-none d-md-flex justify-content-center">
+                        <div id="aboutCarousel" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <img src={AboutImg} className="img-fluid rounded" alt="About img 1" />
@@ -130,13 +130,33 @@ useEffect(() => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Conteúdo de texto */}
                     <div className="col-lg d-flex flex-column align-items-center justify-content-center">
-                        <h2 className="fs-1 mb-5  fw-bold ">Sobre nós</h2>
+                        <h2 className="fs-1 mb-5 fw-bold">Sobre nós</h2>
                         <p className="mb-3 text-justify">
                             Somos um restaurante e petiscaria especializado em frutos do mar, comprometidos em oferecer
                             pratos feitos com ingredientes frescos e cuidadosamente selecionados. Nossa equipe de especialistas
                             garante que cada prato entregue a você seja preparado com o mais alto padrão de qualidade.
                         </p>
+
+                        {/* Carrossel para telas menores, entre os parágrafos */}
+                        <div className="d-block d-md-none my-3">
+                            <div id="aboutCarouselSmall" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                        <img src={AboutImg} className="img-fluid rounded" alt="About img 1" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img src={AboutImg1} className="img-fluid rounded" alt="About img 2" />
+                                    </div>
+                                    <div className="carousel-item">
+                                        <img src={AboutImg2} className="img-fluid rounded" alt="About img 3" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <p className="mb-5 text-justify">
                             No Restaurante e Petiscaria Mundo do Camarão, nosso cardápio variado é elaborado com critério e zelo.
                             Complementamos sua experiência gastronômica com uma seleção de vinhos nacionais e importados, mantidos
@@ -145,12 +165,10 @@ useEffect(() => {
                         </p>
 
                         <Link to="/about">
-                            <button type="button" className="btn btn-outline-dark btn-lg ">Mais sobre nós</button>
+                            <button type="button" className="btn btn-outline-dark btn-lg">Mais sobre nós</button>
                         </Link>
                     </div>
-
                 </div>
-
                 <div className="menu-section py-3 text-light rounded shadow">
                     <div className="container d-flex flex-column align-items-center ">
                         <h2 className="fs-1 mb-5  fw-bold">Nossos favoritos</h2>

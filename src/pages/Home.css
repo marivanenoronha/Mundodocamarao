@@ -80,12 +80,15 @@ header .slide-fade-exit-active {
     top: 80px;
 }
 
-.home-page .carousel-inner img {
-    position: relative;
+.home-page .carousel-inner .carousel-item img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto; /* Mantém a proporção original da imagem */
+    max-height: 500px; /* Ajusta o limite de altura para telas grandes */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    transition: opacity 1s ease, transform 0.8s ease; /* Aplica uma transição suave */
 }
+
+
 
 .home-page .col-lg button {
     margin-bottom: 40px;
@@ -281,6 +284,13 @@ header .slide-fade-exit-active {
         }
     }
 
+    .home-page .carousel-inner .carousel-item img {
+        height: 250px; 
+        max-height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+
     .home-page header h1 {
         font-size: 2rem;
         line-height: 30px;
@@ -337,6 +347,7 @@ header .slide-fade-exit-active {
         position: relative;
         bottom: 15px;
     }
+   
 
     .home-page .col-lg img {
         width: 100%;
