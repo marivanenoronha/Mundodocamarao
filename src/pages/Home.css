@@ -332,8 +332,9 @@ header .slide-fade-exit-active {
     }
 
     .home-page .carousel-inner .carousel-item img {
-        width: 100%; 
-        height: auto;
+        height: 250px; 
+        max-height: 250px;
+        width: 100%;
         object-fit: cover;
     }
 
@@ -379,7 +380,7 @@ header .slide-fade-exit-active {
     }
 
     .home-page .item img {
-        height: 350px !important;
+        height: 330px !important;
         object-fit: cover;
     }
 
