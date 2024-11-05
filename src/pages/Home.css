@@ -77,10 +77,10 @@ header .slide-fade-exit-active {
 
 .home-page .carousel-inner .carousel-item img {
     width: 100%;
-    height: auto; 
+    height: auto;
     max-height: 500px;
-    object-fit: cover; 
-    transition: opacity 1s ease, transform 0.8s ease; 
+    object-fit: cover;
+    transition: opacity 1s ease, transform 0.8s ease;
 }
 
 
@@ -177,6 +177,58 @@ header .slide-fade-exit-active {
 
 
 @media (max-width: 768px) {
+
+    header .carousel-caption .caption-background h1 {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        line-height: 1.1;
+        white-space: pre-line;
+        left: 10px;
+        font-size: 2.5rem;
+    }
+
+    header .carousel-caption .caption-background p {
+        bottom: 170px;
+        left: 10px;
+        font-size: 1rem;
+    }
+
+    header .caption-background .reservation-message h3 {
+        position: relative;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        bottom: 155px;
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+
+    header .caption-background .reservation-message p {
+        position: relative;
+        bottom: 140px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    header .caption-background .menu-message h3 {
+        position: relative;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        line-height: 2rem;
+        bottom: 150px;
+        font-size: 2rem;
+    }
+
+    header .caption-background .menu-message p {
+        position: relative;
+        bottom: 135px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    header .caption-background .button-close-spacing {
+        position: relative;
+        bottom: 140px;
+        padding: 0.5rem 1rem !important;
+        font-size: 1rem;
+    }
+
     .home-page .item img {
         height: 200px;
         object-fit: cover;
@@ -185,20 +237,6 @@ header .slide-fade-exit-active {
     .home-page .container h2 {
         position: relative;
         top: 20px;
-    }
-
-    header .carousel-caption .caption-background h1 {
-        position: relative;
-        margin-bottom: 130px;
-        left: 10px;
-        font-size: 2.7rem;
-    }
-
-    header .carousel-caption .caption-background p {
-        position: relative;
-        bottom: 170px;
-        left: 10px;
-        font-size: 1rem;
     }
 }
 
@@ -212,20 +250,20 @@ header .slide-fade-exit-active {
     header .caption-background .initial-message h1 {
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 290px;
-        font-size: 2.5rem; 
-        line-height: 1.2; 
-        white-space: pre-line; 
-        text-align: center; 
+        font-size: 2.5rem;
+        line-height: 1.2;
+        white-space: pre-line;
+        text-align: center;
     }
 
     header .caption-background .initial-message p {
         position: relative;
         bottom: 250px !important;
-        text-align: center; 
-        font-size: 1rem; 
+        text-align: center;
+        font-size: 1rem;
     }
 
-    header .caption-background  .initial-message {
+    header .caption-background .initial-message {
         padding: 1rem;
         animation: fadeInUp 1s ease-out;
     }
@@ -249,14 +287,14 @@ header .slide-fade-exit-active {
     header .caption-background .reservation-message p {
         position: relative;
         bottom: 140px;
-        text-align: center; 
+        text-align: center;
         font-size: 1rem;
     }
 
     header .caption-background .menu-message p {
         position: relative;
         bottom: 140px;
-        text-align: center; 
+        text-align: center;
         font-size: 1rem;
     }
 
@@ -332,7 +370,7 @@ header .slide-fade-exit-active {
     }
 
     .home-page .carousel-inner .carousel-item img {
-        height: 250px; 
+        height: 250px;
         max-height: 250px;
         width: 100%;
         object-fit: cover;
@@ -342,7 +380,7 @@ header .slide-fade-exit-active {
         position: relative;
         bottom: 15px;
     }
-   
+
 
     .home-page .col-lg img {
         width: 100%;
