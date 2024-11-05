@@ -238,6 +238,12 @@ header .slide-fade-exit-active {
         position: relative;
         top: 20px;
     }
+
+    .home-page .col-12 h2 {
+        position: relative;
+        font-size: 1.4rem;
+        margin-bottom: 25px;
+    }
 }
 
 @media (max-width: 475px) {

@@ -38,7 +38,7 @@ function Contact() {
                         </a>
                     </h2>
                 <div className="row">
-                <ContactInfo />
+                
                     <div className="container my-5">
                         <div className="row">
                             <div className="col-12 d-flex align-items-left justify-content-center flex-column">
@@ -71,6 +71,7 @@ function Contact() {
                     <i className="fab fa-whatsapp fa-3x text-success"></i>
                 </a>
             </div>
+            <ContactInfo />
         </div>
     )
 }

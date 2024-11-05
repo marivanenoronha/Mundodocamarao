@@ -1,6 +1,9 @@
 
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import Container from 'react-bootstrap/Container';
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -12,26 +15,45 @@ import Contact from "./pages/contact";
 import Logo from "./fotos/img/logo-restaurante.png";
 
 function App() {
+  const [isExpanded, setIsExpanded] = useState(false);
 
   return (
     <div >
 
-      <Navbar expand="lg" className='fixed-top bg-body-tertiary'>
-        <Container>
-          <Navbar.Brand className="navbar-brand fw-semibold">
-            <a href="/"><img src={Logo} width="130px" height="52px"className="d-inline-block align-top" alt="Logo do Restaurante" /></a>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className="ms-auto d-lg-flex align-items-center justify-content-end w-100">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about" >Sobre nós</Nav.Link>
-              <Nav.Link href="/menu" >Cardápio</Nav.Link>
-              <Nav.Link href="/contact" >Contato</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+<Navbar
+      expand="lg"
+      className="fixed-top bg-body-tertiary"
+      expanded={isExpanded}
+      onToggle={() => setIsExpanded(!isExpanded)}
+    >
+      <Container>
+        <Navbar.Brand className="navbar-brand fw-semibold">
+          <a href="/">
+            <img
+              src={Logo}
+              width="130px"
+              height="52px"
+              className="d-inline-block align-top"
+              alt="Logo do Restaurante"
+            />
+          </a>
+        </Navbar.Brand>
+        
+        {/* Navbar Toggle Button with conditional icons */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setIsExpanded(!isExpanded)}>
+          <FontAwesomeIcon icon={isExpanded ? faTimes : faBars} />
+        </Navbar.Toggle>
+        
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto d-lg-flex align-items-center justify-content-end w-100">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">Sobre nós</Nav.Link>
+            <Nav.Link href="/menu">Cardápio</Nav.Link>
+            <Nav.Link href="/contact">Contato</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 
 
       <BrowserRouter>
