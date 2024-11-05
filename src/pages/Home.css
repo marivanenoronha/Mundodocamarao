@@ -43,9 +43,6 @@ header .button-close-spacing {
     bottom: 7rem;
 }
 
-
-
-
 header .slide-fade {
     opacity: 0;
     transform: translateY(20%);
@@ -68,8 +65,6 @@ header .slide-fade-exit-active {
     transition: opacity 500ms, transform 500ms;
 }
 
-
-
 .home-page .col-lg h2 {
     margin-top: 50px;
 }
@@ -77,7 +72,7 @@ header .slide-fade-exit-active {
 
 .home-page .col-h2 {
     position: relative;
-    top: 80px;
+    top: 70px;
 }
 
 .home-page .carousel-inner .carousel-item img {
@@ -337,9 +332,8 @@ header .slide-fade-exit-active {
     }
 
     .home-page .carousel-inner .carousel-item img {
-        height: 250px; 
-        max-height: 250px;
-        width: 100%;
+        width: 100%; 
+        height: auto;
         object-fit: cover;
     }
 
@@ -385,7 +379,7 @@ header .slide-fade-exit-active {
     }
 
     .home-page .item img {
-        height: 300px !important;
+        height: 350px !important;
         object-fit: cover;
     }
 
