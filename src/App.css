@@ -19,7 +19,15 @@ body {
     font-size: 0.89rem;
   } 
 
+  .toggle-btn .navbar-toggler-icon {
+    padding: 0.5rem;
+}
+
   @media (max-width: 475px) {
+
+    .toggle-btn {
+      margin-right: 10px; 
+  }
     .navbar-collapse {
       text-align: left;
     }

@@ -38,9 +38,7 @@ function App() {
             />
           </a>
         </Navbar.Brand>
-        
-        {/* Navbar Toggle Button with conditional icons */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setIsExpanded(!isExpanded)}>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"  className="toggle-btn" onClick={() => setIsExpanded(!isExpanded)}>
           <FontAwesomeIcon icon={isExpanded ? faTimes : faBars} />
         </Navbar.Toggle>
         
