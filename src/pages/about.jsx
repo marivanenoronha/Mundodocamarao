@@ -6,15 +6,14 @@ import { useState, useEffect } from 'react';
 import AboutChef3 from "../fotos/img/About-chef4.jpg";
 import AboutChef4 from "../fotos/img/about-chef2.jpg";
 import { ImageGallery } from "../components/imageGalery";
-import { Reviews } from "../components/Reviews";
 
 function About() {
 
     <Helmet>
-    <title>Restaurante  frutos do mar Mundo do Camarão</title>
-    <meta name="description" content="Conheça a história do Restaurante de frutos do mar Mundo do Camarão, especializado em frutos do mar e comprometido com a qualidade e frescor em cada prato." />
-    <meta name="keywords" content=" restaurante frutos do mar, história, qualidade, frescor" />
-  </Helmet>
+        <title>Restaurante  frutos do mar Mundo do Camarão</title>
+        <meta name="description" content="Conheça a história do Restaurante de frutos do mar Mundo do Camarão, especializado em frutos do mar e comprometido com a qualidade e frescor em cada prato." />
+        <meta name="keywords" content=" restaurante frutos do mar, história, qualidade, frescor" />
+    </Helmet>
 
     const [showWelcomeMessage, setShowWelcomeMessage] = useState(true);
 
@@ -52,11 +51,7 @@ function About() {
                     aniversários formaturas.
                 </p>
             </div>
-            <div className="text-dark ">
-                <ImageGallery />
-            </div>
-            <div className="my-5">
-            </div>
+            <ImageGallery />
             <div className="container my-5">
                 <div className="row">
                     <div className="col-12 d-flex align-items-left justify-content-center flex-column">
@@ -86,7 +81,7 @@ function About() {
                     <i className="fab fa-whatsapp fa-3x text-success"></i>
                 </a>
             </div>
-            <ContactInfo/>
+            <ContactInfo />
         </div>
     )
 }
