@@ -7,12 +7,17 @@
     width: 100%;
 }
 
+h1, h2, h3 {
+    font-family: "Sofia Sans", sans-serif;
+}
+
 header .carousel-caption .caption-background h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     position: relative;
     line-height: 75px;
     bottom: 220px;
     font-size: 5rem;
+    
 }
 
 header .carousel-caption .caption-background .initial-message p {
@@ -20,6 +25,7 @@ header .carousel-caption .caption-background .initial-message p {
     position: relative;
     bottom: 220px;
     font-size: 1.3rem;
+   
 }
 
 header .carousel-caption .caption-background h3 {
@@ -28,6 +34,7 @@ header .carousel-caption .caption-background h3 {
     line-height: 75px;
     bottom: 145px;
     font-size: 3rem;
+   
 }
 
 header .carousel-caption .caption-background p {

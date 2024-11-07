@@ -56,7 +56,6 @@ function About() {
                 <ImageGallery />
             </div>
             <div className="my-5">
-                <Reviews />
             </div>
             <div className="container my-5">
                 <div className="row">
@@ -87,7 +86,7 @@ function About() {
                     <i className="fab fa-whatsapp fa-3x text-success"></i>
                 </a>
             </div>
-            <ContactInfo />
+            <ContactInfo/>
         </div>
     )
 }
