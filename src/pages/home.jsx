@@ -205,7 +205,14 @@ function Home() {
                                 </ul>
                             </div>
                         </div>
-                        <MenuBtn />
+                        <Button
+                                        href="/menu"
+                                        variant="light"
+                                        size="lg"
+                                        className="fw-bold text-dark px-2 py-2 mt-3 button-close-spacing"
+                                    >
+                                        Conferir Cardápio
+                                    </Button>
                     </div>
                 </div>
             </div>
