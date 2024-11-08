@@ -205,14 +205,7 @@ function Home() {
                                 </ul>
                             </div>
                         </div>
-                        <Button
-                                        href="/menu"
-                                        variant="light"
-                                        size="lg"
-                                        className="fw-bold text-dark px-2 py-2 mt-3 button-close-spacing"
-                                    >
-                                        Conferir Cardápio
-                                    </Button>
+                        <MenuBtn />
                     </div>
                 </div>
             </div>
@@ -260,6 +253,7 @@ function Home() {
                             <div className="carousel-item item">
                                 <img src={Image9} className="d-block w-100 rounded" alt="Slide 9" style={{ height: '550px', objectFit: 'cover' }} />
                             </div>
+
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
