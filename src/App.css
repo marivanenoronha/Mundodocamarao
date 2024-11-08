@@ -7,6 +7,7 @@
   font-size: 1.14rem; 
 }
 
+
 body {
   font-family: "Sofia Sans", sans-serif;
 }
@@ -35,7 +36,7 @@ body {
       width: 100%; 
     }
     .ms-auto .nav-link {
-      font-size: 0.85rem !important; 
+      font-size: 01rem !important; 
     }
   }
 
