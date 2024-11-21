@@ -858,9 +858,9 @@ const drinks = [
 const Menu = () => {
 
     <Helmet>
-        <title>Restaurante  frutos do mar Mundo do Camarão</title>
+        <title>Restaurante frutos do mar|Mundo do Camarão</title>
         <meta name="description" content="Confira nosso cardápio variado, com pratos de frutos do mar frescos, carnes, opções vegetarianas e sobremesas irresistíveis." />
-        <meta name="keywords" content="cardápio, restaurante  frutos do mar, carnes, vegano/vegetariano, sobremesas" />
+        <meta name="keywords" content="cardápio, Restaurante frutos do mar, carnes, vegano/vegetariano, sobremesas" />
       </Helmet>
 
 

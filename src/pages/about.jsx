@@ -10,7 +10,7 @@ import { ImageGallery } from "../components/imageGalery";
 function About() {
 
     <Helmet>
-        <title>Restaurante  frutos do mar Mundo do Camarão</title>
+        <title>Restaurante frutos do mar|Mundo do Camarão</title>
         <meta name="description" content="Conheça a história do Restaurante de frutos do mar Mundo do Camarão, especializado em frutos do mar e comprometido com a qualidade e frescor em cada prato." />
         <meta name="keywords" content=" restaurante frutos do mar, história, qualidade, frescor" />
     </Helmet>

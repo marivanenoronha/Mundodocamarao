@@ -35,9 +35,9 @@ function Home() {
     }, []);
 
     <Helmet>
-        <title>Restaurante de frutos do mar Mundo do Camarão</title>
+        <title>Restaurante frutos do mar|Mundo do Camarão</title>
         <meta name="description" content="O melhor restaurante de frutos do mar . Pratos frescos, ambiente agradável e uma experiência gastronômica inesquecível." />
-        <meta name="keywords" content="restaurante de frutos do mar, camarão, comida fresca, ambiente acolhedor" />
+        <meta name="keywords" content="Restaurante frutos do mar, Mundo do camarao, Restaurante morro dos conventos, Frutos do mar" />
     </Helmet>
 
 
