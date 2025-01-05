@@ -99,7 +99,7 @@ function Home() {
                                     <p className="lead  "  >Descubra pratos deliciosos e aproveite cada sabor especial que oferecemos.</p>
                                     <h3 className="display-5 mt-4  ">Confira o nosso cardápio exclusivo!</h3>
                                     <Button
-                                        href="/menu"
+                                        href="/"
                                         variant="light"
                                         size="lg"
                                         className="fw-bold text-dark px-4 py-2 mt-3 button-close-spacing"
