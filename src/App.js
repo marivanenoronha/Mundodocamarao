@@ -46,7 +46,7 @@ function App() {
           <Nav className="ms-auto d-lg-flex align-items-center justify-content-end w-100">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">Sobre nós</Nav.Link>
-           
+            <Nav.Link href="/menu">Cardápio</Nav.Link>
             <Nav.Link href="/contact">Contato</Nav.Link>
           </Nav>
         </Navbar.Collapse>

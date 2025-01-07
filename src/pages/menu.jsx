@@ -77,13 +77,13 @@ import gallery13 from '../fotos/img/drinks5.jpg';
 const alacarte = [
     {
         id: 1,
-        name: "Rodízio de frutos do mar",
-        category: "Frutos do mar",
-        description: "Camarão a milanesa, camarão alho e oléo, linguado grelhado, camarão ensopado, camarão ao molho branco, bolinho de peixe e casquinha de siri,",
+        name: "Sequência de frutos do mar",
+        category: "Pratos com camarão",
+        description: "Camarão alho e oléo, casquinha de siri, camarão ao molho branco, camarão ao molho vermelho, bolinho de peixe, camarão a milanesa, isca de peixe , linguado grelhado, filé de tainha ou anchova, 100g por porção.(Não tem reposição) ",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Criança: <strong>R$69,90</strong></li>
-                <li>Adulto: <strong>R$139,90</strong></li>
+                <li><strong>R$149,90 </strong>Por pessoa</li>
+                
             </ul>
         ),
         image: Image1
@@ -91,13 +91,11 @@ const alacarte = [
     {
         id: 2,
         name: "Camarão a milanesa",
-        category: "Frutos do mar",
+        category: "Pratos com camarão",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$85,90</strong></li>
-                <li>2 pessoas: <strong>R$155,90</strong></li>
-                <li>4 pessoas: <strong>R$265.90</strong></li>
-                <li>6 pessoas: <strong>R$329,90</strong></li>
+                <li>300g: <strong>R$89,90</strong></li>
+                <li>700g: <strong>R$190,90</strong></li>
             </ul>
         ),
         image: Image2
@@ -105,57 +103,51 @@ const alacarte = [
     {
         id: 3,
         name: "Strogonoff de camarão",
-        category: "Frutos do mar",
+        category: "Pratos com camarão",
+        description: "Camarões preparados com molho caseiro cremoso, o prato acompanha batata palha.",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$89,90</strong></li>
-                <li>2 pessoas: <strong>R$159,90</strong></li>
-                <li>4 pessoas: <strong>R$279,90</strong></li>
-                <li>6 pessoas: <strong>R$329,90</strong></li>
+                <li>200g: <strong>R$89,90</strong></li>
+                <li>500g: <strong>R$179,90</strong></li>
             </ul>
         ),
         image: Image3
     },
     {
         id: 4,
-        category: "Frutos do mar",
         name: "Camarão ao catupiry",
-        category: "Frutos do mar",
-        description: "camarões suculentos, envovidos no molho de queijo catupiry",
+        category: "Pratos com camarão",
+        description: "Camarões ao molho de queijo e Catupiry.",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$89,90</strong></li>
-                <li>2 pessoas: <strong>R$159,90</strong></li>
-                <li>4 pessoas: <strong>R$259,90</strong></li>
-                <li>6 pessoas: <strong>R$329,90</strong></li>
+                <li>200g: <strong>R$89,90</strong></li>
+                <li>500g: <strong>R$189,90</strong></li>
             </ul>
         ),
         image: Image4
     },
     {
         id: 5,
-        name: "Camarão alho e oléo",
-        category: "Frutos do mar",
+        name: "Camarão ao bafo ou alho e óleo",
+        category: "Pratos com camarão",
+        description: "Camarões com casca preparados no bafo ou salteados no alho e óleo.",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$75,90</strong></li>
-                <li>2 pessoas: <strong>R$145,90</strong></li>
-                <li>4 pessoas: <strong>R$259,90</strong></li>
-                <li>6 pessoas: <strong>R$315,90</strong></li>
+                <li>300g: <strong>R$65,90</strong></li>
+                <li>700g: <strong>R$139,90</strong></li>
             </ul>
         ),
         image: Image5
     },
     {
         id: 6,
-        name: "Camarão ao bafo",
-        category: "Frutos do mar",
+        name: "Nhoque de camarão",
+        category: "Pratos com camarão",
+        description: "Nhoque com camarão de molho branco ou vermelho.",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$134,90</strong></li>
-                <li>4 pessoas: <strong>R$234,90</strong></li>
-                <li>6 pessoas: <strong>R$284,90</strong></li>
+                <li>2oog: <strong>R$89,90</strong></li>
+                <li>500g: <strong>R$189,90</strong></li>
             </ul>
         ),
         image: Image6
@@ -163,11 +155,11 @@ const alacarte = [
     {
         id: 7,
         name: "Mista da casa",
-        category: "Frutos do mar",
-        description: "camarão, bolinho de peixe, isca de tilápia, batata frita",
+        category: "Pratos com camarão",
+        description: "200g de batata frita, isca de tilápia, bolinho de peixe e camarão",
         price: (
             <ul className="list-unstyled text-center">
-                <li>2 pessoas: <strong>R$159,90</strong></li>
+                <li><strong>R$169,90</strong></li>
 
 
             </ul>
@@ -176,28 +168,27 @@ const alacarte = [
     },
     {
         id: 8,
-        name: "Moda da casa",
-        category: "Frutos do mar",
-        description: "Camarões servidos sobre arroz cremoso com ervilhas e presunto, envolvidos com molho branco. Finalizando com queijo muçarela e coberto com batata palha",
+        name: " Camarão à moda da casa",
+        category: "Pratos com camarão",
+        description: "Camarões sobre arroz cremoso com ervilhas, presunto e molho branco, finalizados com muçarela e batata palha crocante.",
         price: (
             <ul className="list-unstyled text-center">
-                <li>2 pessoas: <strong>R$159,90</strong></li>
-                <li>4 pessoas: <strong>R$272,90</strong></li>
+                <li>300g: <strong>R$179,90</strong></li>
+                <li>500g: <strong>R$272,90</strong></li>
             </ul>
         ),
         image: Image8
     },
     {
         id: 9,
-        name: "Ensopado de camarão",
-        category: "Frutos do mar",
-        description: "camarões suculentos, envovidos no molho de queijo catupiry",
+        name: "Camarão ensopado",
+        category: "Pratos com camarão",
+        description: "Camarões preparados com molho caseiro cremoso, o prato acompanha batata palha.",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$89,90</strong></li>
-                <li>2 pessoas: <strong>R$159,90</strong></li>
-                <li>4 pessoas: <strong>R$279,90</strong></li>
-                <li>6 pessoas: <strong>R$329,90</strong></li>
+                <li>200g: <strong>R$75,90</strong></li>
+                <li>500g: <strong>R$190,90</strong></li>
+                
             </ul>
         ),
         image: Image9
@@ -205,13 +196,12 @@ const alacarte = [
     {
         id: 10,
         name: "Camarão a parmegiana",
-        category: "Frutos do mar",
+        category: "Pratos com camarão",
+        description: "Camarões empanados e fritos, cobertos com molho de tomate caseiro e queijo derretido.",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$89,90</strong></li>
-                <li>2 pessoas: <strong>R$159,90</strong></li>
-                <li>4 pessoas: <strong>R$279,90</strong></li>
-                <li>6 pessoas: <strong>R$329,90</strong></li>
+                <li>200g: <strong>R$89,90</strong></li>
+                <li>500g: <strong>R$189,90</strong></li>
             </ul>
         ),
         image: Image10
@@ -219,14 +209,12 @@ const alacarte = [
     {
         id: 11,
         name: "Lasanha de camarão",
-        description: "Camadas de massas intercaladas com recheio cremoso de camarões refogados ao  molho especial, finalizado com queijo muçarela gratinado",
-        category: "Frutos do mar",
+        description: "Lasanha de camarão com molho branco ou vermelho e queijo gratinado.",
+        category: "Pratos com camarão",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$89,90</strong></li>
-                <li>2 pessoas: <strong>R$159,90</strong></li>
-                <li>4 pessoas: <strong>R$259,90</strong></li>
-                <li>6 pessoas: <strong>R$309,90</strong></li>
+                <li>200g: <strong>R$94,90</strong></li>
+                <li>500g: <strong>R$159,90</strong></li>
             </ul>
         ),
         image: Image11
@@ -234,28 +222,24 @@ const alacarte = [
     {
         id: 12,
         name: "Salmão grelhado",
-        category: "Peixes",
+        category: "Pratos com peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$50,00</strong></li>
-                <li>2 pessoas: <strong>R$95,00</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>300g: <strong>R$94,90</strong></li>
+                <li>700g: <strong>R$210,00</strong></li>
             </ul>
         ),
         image: Image12
     },
     {
         id: 13,
-        name: "Belle meuniere",
-        category: "Peixes",
-        description: " Linguado, camarões, molho de alcaparras e champignons. ",
+        name: "Linguado ou tilápia á belle meunière",
+        category: "Pratos com peixes",
+        description: " Linguado ou tilápia, camarões, molho de alcaparras e champignons. ",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$89,90</strong></li>
-                <li>2 pessoas: <strong>R$165,90</strong></li>
-                <li>4 pessoas: <strong>R$292,90</strong></li>
-                <li>6 pessoas: <strong>R$342,90</strong></li>
+                <li>300g: <strong>R$89,90</strong></li>
+                <li>700g: <strong>R$185,90</strong></li>
             </ul>
         ),
         image: Image13
@@ -263,27 +247,23 @@ const alacarte = [
     {
         id: 14,
         name: "Tainha grelhada",
-        category: "Peixes",
+        category: "Pratos com peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$59,90</strong></li>
-                <li>2 pessoas: <strong>R$98,90</strong></li>
-                <li>4 pessoas: <strong>R$172,90</strong></li>
-                <li>6 pessoas: <strong>R$225,90</strong></li>
+                <li>300g: <strong>R$49,90</strong></li>
+                <li>700g: <strong>R$98,90</strong></li>
             </ul>
         ),
         image: Image14
     },
     {
         id: 15,
-        name: "Tainha ou papa terra frita",
-        category: "Peixes",
+        name: "Tainha ou papa-terra frita",
+        category: "Pratos com peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$48,90</strong></li>
-                <li>2 pessoas: <strong>R$98,90</strong></li>
-                <li>4 pessoas: <strong>R$172,90</strong></li>
-                <li>6 pessoas: <strong>R$225,90</strong></li>
+                <li>300g: <strong>R$49,90</strong></li>
+                <li>700g: <strong>R$95,90</strong></li>
             </ul>
         ),
         image: Image15
@@ -291,13 +271,11 @@ const alacarte = [
     {
         id: 16,
         name: "Anchova grelhada",
-        category: "Peixes",
+        category: "Pratos com peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$52,90</strong></li>
-                <li>2 pessoas: <strong>R$98,90</strong></li>
-                <li>4 pessoas: <strong>R$172,90</strong></li>
-                <li>6 pessoas: <strong>R$225,90</strong></li>
+                <li>300g: <strong>R$40,90</strong></li>
+                <li>700g: <strong>R$98,90</strong></li>
             </ul>
         ),
         image: Image16
@@ -305,13 +283,11 @@ const alacarte = [
     {
         id: 17,
         name: "Linguado grelhado",
-        category: "Peixes",
+        category: "Pratos com peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$79,90</strong></li>
-                <li>2 pessoas: <strong>R$148,90</strong></li>
-                <li>4 pessoas: <strong>R$258,90</strong></li>
-                <li>6 pessoas: <strong>R$299,90</strong></li>
+                <li>300g: <strong>R$84,90</strong></li>
+                <li>700g: <strong>R$180,00</strong></li>
             </ul>
         ),
         image: Image17
@@ -319,11 +295,11 @@ const alacarte = [
     {
         id: 18,
         name: "Linguado a milanesa",
-        category: "Peixes",
+        category: "Pratos com peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoas: <strong>R$79,90</strong></li>
-                <li>2 pessoas: <strong>R$148,90</strong></li>
+                <li>300g: <strong>R$84,90</strong></li>
+                <li>700g: <strong>R$180,00</strong></li>
             </ul>
         ),
         image: Image18
@@ -331,13 +307,11 @@ const alacarte = [
     {
         id: 19,
         name: "Tilápia grelhada",
-        category: "Peixes",
+        category: "Pratos com peixes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>300g: <strong>R$72,90</strong></li>
+                <li>700g: <strong>R$170,00</strong></li>
             </ul>
         ),
         image: Image19
@@ -345,7 +319,7 @@ const alacarte = [
     {
         id: 20,
         name: "Adicionais",
-        category: "Peixes",
+        category: "Pratos com peixes",
         price: (
             <ul className="list-unstyled text-center">
                 <li>molho à belle meuniere: <strong>R$25,00</strong></li>
@@ -362,13 +336,11 @@ const alacarte = [
     {
         id: 21,
         name: "Picanha grelhada",
-        category: "Carnes",
+        category: "Pratos com carnes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>300g: <strong>R$77,90</strong></li>
+                <li>700g: <strong>R$174,90</strong></li>
             </ul>
         ),
         image: Image21
@@ -376,13 +348,11 @@ const alacarte = [
     {
         id: 22,
         name: "Picanha a parmegiana",
-        category: "Carnes",
+        category: "Pratos com carnes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>200g: <strong>R$89,90</strong></li>
+                <li>500g: <strong>R$189,90</strong></li>
             </ul>
         ),
         image: Image22
@@ -390,13 +360,11 @@ const alacarte = [
     {
         id: 23,
         name: "Filé mingon grelhado",
-        category: "Carnes",
+        category: "Pratos com carnes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>200g: <strong>R$89,90</strong></li>
+                <li>500g: <strong>R$189,90</strong></li>
             </ul>
         ),
         image: Image23
@@ -404,13 +372,12 @@ const alacarte = [
     {
         id: 24,
         name: "Filé mingon a parmegiana",
-        category: "Carnes",
+        category: "Pratos com carnes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>300g: <strong>R$89,90</strong></li>
+                <li>500g: <strong>R$189,90</strong></li>
+                
             </ul>
         ),
         image: Image24
@@ -418,13 +385,11 @@ const alacarte = [
     {
         id: 25,
         name: "Frando grelhado",
-        category: "Carnes",
+        category: "Pratos com carnes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>300g: <strong>R$45,90</strong></li>
+                <li>500g: <strong>R$89,90</strong></li>
             </ul>
         ),
         image: Image25
@@ -432,41 +397,36 @@ const alacarte = [
     {
         id: 26,
         name: "Frango a milanesa",
-        category: "Carnes",
+        category: "Pratos com carnes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$99,90</strong></li>
-                <li>4 pessoas: <strong>R$150,00</strong></li>
-                <li>6 pessoas: <strong>R$200,00</strong></li>
+                <li>300g: <strong>R$45,90</strong></li>
+                <li>500g: <strong>R$89,90</strong></li>
             </ul>
         ),
         image: Image26
     },
     {
         id: 27,
-        name: "Lasanha de frango",
-        description: "Camadas de massas intercaladas com recheio cremoso de frango desfiado, acompanhado de milho, ervilha e um molho especial.",
-        category: "Carnes",
+        name: "Frango a parmegiana",
+        category: "Pratos com carnes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$84,90</strong></li>
-                <li>2 pessoas: <strong>R$154,90</strong></li>
-                <li>4 pessoas: <strong>R$254,90</strong></li>
-                <li>6 pessoas: <strong>R$304,90</strong></li>
+                <li>300g: <strong>R$49,90</strong></li>
+                <li>500g: <strong>R$96,90</strong></li>
             </ul>
         ),
         image: Image27
     },
     {
         id: 28,
-        name: "Misto de picanha e frango ",
-        description: "Acompanha batata frita.",
-        category: "Carnes",
+        name: "Misto de carnes",
+        description: "Picanha, frango e batata frita.",
+        category: "Pratos com carnes",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$69,90</strong></li>
-                <li>2 pessoas: <strong>R$139,90</strong></li>
+                <li>300g: <strong>R$80,90</strong></li>
+                <li>700g: <strong>R$180,90</strong></li>
             </ul>
         ),
         image: Image28
@@ -477,8 +437,8 @@ const alacarte = [
         category: "Vegetariano/Vegano",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$22,90</strong></li>
-                <li>2 pessoas: <strong>R$45,90</strong></li>
+                <li>300g: <strong>R$22,90</strong></li>
+                <li>400g: <strong>R$45,90</strong></li>
             </ul>
         ),
         image: Image29
@@ -489,8 +449,8 @@ const alacarte = [
         category: "Vegetariano/Vegano",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$22,90</strong></li>
-                <li>2 pessoas: <strong>R$69,90</strong></li>
+                <li>300g: <strong>R$22,90</strong></li>
+                <li>400g: <strong>R$45,90</strong></li>
             </ul>
         ),
         image: Image30
@@ -502,8 +462,8 @@ const alacarte = [
         description: "Opção de escolha entre molhos de tomate caseiro ou molho branco. Contém queijo. ",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$42,90</strong></li>
-                <li>2 pessoas: <strong>R$49,90</strong></li>
+                <li>300g: <strong>R$42,90</strong></li>
+                <li>400g: <strong>R$52,90</strong></li>
             </ul>
         ),
         image: Image31
@@ -515,8 +475,8 @@ const alacarte = [
         description: "Proteina refogada com pimentão, cebola, tomate, molho sugo e pimenta do reino. ",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$45,90</strong></li>
-                <li>2 pessoas: <strong>R$69,90</strong></li>
+                <li>300g <strong>R$45,90</strong></li>
+                <li>400g: <strong>R$69,90</strong></li>
             </ul>
         ),
         image: Image32
@@ -527,8 +487,8 @@ const alacarte = [
         category: "Vegetariano/Vegano",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$22,90</strong></li>
-                <li>2 pessoas: <strong>R$45,90</strong></li>
+                <li>300g: <strong>R$22,90</strong></li>
+                <li>400g: <strong>R$45,90</strong></li>
             </ul>
         ),
         image: Image33
@@ -539,20 +499,21 @@ const alacarte = [
         category: "Vegetariano/Vegano",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$22,90</strong></li>
-                <li>2 pessoas: <strong>R$45,90</strong></li>
+                <li>300g: <strong>R$22,90</strong></li>
+                <li>400g: <strong>R$45,90</strong></li>
             </ul>
         ),
         image: Image34
     },
     {
         id: 35,
-        name: "Misto de frutos do mar",
+        name: "Mista de frutos do mar",
         category: "Aperitivos",
+        description: "Camarão à milanesa, isca de peixe, lula, casquinha de siri, bolinho de peixe, mandioca frita e batata frita.",
         price: (
             <ul className="list-unstyled text-center">
-                <li>2 pessoas: <strong>R$139,90</strong></li>
-                <li>4 pessoas: <strong>R$249,90</strong></li>
+                <li>Porções 200g de cada: <strong>R$164,90</strong></li>
+                <li>Porções 400g de cada: <strong>R$264,90</strong></li>
             </ul>
         ),
         image: Image35
@@ -561,9 +522,10 @@ const alacarte = [
         id: 36,
         name: "Pestisco da casa",
         category: "Aperitivos",
+        description: "Camarão à milanesa, isca de linguado à milanesa e batata frita (300g de cada).",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$109,90</strong></li>
+                <li><strong>R$126,90</strong></li>
             </ul>
         ),
         image: Image36
@@ -574,19 +536,19 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$72,90</strong></li>
+                <li>Porção 300g: <strong>R$65,90</strong></li>
             </ul>
         ),
         image: Image37
     },
     {
         id: 38,
-        name: "Camarao alho e oleo",
+        name: "Camarao ao alho e óleo",
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Com casca: <strong>R$65,90</strong></li>
-                <li>Sem casca: <strong>R$72,90</strong></li>
+                <li>Porção 300g com casca: <strong>R$40,90</strong></li>
+                <li>Porção 300g sem casca: <strong>R$55,90</strong></li>
             </ul>
         ),
         image: Image38
@@ -597,7 +559,7 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$65,90</strong></li>
+                <li>Porções 300g de cada: <strong>R$80,90</strong></li>
             </ul>
         ),
         image: Image39
@@ -608,7 +570,7 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$65,90</strong></li>
+                <li>Porção com 300g: <strong>R$59,90</strong></li>
             </ul>
         ),
         image: Image40
@@ -619,7 +581,7 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$62,90</strong></li>
+                <li>Porção com 300g: <strong>R$52,90</strong></li>
             </ul>
         ),
         image: Image41
@@ -630,18 +592,18 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$52,90</strong></li>
+                <li>Porção com 300g: <strong>R$49,90</strong></li>
             </ul>
         ),
         image: Image42
     },
     {
         id: 43,
-        name: "Tainha frita ou papa terra",
+        name: "Tainha ou papa-terra frita",
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>porção: <strong>R$145,90</strong></li>
+                <li>porção com 300g: <strong>R$40,00</strong></li>
             </ul>
         ),
         image: Image43
@@ -652,7 +614,7 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$12,90</strong></li>
+                <li>1 unidade: <strong>R$16,90</strong></li>
             </ul>
         ),
         image: Image44
@@ -663,7 +625,8 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$15,90</strong></li>
+                <li>1 unidade: <strong>R$16,90</strong></li>
+                <li>4 unidades: <strong>R$55,90</strong></li>
             </ul>
         ),
         image: Image45
@@ -674,7 +637,7 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$75,90</strong></li>
+                <li>Porção com 300g: <strong>R$49,90</strong></li>
             </ul>
         ),
         image: Image46
@@ -685,7 +648,7 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$39,90</strong></li>
+                <li>Porção com 300g: <strong>R$30,00</strong></li>
             </ul>
         ),
         image: Image47
@@ -696,18 +659,18 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$19,90</strong></li>
+                <li>Porção com 300g: <strong>R$19,90</strong></li>
             </ul>
         ),
         image: Image48
     },
     {
         id: 49,
-        name: "Mandioca noisete",
+        name: "Mandioca frita",
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>Porção: <strong>R$21,90</strong></li>
+                <li>Porção com 300g: <strong>R$21,90</strong></li>
             </ul>
         ),
         image: Image49
@@ -718,9 +681,8 @@ const alacarte = [
         category: "Aperitivos",
         price: (
             <ul className="list-unstyled text-center">
-                <li>1 pessoa: <strong>R$25,90</strong></li>
-                <li>2 pessoas: <strong>R29,90</strong></li>
-                <li>4 pessoas: <strong>R$52,90</strong></li>
+                <li>Porção com 300g: <strong>R$29,90</strong></li>
+                <li>Porção com 600g: <strong>R$35,90</strong></li>
             </ul>
         ),
         image: Image50
@@ -729,10 +691,9 @@ const alacarte = [
         id: 51,
         name: "Petit gateau",
         category: "Sobremesas",
-        description: "Delicioso Petit gateau de chocolate servido com sorvete de baunilha.",
         price: (
             <ul className="list-unstyled text-center">
-                <li><strong>R$20,00</strong></li>
+                <li><strong>R$26,90</strong></li>
             </ul>
         ),
         image: Image51
@@ -741,19 +702,19 @@ const alacarte = [
         id: 52,
         name: "Taça de sorvete",
         category: "Sobremesas",
-        description: "Taça de sorvete com três bolas: baunilha, chocolate e morango.",
+        description: "Creme e chocolate.",
         price: (
             <ul className="list-unstyled text-center">
-                <li><strong>R$16,00</strong></li>
+                <li><strong>R$20,00</strong></li>
             </ul>
         ),
         image: Image52
     },
     {
         id: 53,
-        name: "Mousses",
+        name: "Mousse",
         category: "Sobremesas",
-        description: "Mousse de maracujá, morango, limão e mamão.",
+        description: "Maracujá, morango e limão.",
         price: (
             <ul className="list-unstyled text-center">
                 <li><strong>R$20,00</strong></li>
@@ -763,11 +724,11 @@ const alacarte = [
     },
     {
         id: 54,
-        name: "Creme de mamão papaia",
+        name: "Creme de papaya",
         category: "Sobremesas",
         price: (
             <ul className="list-unstyled text-center">
-                <li><strong>R$20,00</strong></li>
+                <li><strong>R$26,90</strong></li>
             </ul>
         ),
         image: Image54
@@ -787,7 +748,6 @@ const drinks = [
     { id: 8, name: "Guaraná zero lata", category: "Refrigerantes", price: "R$ 6,90" },
     { id: 9, name: "H20", category: "Refrigerantes", price: "R$ 9,90" },
     { id: 10, name: "Tônica lata ", category: "Refrigerantes", price: "R$ 6,90" },
-    { id: 11, name: "Soda lata", category: "Refrigerantes", price: "R$ 6,90" },
     { id: 12, name: "Schwerppes citrus lata", category: "Refrigerantes", price: "R$ 6,90" },
     /*Sucos*/
     { id: 13, name: "Jarra de suco", description: "Laranja, abacaxi, maracujá, kiwi, limão e morango", category: "Sucos", price: "R$ 24,90" },
@@ -795,57 +755,57 @@ const drinks = [
     { id: 15, name: "Copo de suco", description: "Limonada suíça, maracujá, morango e kiwi", category: "Sucos", price: "R$ 11,90" },
     { id: 16, name: "Copo de suco", description: "Laranja , abacaxi e limão", category: "Sucos", price: "R$ 9,90" },
     /*Cervejas*/
-    { id: 17, name: "Original", category: "Cervejas", price: "R$ 18,00" },
-    { id: 18, name: "Heineken", category: "Cervejas", price: "R$ 19,00" },
+    { id: 17, name: "Original", category: "Cervejas", price: "R$ 19,00" },
+    { id: 18, name: "Heineken", category: "Cervejas", price: "R$ 20,00" },
     { id: 19, name: "Heineken long neck", category: "Cervejas", price: "R$ 11,90" },
     { id: 20, name: "S/álcool long neck", category: "Cervejas", price: "R$ 11,90" },
-    { id: 21, name: "Malzebier 350ml", category: "Cervejas", price: "R$ 9,90" },
+    { id: 21, name: "Malzebier 350ml", category: "Cervejas", price: "R$ 11,90" },
     { id: 22, name: "Pilsen 600ml", category: "Cervejas", price: "R$ 19,90" },
-    { id: 23, name: "Belgian 600ml", category: "Cervejas", price: "R$ 19,90" },
-    { id: 24, name: "In natura 600ml", category: "Cervejas", price: "R$ 19,90" },
-    { id: 25, name: "Ipa", category: "Cervejas", price: "R$ 19,90" },
-    { id: 26, name: "Weiss 600ml", category: "Cervejas", price: "R$ 19,90" },
-    { id: 27, name: "Chopp pilsen 750ml", category: "Cervejas", price: "R$ 32,00" },
-    { id: 28, name: "Chopp belgian 750ml", category: "Cervejas", price: "R$ 32,00" },
+    { id: 23, name: "Belgian 600ml", category: "Cervejas", price: "R$ 22,90" },
+    { id: 24, name: "In natura 600ml", category: "Cervejas", price: "R$ 22,90" },
+    { id: 25, name: "Ipa", category: "Cervejas", price: "R$ 24,90" },
+    { id: 26, name: "Weiss 600ml", category: "Cervejas", price: "R$ 22,90" },
+    { id: 27, name: "Chopp pilsen 750ml", category: "Cervejas", price: "R$ 36,90" },
+    { id: 28, name: "Chopp belgian 750ml", category: "Cervejas", price: "R$ 36,90" },
     /*Caipiras*/
-    { id: 29, name: "Absolut", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 26,90" },
-    { id: 30, name: "Smirnoff", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 21,90" },
+    { id: 29, name: "Absolut", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 28,90" },
+    { id: 30, name: "Smirnoff", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 24,90" },
     { id: 31, name: "Caipicorona", category: "Caipiras", price: "R$ 30,00" },
-    { id: 32, name: "Bacardi", description: "Morongo, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 20,90" },
-    { id: 33, name: "Steinhager", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 20,90" },
-    { id: 34, name: "Ypióca", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 16,90" },
-    { id: 35, name: "Cachaça", description: "Morango, abacaxi, limão, maracujá e uva", category: "Caipiras", price: "R$ 14,90" },
-    { id: 36, name: "Vinho", category: "Caipiras", price: "R$ 16,90" },
+    { id: 32, name: "Bacardi", description: "Morongo, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 24,90" },
+    { id: 33, name: "Steinhager", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 24,90" },
+    { id: 34, name: "Ypióca", description: "Morango, abacaxi, limão, maracujá, kiwi e uva", category: "Caipiras", price: "R$ 19,90" },
+    { id: 35, name: "Cachaça", description: "Morango, abacaxi, limão, maracujá e uva", category: "Caipiras", price: "R$ 18,90" },
+    { id: 36, name: "Vinho", category: "Caipiras", price: "R$ 19,90" },
+    { id: 36, name: "Jurupinga com uva", category: "Caipiras", price: "R$ 22,90" },
     /*Drinks*/
-    { id: 37, name: "Alexander", description: "Licor de cacau, conhaque, creme de leite e canela", category: "Drinks", price: "R$ 19,90" },
-    { id: 38, name: "Aperol spritz", description: "aperol, espumante prosseco e água com gás", category: "Drinks", price: "R$ 29,90" },
-    { id: 49, name: "Campari tropical", description: "Campari e red bull tropical", category: "Drinks", price: "R$ 29,90" },
+    { id: 37, name: "Alexander", description: "Licor de cacau, conhaque, creme de leite e canela", category: "Drinks", price: "R$ 29,90" },
+    { id: 38, name: "Aperol spritz", description: "aperol, espumante prosseco e água com gás", category: "Drinks", price: "R$ 36,90" },
+    { id: 39, name: "Campari tropical", description: "Campari e red bull tropical", category: "Drinks", price: "R$ 29,90" },
     { id: 40, name: "Clericot", description: "Vinho branco água tônica e frutas", category: "Drinks", price: "R$ 29,90" },
-    { id: 42, name: "Fusca azul", description: "Corote e fanta uva", category: "Drinks", price: "R$ 29,90" },
-    { id: 43, name: "Gin citrus", description: "Gin, schweppes citrus e laranja", category: "Drinks", price: "R$ 28,90" },
-    { id: 44, name: "Gin de melancia e horteã", description: "Gin, melancia , hortelã e água", category: "Drinks", price: "R$ 29,90" },
-    { id: 45, name: "Gin mágico", description: "Gin, curaçau blue, monster ultra violet", category: "Drinks", price: "R$ 29,90" },
-    { id: 46, name: "Gin morango e kiwi", description: "Gin, fanta strawberry e kiwi", category: "Drinks", price: "R$ 29,90" },
-    { id: 47, name: "Gin tônica", description: "Gin, água tônica, limão siciliano e alecrim", category: "Drinks", price: "R$ 28,90" },
+    { id: 43, name: "Gin citrus", description: "Gin, schweppes citrus e laranja", category: "Drinks", price: "R$ 35,90" },
+    { id: 44, name: "Lagoa azul", description: "Vodka, curaçau blue e refrigerante de limão", category: "Drinks", price: "R$ 29,90" },
+    { id: 45, name: "Gin mágico", description: "Gin, curaçau blue, monster ultra violet", category: "Drinks", price: "R$ 35,90" },
+    { id: 46, name: "Citrus martini", description: "Aperol e Vodka", category: "Drinks", price: "R$ 29,90" },
+    { id: 47, name: "Gin tônica", description: "Gin, água tônica, limão siciliano e alecrim", category: "Drinks", price: "R$ 35,90" },
     { id: 48, name: "Martini", description: "Gin, vermute seco", category: "Drinks", price: "R$ 29,90" },
     { id: 49, name: "Mogito", description: "Rum, soda, limão e hprtelã", category: "Drinks", price: "R$ 22,90" },
     { id: 50, name: "Negroni", description: "Gin, campari e vermute", category: "Drinks", price: "R$ 29,90" },
-    { id: 51, name: "Pinã colada", description: "Suco de abacaxi, leite de coco, rum, creme de leite e leite condensado", category: "Drinks", price: "R$ 29,90" },
-    { id: 52, name: "Sensação tropical", description: "Corote e energético de melancia", category: "Drinks", price: "R$ 29,90" },
-    { id: 53, name: "Coquetel de fruas sem/álcool", description: "Água co gás e duas opções de frutas: morango, maracujá, laranja, limão, kiwi e abacaxi", category: "Drinks", price: "R$ 19,90" },
+    { id: 51, name: "Pinã colada", description: "Suco de abacaxi, leite de coco, rum, creme de leite e leite condensado", category: "Drinks", price: "R$ 28,90" },
+    { id: 52, name: "Marabel (autoral)", description: "Maracujá, Red Label, Licor 43 e Red Bull ", category: "Drinks", price: "R$ 29,90" },
+    { id: 53, name: "Coquetel de fruas sem/álcool", description: "Água co gás e duas opções de frutas: morango, maracujá, laranja, limão, kiwi e abacaxi", category: "Drinks", price: "R$ 22,90" },
     { id: 54, name: "Lagoa azul sem/álcool", description: "Isotômico azul, água com gás e hortelã", category: "Drinks", price: "R$ 19,90" },
     { id: 55, name: "Mogito sem/álcool", description: "Água com gás, limão e hortelã", category: "Drinks", price: "R$ 19,90" },
     /*Vinhos*/
-    { id: 56, name: "Vinho branco seco", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 57, name: "Vinho branco suave", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 58, name: "Vinho tinto seco", category: "Taça de vinho", price: "R$ 16,90" },
-    { id: 69, name: "Vinho tinto suave", category: "Taça de vinho", price: "R$ 16,90" },
+    { id: 56, name: "Vinho branco seco", category: "Taça de vinho", price: "R$ 25,90" },
+    { id: 57, name: "Vinho branco suave", category: "Taça de vinho", price: "R$ 25,90" },
+    { id: 58, name: "Vinho tinto seco", category: "Taça de vinho", price: "R$ 25,90" },
+    { id: 69, name: "Vinho tinto suave", category: "Taça de vinho", price: "R$ 25,90" },
     /*Doses*/
     { id: 60, name: "Bacardi", category: "Doses", price: "R$ 9,00" },
     { id: 61, name: "Smirnoff", category: "Doses", price: "R$ 10,00" },
     { id: 62, name: "Ypióca", category: "Doses", price: "R$ 9,00" },
     { id: 63, name: "Campari", category: "Doses", price: "R$ 9,00" },
-    { id: 64, name: "Underberg", category: "Doses", price: "R$ 8,00" },
+    { id: 64, name: "Underberg", category: "Doses", price: "R$ 9,00" },
     { id: 65, name: "Martini", category: "Doses", price: "R$ 14,00" },
     { id: 66, name: "Red label", category: "Doses", price: "R$ 20,00" },
     { id: 67, name: "Passaport", category: "Doses", price: "R$ 14,00" },
@@ -917,9 +877,9 @@ const Menu = () => {
 
 
     const categoryImages = {
-        "Frutos do mar": gallery1,
-        "Peixes": gallery2,
-        "Carnes": gallery3,
+        "Pratos com camarão": gallery1,
+        "Pratos com peixes": gallery2,
+        "Pratos com carnes": gallery3,
         "Vegetariano/Vegano": gallery4,
         "Aperitivos": gallery5,
         "Sobremesas": gallery6,
@@ -936,7 +896,7 @@ const Menu = () => {
     }
 
 
-    const categories = ["Frutos do mar", "Peixes", "Carnes", "Vegetariano/Vegano", "Aperitivos", "Sobremesas"];
+    const categories = ["Pratos com camarão", "Pratos com peixes", "Pratos com carnes", "Vegetariano/Vegano", "Aperitivos", "Sobremesas"];
 
     const categoriesDrinks = ["Refrigerantes", "Sucos", "Cervejas", "Caipiras", "Drinks", "Taça de vinho", "Doses"];
 
