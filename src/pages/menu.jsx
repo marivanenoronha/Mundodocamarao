@@ -146,7 +146,7 @@ const alacarte = [
         description: "Nhoque com camarão de molho branco ou vermelho.",
         price: (
             <ul className="list-unstyled text-center">
-                <li>2oog: <strong>R$89,90</strong></li>
+                <li>200g: <strong>R$89,90</strong></li>
                 <li>500g: <strong>R$189,90</strong></li>
             </ul>
         ),
