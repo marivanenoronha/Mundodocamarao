@@ -18,7 +18,7 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4 ">
                                 <CardText className="p">
-                                    Nunca me arrependo de ir a Mundo do Camarão, frutos do mar fresquinhos, sentar em baixo da sombra na área do deck, tomando uma caipirinha, não tem preço. O atendimento bacana demais, pessoal super atencioso. É sempre uma ótima experiência comer lá!
+                                Tive uma experiência muito boa. Atendimento e ambiente bom. A comida estava muito boa. Saborosa e uma porção ok para duas pessoas. Recomendo e voltaria ao local
                                 </CardText>
                             </div>
                         </CardBody>
@@ -26,8 +26,8 @@ export function Reviews() {
                             <div className="d-flex align-items-center">
                                 <img src={Person1} className="img-fluid rounded-circle mx-3 shadow" alt="" />
                                 <div>
-                                    <CardTitle className="text-dark mb-0 title">Quinho Melo</CardTitle>
-                                    <small className="text-muted small">03 de Outubro, 2024</small>
+                                    <CardTitle className="text-dark mb-0 title">Guilherme B</CardTitle>
+                                    <small className="text-muted small">30 de Dezembro, 2024</small>
                                 </div>
                             </div>
                             <img
@@ -45,7 +45,7 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText className="p">
-                                    O restaurante é aconchegante, a proprietária atenciosa e muito gentil para atender. A comida é servida com um delicioso peixe!
+                                Ambiente maravilhoso e a comida melhor ainda, super indico e voltarei sempre que estiver pela cidade.
                                 </CardText>
                             </div>
                         </CardBody>
@@ -53,8 +53,8 @@ export function Reviews() {
                             <div className="d-flex align-items-center">
                                 <img src={Person2} className="img-fluid rounded-circle mx-3 shadow" alt="" />
                                 <div>
-                                    <CardTitle className="text-dark title">Rosangela Pereira</CardTitle>
-                                    <small className="text-muted small">30 de Setembro, 2024</small>
+                                    <CardTitle className="text-dark title">Kauã Pereira</CardTitle>
+                                    <small className="text-muted small">23 de Janeiro, 2025</small>
                                 </div>
                             </div>
                             <img
@@ -72,7 +72,7 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText className="p">
-                                    Simplesmente perfeito. Restaurante com bastante procura e muito movimento, mas a comida chegou em perfeito estado, muito saborosa e atendimento impecável! Super recomendo, restaurante familiar e muito aconchegante, um dos melhores em Araranguá.
+                                Atendimento excelente.
                                 </CardText>
                             </div>
                         </CardBody>
@@ -80,8 +80,8 @@ export function Reviews() {
                             <div className="d-flex align-items-center">
                                 <img src={Person3} className="img-fluid rounded-circle mx-3 shadow" alt="" />
                                 <div>
-                                    <CardTitle className="text-dark title">Leandro tomaz Borges</CardTitle>
-                                    <small className="text-muted small">29 de Setembro, 2024</small>
+                                    <CardTitle className="text-dark title">Josué Colle Serafim</CardTitle>
+                                    <small className="text-muted small">15 de Janeiro, 2025</small>
                                 </div>
                             </div>
                             <img
@@ -100,7 +100,7 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText className="p">
-                                    Eu amo o Mundo do Camarão, hoje fui novamente, e, apesar do movimento (um domingo bem ensolarado), a experiência foi excelente! O atendimento foi atencioso e a espera valeu a pena, pois os pratos estavam simplesmente deliciosos. Refeição impecável como sempre! Amoo!!
+                                Ambiente confortável, atendimento agradável e comida saborosa que emociona. Adoramos! 😍
                                 </CardText>
                             </div>
                         </CardBody>
@@ -108,8 +108,8 @@ export function Reviews() {
                             <div className="d-flex align-items-center">
                                 <img src={Person4} className="img-fluid rounded-circle mx-3 shadow" alt="" />
                                 <div>
-                                    <CardTitle className="text-dark mb-0 title">Cauane Teixeira Presse</CardTitle>
-                                    <small className="text-muted small">28 de Setembro, 2024</small>
+                                    <CardTitle className="text-dark mb-0 title">Rafael Reinaldi</CardTitle>
+                                    <small className="text-muted small">10 de Janeiro, 2025</small>
                                 </div>
                             </div>
                             <img
