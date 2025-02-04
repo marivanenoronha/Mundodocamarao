@@ -18,7 +18,7 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4 ">
                                 <CardText className="p">
-                                Tive uma experiência muito boa. Atendimento e ambiente bom. A comida estava muito boa. Saborosa e uma porção ok para duas pessoas. Recomendo e voltaria ao local
+                                Um dos melhores lugares para se comer. Ótimo atendimento, comida maravilhosa e boa localização.
                                 </CardText>
                             </div>
                         </CardBody>
@@ -26,8 +26,8 @@ export function Reviews() {
                             <div className="d-flex align-items-center">
                                 <img src={Person1} className="img-fluid rounded-circle mx-3 shadow" alt="" />
                                 <div>
-                                    <CardTitle className="text-dark mb-0 title">Guilherme B</CardTitle>
-                                    <small className="text-muted small">30 de Dezembro, 2024</small>
+                                    <CardTitle className="text-dark mb-0 title">Renata vaz Dornelles</CardTitle>
+                                    <small className="text-muted small">03 de Fevereiro, 2025</small>
                                 </div>
                             </div>
                             <img
