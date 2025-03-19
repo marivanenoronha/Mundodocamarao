@@ -82,7 +82,7 @@ const alacarte = [
         description: "Camarão alho e oléo, casquinha de siri, camarão ao molho branco, camarão ao molho vermelho, bolinho de peixe, camarão a milanesa, isca de peixe , linguado grelhado, filé de tainha ou anchova, 100g por porção.(Não tem reposição) ",
         price: (
             <ul className="list-unstyled text-center">
-                <li><strong>R$149,90 </strong>Por pessoa</li>
+                <li><strong>R$199,90 </strong>Por pessoa</li>
                 
             </ul>
         ),

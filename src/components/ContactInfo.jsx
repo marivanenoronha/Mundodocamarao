@@ -39,7 +39,7 @@ export function ContactInfo() {
                     <p className="mb-4 text-dark text-center">
                         <div className="d-flex align-items-center">
                             <i className="fas fa-calendar-day me-2 text-dark"></i>
-                            Segunda a Segunda
+                            Segunda a Quarta
                         </div>
                         <div className="d-flex align-items-center mt-2">
                             <i className="fas fa-utensils me-2 text-dark"></i>
