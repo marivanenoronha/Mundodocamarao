@@ -173,7 +173,7 @@ function Home() {
                                 <h3 className="fs-2 mb-5">Pratos</h3>
                                 <ul className="px-0">
                                     <li className="d-flex justify-content-between">
-                                        <p className="fs-3 mx-2">Rodízio de frutos do mar</p>
+                                        <p className="fs-3 mx-2">Sequência de frutos do mar</p>
                                         <p className="fs-3 mx-2 text-success fw-bold"></p>
                                     </li>
                                     <li className="d-flex justify-content-between">
