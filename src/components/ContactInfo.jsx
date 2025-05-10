@@ -39,15 +39,19 @@ export function ContactInfo() {
                     <p className="mb-4 text-dark text-center">
                         <div className="d-flex align-items-center">
                             <i className="fas fa-calendar-day me-2 text-dark"></i>
-                            Segunda a Quarta
+                            Quarta à sàbado
                         </div>
                         <div className="d-flex align-items-center mt-2">
                             <i className="fas fa-utensils me-2 text-dark"></i>
-                            Almoço: <span className="fw-bold">11:30h - 15:00h</span>
+                            Almoço: <span className="fw-bold">11:30h às 15:00h</span>
                         </div>
                         <div className="d-flex align-items-center mt-2">
                             <i className="fas fa-moon me-2 text-dark"></i>
-                            Jantar: <span className="fw-bold">19:00h - 23:00h</span>
+                            Jantar: <span className="fw-bold">19:00h às 23:00h</span>
+                        </div>
+                        <div className="d-flex align-items-center mt-2">
+                            <i className="fas fa-calendar-day me-2 text-dark"></i>
+                            Domingo:<span className="fw-bold">11:30h às 15h</span>
                         </div>
                     </p>
                 </div>
